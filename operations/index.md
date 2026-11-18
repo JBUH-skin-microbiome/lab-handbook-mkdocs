@@ -8,4 +8,4 @@ permalink: /operations/
 
 # 연구실 운영
 
-연구실 운영 자료는 구성원 전용 Notion에서 확인합니다.
+연구실 운영 안내는 [Lab Guide]({{ '/operations/lab-guide/' | relative_url }})에서 확인합니다. 구성원 전용 자료는 내부 Notion에서 관리합니다.

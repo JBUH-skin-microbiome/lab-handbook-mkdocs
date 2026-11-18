@@ -1,17 +1,17 @@
 ---
 layout: default
-title: Tip for Graduate student
+title: 대학원생 안내
 parent: 온보딩
 nav_order: 1
 permalink: /onboarding/graduate/
 ---
 
-# Tip for Graduate student
+# 대학원생 안내
 
-원문의 2023 기준 정보를 그대로 옮겼습니다. 현재 기준으로 갱신한 문서가 아닙니다. 첨부 HWP와 예시 이미지 링크는 Notion 원본으로 연결되며, 열람에는 원본 접근 권한이 필요할 수 있습니다.
+2023년에 작성된 자료입니다. 비용과 제도는 달라질 수 있으니 지원 전에 최신 공지를 확인해 주세요. HWP 양식과 예시 이미지는 노션 원문에서 확인할 수 있으며 접근 권한이 필요합니다.
 {: .note }
 
-[Notion 원문](https://app.notion.com/p/wait-a-minute/Tip-for-Graduate-student-f3dc1e532bf942e2ba73eb2e6f80e899) · 최초 작성자·기여자: 원문에서 확인되지 않음
+[노션 원문](https://app.notion.com/p/wait-a-minute/Tip-for-Graduate-student-f3dc1e532bf942e2ba73eb2e6f80e899) · 작성자 정보는 원문에 기재되어 있지 않습니다.
 
 ## 목차
 {: .no_toc }

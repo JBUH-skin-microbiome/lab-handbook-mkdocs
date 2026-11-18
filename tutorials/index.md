@@ -1,13 +1,13 @@
 ---
 layout: default
-title: 실험 및 분석 Tutorial
+title: 실험 및 분석 튜토리얼
 nav_order: 4
 has_children: true
 permalink: /tutorials/
 ---
 
-# 실험 및 분석 Tutorial
+# 실험 및 분석 튜토리얼
 
-실험·분석 Tutorial과 Script 관련 자료는 현재 내부 Notion에서 관리합니다.
+실험과 분석 튜토리얼, 스크립트는 내부 노션에서 관리합니다.
 
-[실험 및 분석 Protocol 문서]({{ '/operations/protocols/' | relative_url }})도 확인하세요.
+[실험 및 분석 프로토콜]({{ '/operations/protocols/' | relative_url }})도 함께 확인해 주세요.

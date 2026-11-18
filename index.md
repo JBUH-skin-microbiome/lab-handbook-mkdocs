@@ -1,27 +1,27 @@
 ---
 layout: home
-title: Handbook
+title: 연구실 매뉴얼
 nav_order: 0
 ---
 
-# JBSM Handbook
+# 연구실 매뉴얼
 
-피부마이크로바이옴연구실의 안내와 연구 자료를 모았습니다.
-왼쪽 카테고리 또는 검색창에서 문서를 찾아보세요.
+연구실 생활과 연구에 필요한 자료를 정리했습니다.
+왼쪽 메뉴나 검색창에서 필요한 문서를 찾을 수 있습니다.
 
 ## 카테고리
 
-- [온보딩]({{ "/onboarding/" | relative_url }}) — 입학과 연구실 합류를 위한 안내입니다.
-- [연구실 운영]({{ "/operations/" | relative_url }}) — Lab Guide와 연구실 운영 안내입니다.
-- [프로젝트 관리]({{ "/projects/" | relative_url }}) — 프로젝트별 진행 상황과 연구 기록은 내부 Notion과 Google Drive에서 관리합니다.
-- [실험 및 분석 Tutorial]({{ "/tutorials/" | relative_url }}) — 실험·분석 Tutorial과 Script 관련 자료는 현재 내부 Notion에서 관리합니다.
-- [학술 글쓰기]({{ "/writing/" | relative_url }}) — Poster, 초록, Figure, 논문 작성 자료를 준비하고 있습니다.
-- [미팅 / 세미나 / 저널클럽](https://docs.google.com/spreadsheets/d/1ZtvPcRL7w50GyNrI5GPhvMyXGs0ARMxv7KLbv8z41Ro/edit?gid=1923158560#gid=1923158560) — Google 스프레드시트에서 바로 확인합니다.
+- [온보딩]({{ "/onboarding/" | relative_url }}) — 입학 준비와 연구실 합류 절차
+- [연구실 운영]({{ "/operations/" | relative_url }}) — 연락, 근무 및 연구실 운영 안내
+- [프로젝트 관리]({{ "/projects/" | relative_url }}) — 프로젝트 진행 상황과 연구 기록
+- [실험 및 분석 튜토리얼]({{ "/tutorials/" | relative_url }}) — 실험·분석 방법과 스크립트
+- [학술 글쓰기]({{ "/writing/" | relative_url }}) — 포스터, 초록, 그림 및 논문 작성 자료
+- [미팅 / 세미나 / 저널클럽](https://docs.google.com/spreadsheets/d/1ZtvPcRL7w50GyNrI5GPhvMyXGs0ARMxv7KLbv8z41Ro/edit?gid=1923158560#gid=1923158560) — 일정 및 발표 자료
 
-## 처음 오셨나요?
+## 처음 확인할 문서
 
-- [Tip for Graduate student]({{ '/onboarding/graduate/' | relative_url }})
-- [Check lists for Newbie]({{ '/onboarding/newbie/' | relative_url }})
-- [Lab Guide]({{ '/operations/lab-guide/' | relative_url }})
+- [대학원생 안내]({{ '/onboarding/graduate/' | relative_url }})
+- [신규 구성원 체크리스트]({{ '/onboarding/newbie/' | relative_url }})
+- [연구실 안내]({{ '/operations/lab-guide/' | relative_url }})
 
-공개 가능한 문서만 이 사이트에 게시합니다. 구성원 전용 자료는 Notion·Google Drive의 접근 권한으로 관리합니다.
+이 사이트에는 외부에 공개할 수 있는 문서만 게시합니다. 구성원 전용 자료는 노션과 구글 드라이브에서 관리합니다.

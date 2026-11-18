@@ -1,5 +1,5 @@
-title: JBSM Handbook
-description: 피부마이크로바이옴연구실 Handbook
+title: 피부마이크로바이옴연구실 매뉴얼
+description: 피부마이크로바이옴연구실 운영 및 연구 안내
 theme: just-the-docs
 color_scheme: jbsm
 url: https://JBUH-skin-microbiome.github.io
@@ -10,7 +10,7 @@ heading_anchors: true
 permalink: pretty
 aux_links:
   연구실 홈페이지: https://JBUH-skin-microbiome.github.io/
-footer_content: "JBSM · Just the Docs"
+footer_content: "피부마이크로바이옴연구실"
 nav_external_links:
   - title: 미팅 / 세미나 / 저널클럽
     url: "https://docs.google.com/spreadsheets/d/1ZtvPcRL7w50GyNrI5GPhvMyXGs0ARMxv7KLbv8z41Ro/edit?gid=1923158560#gid=1923158560"

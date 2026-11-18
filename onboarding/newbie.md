@@ -1,17 +1,17 @@
 ---
 layout: default
-title: Check lists for Newbie
+title: 신규 구성원 체크리스트
 parent: 온보딩
 nav_order: 2
 permalink: /onboarding/newbie/
 ---
 
-# Check lists for Newbie
+# 신규 구성원 체크리스트
 
-원문의 2024/08/29 업데이트 내용과 표기를 그대로 옮겼습니다. 현재 기준으로 갱신한 문서가 아닙니다.
+2024년 8월 29일 기준으로 작성된 자료입니다. 현재 절차와 다를 수 있으니 진행 전에 담당자에게 확인해 주세요.
 {: .note }
 
-[Notion 원문](https://app.notion.com/p/wait-a-minute/Check-lists-for-Newbie-52d575145f554f44bdc4764a51314804) · 최초 작성자·기여자: 원문에서 확인되지 않음
+[노션 원문](https://app.notion.com/p/wait-a-minute/Check-lists-for-Newbie-52d575145f554f44bdc4764a51314804) · 작성자 정보는 원문에 기재되어 있지 않습니다.
 
 ## 목차
 {: .no_toc }

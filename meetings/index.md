@@ -1,12 +1,8 @@
 ---
-layout: default
+layout: external-redirect
 title: 미팅 / 세미나 / 저널클럽
-nav_order: 6
-has_children: true
+nav_exclude: true
+search_exclude: true
 permalink: /meetings/
+destination: https://docs.google.com/spreadsheets/d/1ZtvPcRL7w50GyNrI5GPhvMyXGs0ARMxv7KLbv8z41Ro/edit?gid=1923158560#gid=1923158560
 ---
-
-# 미팅 / 세미나 / 저널클럽
-
-미팅·세미나·저널클럽 자료를 모읍니다. 저널클럽 문서는 아래 메뉴에서 확인하세요.
-

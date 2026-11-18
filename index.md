@@ -16,6 +16,7 @@ nav_order: 0
 - [프로젝트 관리]({{ "/projects/" | relative_url }}) — 프로젝트별 진행 상황과 연구 기록은 내부 Notion과 Google Drive에서 관리합니다.
 - [실험 및 분석 Tutorial]({{ "/tutorials/" | relative_url }}) — 실험·분석 Tutorial과 Script 관련 자료는 현재 내부 Notion에서 관리합니다.
 - [학술 글쓰기]({{ "/writing/" | relative_url }}) — Poster, 초록, Figure, 논문 작성 자료를 준비하고 있습니다.
+- [미팅 / 세미나 / 저널클럽]({{ "/meetings/" | relative_url }}) — 미팅·세미나 자료와 저널클럽 문서입니다.
 
 ## 처음 오셨나요?
 

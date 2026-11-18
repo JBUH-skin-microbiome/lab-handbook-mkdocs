@@ -1,9 +1,8 @@
 ---
 layout: default
 title: 연구실 인원
-parent: 연구실 관리
-grand_parent: 연구실 운영
-nav_order: 2
+parent: 연구실 운영
+nav_order: 5
 permalink: /operations/management/members/
 ---
 

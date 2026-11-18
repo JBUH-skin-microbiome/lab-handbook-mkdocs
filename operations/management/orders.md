@@ -1,9 +1,8 @@
 ---
 layout: default
 title: 연구실 주문 문서
-parent: 연구실 관리
-grand_parent: 연구실 운영
-nav_order: 1
+parent: 연구실 운영
+nav_order: 4
 permalink: /operations/management/orders/
 ---
 

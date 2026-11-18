@@ -1,8 +1,0 @@
-/* Keep the same navigation tree visible on every page, using the theme's menu. */
-.site-nav .nav-list .nav-list {
-  display: block;
-}
-
-.site-nav .nav-list-expander {
-  display: none;
-}

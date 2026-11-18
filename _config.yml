@@ -1,6 +1,7 @@
 title: JBSM Handbook
 description: 피부마이크로바이옴연구실 Handbook
 theme: just-the-docs
+color_scheme: jbsm
 url: https://JBUH-skin-microbiome.github.io
 baseurl: /lab-handbook
 lang: ko

@@ -1,8 +1,12 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: JBSM Handbook
+description: 피부마이크로바이옴연구실 Handbook
 theme: just-the-docs
-
-url: https://just-the-docs.github.io
-
+url: https://JBUH-skin-microbiome.github.io
+baseurl: /lab-handbook
+lang: ko
+search_enabled: true
+heading_anchors: true
+permalink: pretty
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  연구실 홈페이지: https://JBUH-skin-microbiome.github.io/
+footer_content: "JBSM · Just the Docs"

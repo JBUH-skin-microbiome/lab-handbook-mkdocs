@@ -1,0 +1,20 @@
+<!-- Keep internal navigation on one deployment; preserve all native theme behavior. -->
+<script>
+  (function () {
+    const revision = {{ site.time | date: '%s' | jsonify }};
+    const handbookPath = {{ site.baseurl | append: '/' | jsonify }};
+    document.addEventListener('DOMContentLoaded', function () {
+      document.addEventListener('click', function (event) {
+        const anchor = event.target.closest('a[href]');
+        if (!anchor) return;
+        const href = anchor.getAttribute('href');
+        if (!href || href.startsWith('#')) return;
+        const destination = new URL(href, window.location.href);
+        if (destination.origin !== window.location.origin || !destination.pathname.startsWith(handbookPath)) return;
+        if (!destination.pathname.endsWith('/') && !destination.pathname.endsWith('.html')) return;
+        destination.searchParams.set('v', revision);
+        anchor.href = destination.href;
+      }, true);
+    });
+  })();
+</script>

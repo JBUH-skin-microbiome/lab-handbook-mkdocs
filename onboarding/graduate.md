@@ -27,7 +27,9 @@ permalink: /onboarding/graduate/
 - 기초 프로그래밍 공부(R, Linux)
 - 기초 통계 공부
 
-### 대학원 지원 서류 (2023 기준)
+### 대학원 지원
+
+#### 제출 서류 (2023 기준)
 
 - 지원서 (원서 접수 후 인터넷 출력하여 구비 서류와 함께 지원학과 제출)
 - 수학계획서
@@ -35,6 +37,8 @@ permalink: /onboarding/graduate/
 - 학력조회동의서 (본교출신자 제외)
 - 성적증명서 (본교출신자 제외)
 - 원서 접수 및 결제
+
+위 서류를 준비한 뒤 박진 교수님 이메일([airmd@jbnu.ac.kr](mailto:airmd@jbnu.ac.kr))로 보내 주세요.
 
 ### 입학 원서 입력 방법
 
@@ -133,3 +137,19 @@ permalink: /onboarding/graduate/
 ### 대학원 규정 (20230517 개정본)
 
 [대학원 학사운영규정_20230517(개정).hwp](https://app.notion.com/p/wait-a-minute/Tip-for-Graduate-student-f3dc1e532bf942e2ba73eb2e6f80e899#fbf8bb6636834c39b9cbcea257fd0ef3) — 63.0KB
+
+### 입학 후 할 일
+
+1. 서버 계정 만들기
+2. 연구실 공용 source 접근 권한 얻기
+3. 연구실 출입 카드 발급
+   - 임상연구지원센터 및 101호 출입 카드: 무료
+   - 의과대학 본관 출입 카드: 발급 비용 10,000원
+
+### 소프트웨어와 친숙해지기
+
+- R and RStudio
+- Git and GitHub
+- MobaXterm
+- QIIME
+- R Markdown and Quarto

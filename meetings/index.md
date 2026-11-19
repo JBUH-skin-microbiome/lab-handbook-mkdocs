@@ -15,6 +15,7 @@ permalink: /meetings/
 - 학술 프로젝트 회의
   - 장소: 교수연구동 피부과 회의실
   - 시간: 매주 수요일 08:30–10:00 AM
+  - [학술 프로젝트 회의 PPT 양식 (Notion)](https://app.notion.com/p/wait-a-minute/Format-ppt-e305e8c91f0e40979eb6f25cd6ccff3b?source=copy_link)
 - 피부과 전체 회의
   - 목적: 임상 과제 회의 및 저널클럽 진행
   - 장소: 피부과 외래 회의실

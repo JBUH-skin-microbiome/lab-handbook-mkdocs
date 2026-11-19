@@ -1,17 +1,17 @@
 ---
 layout: default
-title: 대학원생 안내
+title: 신입생 안내
 parent: 온보딩
 nav_order: 1
 permalink: /onboarding/graduate/
 ---
 
-# 대학원생 안내
+# 신입생 안내
 
-2023년에 작성된 자료입니다. 비용과 제도가 달라졌을 수 있으니 지원 전에 최신 공지를 확인해 주세요. HWP 양식과 예시 이미지는 노션 원문에 있으며, 열람 권한이 필요합니다.
+2023년 대학원생 안내와 2024년 8월 29일 신규 구성원 체크리스트를 합친 자료입니다. 비용과 제도가 달라졌을 수 있으니 시작하기 전에 담당자와 최신 공지를 확인해 주세요. HWP 양식과 예시 이미지는 노션 원문에 있으며, 열람 권한이 필요합니다.
 {: .note }
 
-[노션 원문](https://app.notion.com/p/wait-a-minute/Tip-for-Graduate-student-f3dc1e532bf942e2ba73eb2e6f80e899) · 작성자 정보는 원문에 기재되어 있지 않습니다.
+[대학원생 안내 노션 원문](https://app.notion.com/p/wait-a-minute/Tip-for-Graduate-student-f3dc1e532bf942e2ba73eb2e6f80e899) · [신규 구성원 체크리스트 노션 원문](https://app.notion.com/p/wait-a-minute/Check-lists-for-Newbie-52d575145f554f44bdc4764a51314804) · 작성자 정보는 원문에 기재되어 있지 않습니다.
 
 ## 목차
 {: .no_toc }
@@ -21,6 +21,11 @@ permalink: /onboarding/graduate/
 
 
 ## 입학 전
+
+### 선행 학습
+
+- 기초 프로그래밍 공부(R, Linux)
+- 기초 통계 공부
 
 ### 대학원 지원 서류 (2023 기준)
 
@@ -60,6 +65,7 @@ permalink: /onboarding/graduate/
 ### 의과학과
 
 - TEL : 063-270-3596
+- 공지사항: [전북대학교 의과대학 공지사항](https://med.jbnu.ac.kr/med/12710/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGbWVkJTJGMTkwMSUyRmFydGNsTGlzdC5kbyUzRmJic0NsU2VxJTNEMTczOCUyNmJic09wZW5XcmRTZXElM0QlMjZpc1ZpZXdNaW5lJTNEZmFsc2UlMjZzcmNoQ29sdW1uJTNEc2olMjZzcmNoV3JkJTNEJTI2)
 - 교육과정: <https://med.jbnu.ac.kr/med/12690/subview.do>
 
 ## 입학 후
@@ -68,6 +74,7 @@ permalink: /onboarding/graduate/
 
 - 석사는 24 학점 (논문 연구 제외)
 - 타전공 수강 가능(2023기준)
+  - 수강 전 담당 교수님과 연락 필요
   - 그러나 졸업시험은 의과학과 과목 중 선택
 
 ### BK 장학생 서류
@@ -92,12 +99,16 @@ permalink: /onboarding/graduate/
 ### IRB 연구자 등록
 
 - 공인인증서 발급
-- GCP 교육
-  - <https://is.kdca.go.kr/> 회원가입 → 교육관리 User 카테고리 클릭 → 승인 대기 → 승인 완료
-  - <http://edu.kdca.go.kr/> (교육사이트) → 로그인 → 과정안내 page 2에 임상연구개론 교육 → 수강 후 수료증 발급
+- GCP 교육(임상연구개론)
+  - 기존 교육 사이트(<http://edu.kdca.go.kr/>)의 강의는 국립보건연구원 온라인 지식공유플랫폼(SPEC)으로 이전
+  - [SPEC](https://library.nih.go.kr/spec/main.do) 접속 → 검색창에 `임상` 검색 → 임상연구개론 신청 및 수강
 - 전북대 IRB 신청
   - 전북대 IRB(<http://www.e-irb.com/index.jsp>) 회원가입 → 승인 대기 → 승인  → 임상연구개론을 이수하신 이수증을 my info-GCP/종사자 교육 이력관리에 등록
   - 혹은 가입하면서 추가된 CV를 등록하여 승인기간을 줄일 수 있음
+
+### 임상지원센터 의생명연구원 계약
+
+- 출입증 발급
 
 ### 필수 교육
 

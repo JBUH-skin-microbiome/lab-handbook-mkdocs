@@ -19,4 +19,15 @@
 </section>
 {% endif %}
 
+{% if page.path %}
+{% capture issue_title %}[오류 제보] {{ page.title }}{% endcapture %}
+{% capture issue_body %}페이지: {{ site.url }}{{ site.baseurl }}{{ page.url }}
+
+문제 내용을 작성해 주세요.{% endcapture %}
+<nav class="page-actions mt-4 mb-4" aria-label="문서 수정 및 오류 제보">
+  <a class="btn btn-primary mr-2" href="https://github.com/JBUH-skin-microbiome/lab-handbook/edit/main/{{ page.path }}" target="_blank" rel="noopener noreferrer">이 페이지 수정</a>
+  <a class="btn" href="https://github.com/JBUH-skin-microbiome/lab-handbook/issues/new?title={{ issue_title | url_encode }}&amp;body={{ issue_body | url_encode }}" target="_blank" rel="noopener noreferrer">오류 제보</a>
+</nav>
+{% endif %}
+
 <p class="text-small text-grey-dk-100 mb-0">피부마이크로바이옴연구실</p>

@@ -2,7 +2,7 @@
 layout: default
 title: 약어
 parent: 프로젝트 관리
-nav_order: 3
+nav_order: 99
 permalink: /operations/abbreviations/
 ---
 

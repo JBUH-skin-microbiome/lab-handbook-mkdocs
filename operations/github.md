@@ -1,13 +1,14 @@
 ---
 layout: default
-title: 깃허브 관리
+title: Git 과 Github
 nav_icon: github
-parent: 연구실 운영
-nav_order: 4
+parent: 분석
+nav_order: 2
 permalink: /operations/github/
+grand_parent: 연구 프로젝트
 ---
 
-# 깃허브 관리
+# Git 과 Github
 
 ## 바로가기
 

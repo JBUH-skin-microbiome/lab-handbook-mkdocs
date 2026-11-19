@@ -1,13 +1,12 @@
 ---
 layout: default
-title: 미팅 / 세미나 / 저널클럽
-parent: 연구실 안내
-grand_parent: 온보딩
-nav_order: 1
+title: 회의 및 저널클럽
+parent: 온보딩
+nav_order: 2.6
 permalink: /meetings/
 ---
 
-# 미팅 / 세미나 / 저널클럽
+# 회의 및 저널클럽
 
 ## 정기 미팅
 

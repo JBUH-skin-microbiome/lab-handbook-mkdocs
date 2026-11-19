@@ -3,7 +3,6 @@ layout: default
 title: 연구실 안내
 parent: 온보딩
 nav_order: 2.5
-has_children: true
 permalink: /operations/lab-guide/
 ---
 

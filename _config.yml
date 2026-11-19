@@ -11,7 +11,3 @@ permalink: pretty
 aux_links:
   Lab homepage: https://JBUH-skin-microbiome.github.io/
 footer_content: "피부마이크로바이옴연구실"
-nav_external_links:
-  - title: 미팅 / 세미나 / 저널클럽
-    url: "https://docs.google.com/spreadsheets/d/1ZtvPcRL7w50GyNrI5GPhvMyXGs0ARMxv7KLbv8z41Ro/edit?gid=1923158560#gid=1923158560"
-    opens_in_new_tab: false

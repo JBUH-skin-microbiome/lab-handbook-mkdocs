@@ -248,3 +248,7 @@ permalink: /onboarding/graduation/
   - 도장 받은 종이로 제본해야 함 ⭐
   - 제본 내부 날짜 확인!!! ⭐
     - 챕터마다 다 달라야함!!!!!
+
+## 4. 논문 defense 참고자료
+
+[\[참고\] 졸업 defense 참고자료](https://app.notion.com/p/wait-a-minute/defense-91da0a4449554fa0a8db208c47169fde?source=copy_link)

@@ -1,8 +1,8 @@
 ---
 layout: default
 title: 졸업 안내
-parent: 온보딩
-nav_order: 7
+parent: 대학원
+nav_order: 1
 permalink: /onboarding/graduation/
 ---
 

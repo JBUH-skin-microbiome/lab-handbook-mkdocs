@@ -17,6 +17,8 @@ nav_order: 0
 - [Experimental & Analysis Tutorials]({{ "/tutorials/" | relative_url }}) — 실험·분석 방법과 스크립트
 - [Academic Writing]({{ "/writing/" | relative_url }}) — 포스터, 초록, 그림 및 논문 작성 자료
 
+- [Graduate School]({{ "/graduate-school/" | relative_url }}) — 졸업 준비, 포스터 작성 및 학회 참석
+
 ## 신입생을 위한 문서
 
 - [대학원생 안내]({{ '/onboarding/graduate/' | relative_url }})

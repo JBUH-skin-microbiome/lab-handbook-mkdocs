@@ -1,0 +1,11 @@
+---
+layout: default
+title: 대학원
+nav_order: 6
+has_children: true
+permalink: /graduate-school/
+---
+
+# 대학원
+
+졸업 준비, 포스터 작성 및 학회 참석 안내를 모았습니다.

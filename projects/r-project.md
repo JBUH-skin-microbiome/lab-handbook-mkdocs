@@ -1,8 +1,8 @@
 ---
 layout: default
 title: R Project 가이드
-parent: 분석
-grand_parent: 연구 프로젝트
+parent: R 및 RStudio
+grand_parent: 준비할 것들
 nav_order: 1
 permalink: /projects/r-project/
 ---

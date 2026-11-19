@@ -2,10 +2,10 @@
 layout: default
 title: Git 과 Github
 nav_icon: github
-parent: 분석
-nav_order: 2
+parent: Git and GitHub
+nav_order: 1
 permalink: /operations/github/
-grand_parent: 연구 프로젝트
+grand_parent: 준비할 것들
 ---
 
 # Git 과 Github

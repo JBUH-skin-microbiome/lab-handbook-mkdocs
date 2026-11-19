@@ -1,7 +1,8 @@
 ---
 layout: default
 title: 학술 글쓰기
-nav_order: 5
+parent: 대학원
+nav_order: 7
 has_children: true
 permalink: /writing/
 ---

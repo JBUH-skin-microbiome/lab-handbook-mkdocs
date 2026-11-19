@@ -15,9 +15,7 @@ nav_order: 0
 - [Lab Operations]({{ "/operations/" | relative_url }}) — 연락, 근무 및 연구실 운영 안내
 - [Project Management]({{ "/projects/" | relative_url }}) — 프로젝트 진행 상황과 연구 기록
 - [Experimental & Analysis Tutorials]({{ "/tutorials/" | relative_url }}) — 실험·분석 방법과 스크립트
-- [Academic Writing]({{ "/writing/" | relative_url }}) — 포스터, 초록, 그림 및 논문 작성 자료
-
-- [Graduate School]({{ "/graduate-school/" | relative_url }}) — 졸업 준비, 학술 포스터 및 학회 참석
+- [Graduate School]({{ "/graduate-school/" | relative_url }}) — 졸업 준비, 학술 포스터, 학회 참석 및 학술 글쓰기
 
 ## 신입생을 위한 문서
 

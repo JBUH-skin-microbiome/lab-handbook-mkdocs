@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 깃허브 관리
+nav_icon: github
 parent: 연구실 운영
 nav_order: 4
 permalink: /operations/github/

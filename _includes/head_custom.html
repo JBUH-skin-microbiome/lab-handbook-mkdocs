@@ -5,7 +5,7 @@
     const handbookPath = {{ site.baseurl | append: '/' | jsonify }};
     document.addEventListener('DOMContentLoaded', function () {
       const externalLinks = new Map([
-        {% for item in site.pages %}{% if item.destination %}
+        {% for item in site.pages %}{% if item.destination or item.nav_icon %}
         [{{ item.url | relative_url | jsonify }}, {url: {{ item.destination | jsonify }}, icon: {{ item.nav_icon | default: '' | jsonify }}}],
         {% endif %}{% endfor %}
       ]);
@@ -14,7 +14,7 @@
         if (destination.origin !== window.location.origin) return;
         const external = externalLinks.get(destination.pathname);
         if (!external) return;
-        anchor.href = external.url;
+        if (external.url) anchor.href = external.url;
         if (external.icon) {
           const icon = document.createElement('img');
           icon.src = handbookPath + 'assets/icons/' + external.icon + '.svg';

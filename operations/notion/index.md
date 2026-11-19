@@ -1,6 +1,7 @@
 ---
 layout: "default"
 title: "노션 관리"
+nav_icon: notion
 parent: "연구실 운영"
 nav_order: 8
 permalink: "/operations/notion/"

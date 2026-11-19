@@ -1,8 +1,8 @@
 ---
 layout: default
 title: 회의 및 저널클럽
-parent: 온보딩
-nav_order: 2.6
+parent: 대학원
+nav_order: 6
 permalink: /meetings/
 ---
 

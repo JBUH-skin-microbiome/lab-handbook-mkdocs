@@ -1,0 +1,21 @@
+{% if page.path %}
+<section class="page-history" aria-label="문서 편집 정보" data-page-history="{{ page.path | escape }}" hidden>
+  <dl class="page-history__items">
+    <div class="page-history__item">
+      <dt>작성자</dt>
+      <dd data-history-author></dd>
+    </div>
+    <div class="page-history__item">
+      <dt>최종 편집자</dt>
+      <dd><span data-history-editor></span> · <time data-history-date></time></dd>
+    </div>
+    <div class="page-history__item">
+      <dt>기여자</dt>
+      <dd data-history-contributors></dd>
+    </div>
+  </dl>
+  <a class="page-history__link" href="https://github.com/JBUH-skin-microbiome/lab-handbook/commits/main/{{ page.path }}" target="_blank" rel="noopener noreferrer">GitHub에서 변경 기록 보기</a>
+</section>
+{% endif %}
+
+<p class="text-small text-grey-dk-100 mb-0">피부마이크로바이옴연구실</p>

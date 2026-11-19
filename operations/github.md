@@ -16,6 +16,10 @@ grand_parent: 연구 프로젝트
 - [연구실 홈페이지 저장소](https://github.com/JBUH-skin-microbiome/JBUH-skin-microbiome.github.io)
 - [연구실 매뉴얼 저장소](https://github.com/JBUH-skin-microbiome/lab-handbook)
 
+## 학습 자료
+
+[\[Study\] Git and Git hub (Notion)](https://app.notion.com/p/wait-a-minute/Study-Git-and-Git-hub-2e727c4548988097a635f2ca2a81d63a?source=copy_link)
+
 ## 관리 원칙
 
 - 저장소 이름과 설명은 용도가 바로 드러나게 씁니다.

@@ -1,12 +1,12 @@
 ---
 layout: default
-title: 실험 및 분석 프로토콜
+title: 실험 및 분석 프로토콜 관리
 parent: 연구실 운영
 nav_order: 9
 permalink: /operations/protocols/
 ---
 
-# 실험 및 분석 프로토콜
+# 실험 및 분석 프로토콜 관리
 
 [프로토콜 문서 열기](https://docs.google.com/spreadsheets/d/1f61-lw-YJew6YN_FY2VzAb47aZs0h5OCdytj3R59zfE/edit?usp=sharing){: .btn .btn-primary target="_blank" rel="noopener noreferrer" }
 

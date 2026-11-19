@@ -2,7 +2,7 @@
 layout: default
 title: 약어
 parent: 연구실 운영
-nav_order: 2
+nav_order: 8
 permalink: /operations/abbreviations/
 ---
 

@@ -2,7 +2,7 @@
 layout: default
 title: 연구실 인원
 parent: 연구실 운영
-nav_order: 5
+nav_order: 10
 permalink: /operations/management/members/
 ---
 

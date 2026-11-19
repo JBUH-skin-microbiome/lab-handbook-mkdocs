@@ -2,7 +2,7 @@
 layout: default
 title: 실험 및 분석 프로토콜
 parent: 연구실 운영
-nav_order: 3
+nav_order: 9
 permalink: /operations/protocols/
 ---
 

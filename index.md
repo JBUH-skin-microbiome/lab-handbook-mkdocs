@@ -16,7 +16,6 @@ nav_order: 0
 - [프로젝트 관리]({{ "/projects/" | relative_url }}) — 프로젝트 진행 상황과 연구 기록
 - [실험 및 분석 튜토리얼]({{ "/tutorials/" | relative_url }}) — 실험·분석 방법과 스크립트
 - [학술 글쓰기]({{ "/writing/" | relative_url }}) — 포스터, 초록, 그림 및 논문 작성 자료
-- [미팅 / 세미나 / 저널클럽](https://docs.google.com/spreadsheets/d/1ZtvPcRL7w50GyNrI5GPhvMyXGs0ARMxv7KLbv8z41Ro/edit?gid=1923158560#gid=1923158560) — 일정 및 발표 자료
 
 ## 처음 확인할 문서
 

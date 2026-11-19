@@ -38,4 +38,4 @@ permalink: /operations/homepage/
 - 한글과 바닥글은 `Gothic A1`, 영문은 `Vollkorn`을 사용합니다.
 - 기본 강조색은 `#191970`입니다.
 
-# Github 관리 (공사중)
+# 🚧Github 관리 (공사중)

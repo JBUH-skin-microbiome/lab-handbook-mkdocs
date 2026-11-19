@@ -1,8 +1,9 @@
 ---
 layout: default
 title: 연구실 안내
-parent: 연구실 운영
-nav_order: 7
+parent: 온보딩
+nav_order: 2.5
+has_children: true
 permalink: /operations/lab-guide/
 ---
 
@@ -14,9 +15,5 @@ permalink: /operations/lab-guide/
 - 남경화 교수님: 월요일 오전·오후, 화요일 오전, 수요일 오전, 목요일 오전·오후, 금요일 오후
 - 진료 중에는 연락이 어렵습니다. 진료 전이나 진료가 끝난 뒤에 연락해 주세요.
 - 주말이나 저녁에 긴급한 연락이 필요하면 문자 또는 전화로 연락해 주세요.
-
-## 구글 드라이브
-
-- [구성원용 구글 드라이브 링크는 노션 원문에서 확인](https://app.notion.com/p/wait-a-minute/Lab-Guide-86bb32c734e24a08b4ef8bd6af3e5ada)
 
 [홈페이지 관리]({{ '/operations/homepage/' | relative_url }})에서 홈페이지 주소, 저장소와 서식을 확인할 수 있습니다.

@@ -15,7 +15,7 @@ permalink: /operations/
 - [서버 관리]({{ '/operations/server/' | relative_url }})
 - [주문 관리]({{ '/operations/management/orders/' | relative_url }})
 - [깃허브 관리]({{ '/operations/github/' | relative_url }})
-- [안전 관리]({{ '/operations/safety/' | relative_url }})
+- [안전관리]({{ '/operations/safety/' | relative_url }})
 - [인건비 및 연구비 관리]({{ '/operations/finance/' | relative_url }})
 
 - [노션 관리]({{ '/operations/notion/' | relative_url }})

@@ -7,10 +7,19 @@ permalink: /graduate-school/poster/
 ---
 
 # 학술 포스터
+{: .no_toc }
+
+## 목차
+{: .no_toc }
+
+1. TOC
+{:toc}
 
 ## 1. 포스터 제작
 
 ### 1) 포스터 종류
+
+> **학회에 따라 다름!**
 
 - 실물 포스터
   - 세로형 및 가로형 포스터
@@ -21,6 +30,8 @@ permalink: /graduate-school/poster/
 아래 하단은 실물 포스터 (세로) 형식을 다룸
 
 ### 2) 인쇄 포스터 형식
+
+> **학회에 따라 다름!**
 
 - 포스터 크기
   - W90 x H 130 (vertical)
@@ -33,6 +44,8 @@ permalink: /graduate-school/poster/
   - 연구실 홈페이지 혹은 논문 QR
   - 연구자의 연락처
     - poster에 넣어도 좋고, 학회장에 명함 혹은 전단지 부착도 가능
+
+---
 
 ## 2. 좋은 포스터 만들기
 
@@ -61,6 +74,8 @@ permalink: /graduate-school/poster/
 - [betterposters.blogspot.com](https://betterposters.blogspot.com/2024/09/spin-me-right-round-like-record.html)
 - [Link roundup for October 2023](https://betterposters.blogspot.com/2023/10/link-roundup-for-october-2023.html)
 - [Critique: Got water?](https://betterposters.blogspot.com/2025/08/critique-got-water.html)
+
+---
 
 ## 3. 참고자료
 
@@ -100,9 +115,13 @@ permalink: /graduate-school/poster/
 - [Scientific Case Study Poster Template (391710)](https://designtemplateplace.com/product/scientific-case-study-poster-template-391710)
 - [Scientific Case Study Poster Template (388522)](https://designtemplateplace.com/product/scientific-case-study-poster-template-388522)
 
+---
+
 ## 4. 연구실 포스터 양식
 
 [**연구실 포스터 양식 보기**](https://app.notion.com/p/wait-a-minute/Format-1a93be93893d41638437d7a12a08641b?source=copy_link)
+
+---
 
 ## 5. 포스터 인쇄 및 주문
 
@@ -114,6 +133,8 @@ permalink: /graduate-school/poster/
 
 1. 이메일 ([2737676@naver.com](mailto:2737676@naver.com)) 전달 후 전화로 확인
 2. 직접 가서 주문
+
+---
 
 ## 6. 결제 및 영수증 처리
 

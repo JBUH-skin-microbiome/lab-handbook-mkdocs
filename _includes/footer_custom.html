@@ -1,17 +1,18 @@
-{% if page.path %}
-<section class="page-history" aria-label="문서 편집 정보" data-page-history="{{ page.path | escape }}" hidden>
+{% assign history = page.git_history %}
+{% if history %}
+<section class="page-history" aria-label="문서 편집 정보">
   <dl class="page-history__items">
     <div class="page-history__item">
       <dt>작성자</dt>
-      <dd data-history-author></dd>
+      <dd>{{ history.author | escape }}</dd>
     </div>
     <div class="page-history__item">
       <dt>최종 편집자</dt>
-      <dd><span data-history-editor></span> · <time data-history-date></time></dd>
+      <dd>{{ history.last_editor | escape }} · {{ history.last_modified | escape }}</dd>
     </div>
     <div class="page-history__item">
       <dt>기여자</dt>
-      <dd data-history-contributors></dd>
+      <dd>{{ history.contributors | join: ", " | escape }}</dd>
     </div>
   </dl>
   <a class="page-history__link" href="https://github.com/JBUH-skin-microbiome/lab-handbook/commits/main/{{ page.path }}" target="_blank" rel="noopener noreferrer">GitHub에서 변경 기록 보기</a>

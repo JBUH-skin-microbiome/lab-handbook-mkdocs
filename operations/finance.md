@@ -10,25 +10,23 @@ permalink: /operations/finance/
 
 인건비와 연구비 관련 자료에는 개인정보와 계약·정산 정보가 있어 내부 문서에서 관리합니다.
 
-## 관리 항목
+## 목차
+{: .no_toc }
 
-- 참여 연구원과 참여 기간
-- 인건비 지급 기준과 월별 지급 내역
-- 과제별 예산, 집행액과 잔액
-- 구매·출장·회의비 증빙 자료
-- 변경 신청, 정산과 보고 일정
+1. TOC
+{:toc}
 
-지급하거나 집행하기 전에 과제 담당자와 기준을 확인해 주세요. 처리한 뒤에는 증빙 자료와 반영 여부를 함께 기록합니다.
+## 사무용품 구매
 
----
-
-## 사무용품 구매 사항
-
-[노션 원문 열기](https://app.notion.com/p/wait-a-minute/Manual-1ae27c45489880cdb3baf61a20e566d3?source=copy_link){: .btn .btn-primary target="_blank" rel="noopener noreferrer" }
+### 구매 전 확인
 
 - 문의: 산학협력단
 - 연구 카드로 결제해야 함 (영수증 지참 필수)
 - 오피스 구매 사이트를 사용해야 함 (e.g. 오피스디포)
+
+### 사무용품이란?
+
+![사무용품의 정의와 구매 가능한 물품 예시]({{ '/assets/images/manual/office-supplies-guide.png' | relative_url }})
 
 ### 1) 사무용 기기 및 소프트웨어
 

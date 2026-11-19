@@ -79,31 +79,6 @@ permalink: /graduate-school/poster/
 
 ## 3. 참고자료
 
-연도별 참고 포스터의 이미지와 첨부파일은 [노션 원문](https://app.notion.com/p/wait-a-minute/Format-1a93be93893d41638437d7a12a08641b?source=copy_link)에서 확인할 수 있습니다.
-
-### 2022
-
-- 2022 — JIN PARK
-- [POSTER_Tanner_IRP_061021.pdf (노션에서 보기)](https://app.notion.com/p/wait-a-minute/Format-1a93be93893d41638437d7a12a08641b?source=copy_link)
-
-### 2023
-
-- 2023.09 ISID
-
-### 2024
-
-- 2024.9 KDAAM — JIN PARK, 김소연
-- 2024.11 APSMM (90x130)
-- 2024.12 KSID (90x120) — 김소연
-
-### 2025
-
-- 2025.01 JBNU research fair
-- 2025.06 ISHAM
-- 2025.06 Hair follicle conference
-
-### 기타
-
 - [Posters - Internet of Things Research](https://pin.it/5qsGuLMKn)
 - [How to make a scientific poster](https://fourwaves.com/blog/how-to-make-a-scientific-poster/)
 - [Research Guides: Creating an Academic Poster: Tips and Tricks](https://libguides.tru.ca/academicposters/size)

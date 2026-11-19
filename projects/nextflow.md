@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Nextflow 가이드
-parent: 프로젝트 관리
+parent: 실험 및 분석 튜토리얼
 nav_order: 2
 permalink: /projects/nextflow/
 ---

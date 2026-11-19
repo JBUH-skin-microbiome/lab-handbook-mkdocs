@@ -1,6 +1,7 @@
 ---
 layout: external-redirect
-title: 연구실 구글 드라이브
+nav_icon: google-drive
+title: Google drive (권한요청)
 parent: 온보딩
 nav_order: 6
 permalink: /onboarding/google-drive/

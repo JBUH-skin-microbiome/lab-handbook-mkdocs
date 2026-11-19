@@ -5,15 +5,25 @@
     const handbookPath = {{ site.baseurl | append: '/' | jsonify }};
     document.addEventListener('DOMContentLoaded', function () {
       const externalLinks = new Map([
-        [`${handbookPath}onboarding/notion/`, 'https://wait-a-minute.notion.site/JBSM-Hub-fd5e36c10fa4435a82fe8005287078dc?pvs=4'],
-        [`${handbookPath}onboarding/google-drive/`, 'https://drive.google.com/drive/folders/1_YQnvTuNGu9JGuC5B9Ql7Ixg9wyqJz5W?usp=sharing'],
-        [`${handbookPath}meetings/journal-club/`, 'https://docs.google.com/spreadsheets/d/1ZtvPcRL7w50GyNrI5GPhvMyXGs0ARMxv7KLbv8z41Ro/edit?gid=1923158560#gid=1923158560']
+        {% for item in site.pages %}{% if item.destination %}
+        [{{ item.url | relative_url | jsonify }}, {url: {{ item.destination | jsonify }}, icon: {{ item.nav_icon | default: '' | jsonify }}}],
+        {% endif %}{% endfor %}
       ]);
-
       document.querySelectorAll('a[href]').forEach(function (anchor) {
         const destination = new URL(anchor.getAttribute('href'), window.location.href);
-        const externalUrl = externalLinks.get(destination.pathname);
-        if (externalUrl) anchor.href = externalUrl;
+        if (destination.origin !== window.location.origin) return;
+        const external = externalLinks.get(destination.pathname);
+        if (!external) return;
+        anchor.href = external.url;
+        if (external.icon) {
+          const icon = document.createElement('img');
+          icon.src = handbookPath + 'assets/icons/' + external.icon + '.svg';
+          icon.alt = '';
+          icon.width = 16;
+          icon.height = 16;
+          icon.style.cssText = 'vertical-align:middle;margin-right:6px;flex-shrink:0';
+          anchor.prepend(icon);
+        }
       });
 
       document.addEventListener('click', function (event) {

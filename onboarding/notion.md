@@ -1,6 +1,7 @@
 ---
 layout: external-redirect
-title: 연구실 노션
+nav_icon: notion
+title: Notion(권한요청)
 parent: 온보딩
 nav_order: 5
 permalink: /onboarding/notion/

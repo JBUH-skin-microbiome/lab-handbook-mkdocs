@@ -1,8 +1,8 @@
 ---
 layout: default
 title: 약어
-parent: 연구실 운영
-nav_order: 8
+parent: 프로젝트 관리
+nav_order: 3
 permalink: /operations/abbreviations/
 ---
 

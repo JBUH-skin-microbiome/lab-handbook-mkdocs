@@ -21,6 +21,5 @@ nav_order: 0
 
 - [대학원생 안내]({{ '/onboarding/graduate/' | relative_url }})
 - [신규 구성원 체크리스트]({{ '/onboarding/newbie/' | relative_url }})
-- [연구실 안내]({{ '/operations/lab-guide/' | relative_url }})
 
 이 사이트에는 공개 가능한 문서만 올립니다. 구성원 전용 자료는 노션과 구글 드라이브에서 확인해 주세요.

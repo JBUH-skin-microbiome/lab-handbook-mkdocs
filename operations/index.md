@@ -3,6 +3,7 @@ layout: default
 title: 연구실 운영
 nav_order: 2
 has_children: true
+has_toc: false
 permalink: /operations/
 ---
 

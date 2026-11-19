@@ -1,8 +1,9 @@
 ---
 layout: default
 title: R Project 가이드
-parent: 실험 및 분석 튜토리얼
-nav_order: 1
+parent: Dry lab
+grand_parent: 실험 및 분석 튜토리얼
+nav_order: 6
 permalink: /projects/r-project/
 ---
 

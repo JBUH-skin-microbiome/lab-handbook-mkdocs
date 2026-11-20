@@ -99,7 +99,9 @@ nav:
   - projects/index.md
   - 임상 시험:
     - projects/clinical-trials/index.md
-    - 임상 데이터: projects/clinical-data/index.md
+    - 임상 데이터:
+      - projects/clinical-data/index.md
+      - 연구실 데이터 형식: projects/clinical-data/data-format.md
     - IRB: projects/clinical-trials/irb.md
   - 연구 프로젝트:
     - projects/research/index.md

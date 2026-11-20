@@ -10,7 +10,7 @@ has_children: true
 
 # Notion 
 
-Notion에는 외부공개가 어려운 문서, 연구 tuturial 들을 저장하고 있습니다. 
-현재 연구실 Notion 의 내용을  manual 페이지로 옮기는 과정을 수행 중입니다. 
+연구실 Notion에는 외부공개가 어려운 문서, 연구 SOP, 잡다한 문서들의 저장소 입니다.  
+현재는  Notion의 글을 manual 페이지로 옮기는 과정입니다! 
 
 

@@ -139,15 +139,21 @@ nav:
     - Nextflow 가이드: projects/nextflow.md
 - 대학원:
   - graduate-school/index.md
-  - 졸업 안내: onboarding/graduation.md
+  - 졸업 안내:
+    - onboarding/graduation.md
+    - 졸업시험: graduate-school/graduation-exams.md
+    - 논문제출자격 외국어시험: graduate-school/foreign-language-exam.md
+    - 학위논문: graduate-school/degree-thesis.md
+    - 졸업 논문 작성 요령: graduate-school/thesis-writing-guide.md
+    - 졸업 심사 일정: graduate-school/graduation-review-schedule.md
+    - 학위논문 접수: graduate-school/thesis-application.md
+    - 논문 defense 참고자료: graduate-school/defense-resources.md
+    - 논문연구생 등록: graduate-school/research-student.md
   - 학술 포스터: graduate-school/poster.md
   - 학회: graduate-school/conferences.md
   - 자체 세미나: graduate-school/seminars.md
   - 학사 일정: graduate-school/calendar.md
   - 수강 안내: graduate-school/course-registration.md
-  - 논문연구생 등록: graduate-school/research-student.md
-  - 논문제출자격 외국어시험: graduate-school/foreign-language-exam.md
-  - 학위논문 접수: graduate-school/thesis-application.md
   - 학술 글쓰기:
     - writing/index.md
     - '[Tip] 논문 검색': writing/paper-search.md

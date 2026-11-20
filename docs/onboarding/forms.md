@@ -15,7 +15,7 @@ permalink: /onboarding/forms/
 | 회의 및 발표 | 회의록 양식: [Word 형식](https://docs.google.com/document/d/16YFWsmbA0XsFW73BrKl51YbhqtBOtI2M/edit?usp=drive_link&ouid=110884691117122301140&rtpof=true&sd=true) · [Excel 형식](https://docs.google.com/spreadsheets/d/1qAj3LYmP39BMYlOWrcc9Vphf9o8XLjIN/edit?usp=drive_link&ouid=110884691117122301140&rtpof=true&sd=true) | 회의 내용 기록 및 회의록 관리 |
 | 회의 및 발표 | [학술 프로젝트 회의 PPT 양식](../meetings/index.md) | 학술 프로젝트 정기회의 발표자료 작성 |
 | 학회 및 출장 | [연구실 포스터 양식](../graduate-school/poster.md) | 학회 포스터 제작 및 인쇄 |
-| 학회 및 출장 | [출장보고서 양식](../graduate-school/business-trip-report.md) | 학회 및 출장 후 결과 보고 |
+| 학회 및 출장 | [출장보고서 양식](https://drive.google.com/file/d/10dNsS6f41xpYs_fkz6PZNGtxVxdoh9Pt/view?usp=sharing) | 학회 및 출장 후 결과 보고 |
 | 대학원 및 학술 글쓰기 | [논문 Outline 작성 서식](../writing/outline-format.md) | 논문 구조와 Outline 작성 |
 | 대학원 및 학술 글쓰기 | [과제 제안서·보고서 PPT 템플릿](../writing/presentation-template.md) | 과제 제안서 및 결과보고서 작성 |
 | 대학원 및 학술 글쓰기 | [학위논문 작성 서식](../graduate-school/degree-thesis.md) | 학위논문 표지·제출지·인준지 작성 |

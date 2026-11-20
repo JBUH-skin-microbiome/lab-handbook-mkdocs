@@ -133,6 +133,17 @@ permalink: /onboarding/graduate/
 
 [대학원 학사운영규정_20230517(개정).hwp](https://app.notion.com/p/wait-a-minute/Tip-for-Graduate-student-f3dc1e532bf942e2ba73eb2e6f80e899#fbf8bb6636834c39b9cbcea257fd0ef3) — 63.0KB
 
+
+
+### 차량 정기 주차 등록 (자차 보유자)
+
+- 제출처
+    - 전북대병원: 의과대학 행정실
+    - 전북대학교: 대학 본부 1층 주차관리과
+- 구비서류
+    - 차량등록증
+    - (본인 명의 차가 아닐 시) 가족관계 증명서
+
 ---
 
 원문 

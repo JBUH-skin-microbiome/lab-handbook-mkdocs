@@ -8,10 +8,9 @@ permalink: /onboarding/graduate/
 
 # 신입생 안내
 
-2023년 대학원생 안내와 2024년 8월 29일 신규 구성원 체크리스트를 합친 자료입니다. 비용과 제도가 달라졌을 수 있으니 시작하기 전에 담당자와 최신 공지를 확인해 주세요. HWP 양식과 예시 이미지는 노션 원문에 있으며, 열람 권한이 필요합니다.
+2024년 8월 29일 업데이트 자료 입니다. 주요한 정보는 최신 공지를 다시 확인해 주세요.
 {: .note }
 
-[대학원생 안내 노션 원문](https://app.notion.com/p/wait-a-minute/Tip-for-Graduate-student-f3dc1e532bf942e2ba73eb2e6f80e899) · [신규 구성원 체크리스트 노션 원문](https://app.notion.com/p/wait-a-minute/Check-lists-for-Newbie-52d575145f554f44bdc4764a51314804) · 작성자 정보는 원문에 기재되어 있지 않습니다.
 
 ## 목차
 {: .no_toc }
@@ -117,3 +116,10 @@ permalink: /onboarding/graduate/
 ### 대학원 규정 (20230517 개정본)
 
 [대학원 학사운영규정_20230517(개정).hwp](https://app.notion.com/p/wait-a-minute/Tip-for-Graduate-student-f3dc1e532bf942e2ba73eb2e6f80e899#fbf8bb6636834c39b9cbcea257fd0ef3) — 63.0KB
+
+---
+
+원문 
+
+[대학원생 안내 노션 원문](https://app.notion.com/p/wait-a-minute/Tip-for-Graduate-student-f3dc1e532bf942e2ba73eb2e6f80e899) · [신규 구성원 체크리스트 노션 원문](https://app.notion.com/p/wait-a-minute/Check-lists-for-Newbie-52d575145f554f44bdc4764a51314804) · 작성자 정보는 원문에 기재되어 있지 않습니다.
+

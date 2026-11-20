@@ -31,7 +31,8 @@ def on_nav(nav, config, files):
         for item in items:
             if not item.is_section:
                 continue
-            if item.children and item.children[0].is_page:
+            if (item.children and item.children[0].is_page
+                    and PAGES[item.children[0].file.src_uri].get('has_children')):
                 overview = item.children[0]
                 SECTION_PAGES[overview.file.src_uri] = [
                     (child.title, first_page(child))

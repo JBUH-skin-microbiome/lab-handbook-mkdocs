@@ -19,4 +19,6 @@ permalink: /operations/equipment-management/self-inspection/
 
 ## 기존 작성 서류
 
-- [2026년 1분기](https://docs.google.com/spreadsheets/d/1Of35Y4AgHj0E-WS-_OgK8wAUdgToxEZC/edit?usp=drive_link&ouid=110884691117122301140&rtpof=true&sd=true)
+### 
+- [자체검검 장비 목록](https://docs.google.com/spreadsheets/d/1Of35Y4AgHj0E-WS-_OgK8wAUdgToxEZC/edit?usp=drive_link&ouid=110884691117122301140&rtpof=true&sd=true)
+- [자체점검 결과.hwpx](https://drive.google.com/file/d/1AABCVKRIITwpgbj5oeMsoR_I25vxEdFx/view?usp=drive_link)

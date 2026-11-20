@@ -12,9 +12,6 @@ permalink: /operations/equipment-management/budget-request/
 
 다음 연도 실험실습기자재 확충사업의 예산 편성을 위해 기존 기자재의 보유·취득·활용 현황과 폐기 처리 비용 수요를 조사하여 제출합니다.
 
-!!! info "연도별 공문 확인"
-    제출 대상 기간, 금액 기준과 마감일은 매년 달라질 수 있습니다. 작성 전 해당 연도 공문과 배포 서식을 먼저 확인합니다.
-
 ## 작성 서류
 
 | 제출자료 | 작성 기준 |
@@ -31,14 +28,7 @@ permalink: /operations/equipment-management/budget-request/
 - 구매 시점이 오래되어 확충사업비 구매 여부를 확인하기 어려우면 수요조사서의 확인불가 항목에 표시합니다.
 - 물품취득원장은 취득 현황 작성 시 참고자료로 사용합니다.
 
-## 2026년 작성 자료
+## 참고 자료 
+- 2026-1, [2025년도 실험실습기자재 취득현황](https://docs.google.com/spreadsheets/d/1xANHv4OjGEweTA_UE-i43T68TTlll8zJ/edit?usp=drive_link&ouid=110884691117122301140&rtpof=true&sd=true)
+- 2026-1, [2025년도 실험실습기자재 보유현황](https://docs.google.com/spreadsheets/d/17xcAzXkFF1e7A0lyE09wOxdf9gSMwu6d/edit?usp=drive_link&ouid=110884691117122301140&rtpof=true&sd=true)
 
-2027년도 예산요구를 위해 2026년에 다음 자료를 작성했습니다.
-
-- `(붙임 1) 실험실습기자재 보유현황(2024.12.31. 기준, 2025년 작성)` 갱신본
-- `(붙임 2) 실험실습기자재 취득 현황(2025년)` 작성본
-- `(붙임 3) 공실관 외 기자재 활용 실적(3천만 원 이상)` 서식
-- `(붙임 4) 내구연한 도과 실험실습기자재 폐기 처리 비용 수요조사` 서식
-- `물품취득원장(2025.12.31. 기준)` 참고자료
-
-원본 공문과 작성 파일은 연구실 내부 저장소에서 확인합니다.

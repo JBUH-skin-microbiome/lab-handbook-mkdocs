@@ -6,7 +6,7 @@ nav_order: 99
 permalink: /operations/abbreviations/
 ---
 
-# 약어
+# 샘플 수집 부위 약어
 
 [약어 문서 열기](https://docs.google.com/spreadsheets/d/1wawhUmiwPtirxV2Mk1oqNiRwDHMDEu6bbUmU_5NMTK8/edit?usp=sharing){ .md-button .md-button--primary target="_blank" rel="noopener noreferrer" }
 

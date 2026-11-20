@@ -173,6 +173,10 @@ o
 
 - 학회 참석 사진 첨부
 - 참고자료 (공무 출장 보고서)
+    - [인사혁신처 국외출장연수정보시스템](https://btis.mpm.go.kr/rpt/selectRptList.do)
+    - [국회예산정책처 국외출장보고서](https://www.nabo.go.kr/ko/report/officialTripList.do?key=2507040011)
+    - [한국문화관광연구원 해외출장보고서](https://www.kcti.re.kr/web/board/boardContentsListPage.do?board_id=27)
+    - [국토연구원 해외출장보고서](https://www.krihs.re.kr/board.es?mid=a10506000000&bid=0014)
 
 ### 8) 서류 전달 시
 

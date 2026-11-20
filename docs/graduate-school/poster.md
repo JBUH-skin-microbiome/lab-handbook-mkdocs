@@ -14,10 +14,10 @@ permalink: /graduate-school/poster/
 > **학회에 따라 다름!**
 
 - 실물 포스터
-  - 세로형 및 가로형 포스터
+    - 세로형 및 가로형 포스터
 - E-poster:
-  - 단일 포스터 (세로)
-  - 가로형 슬라이드 ppt
+    - 단일 포스터 (세로)
+    - 가로형 슬라이드 ppt
 
 아래 하단은 실물 포스터 (세로) 형식을 다룸
 
@@ -26,16 +26,16 @@ permalink: /graduate-school/poster/
 > **학회에 따라 다름!**
 
 - 포스터 크기
-  - W90 x H 130 (vertical)
-  - W90 x H120 (vertical)
-  - W91(36in) x H122(46in) (vertical)
+    - W90 x H 130 (vertical)
+    - W90 x H120 (vertical)
+    - W91(36in) x H122(46in) (vertical)
 - 내용 구성
-  - Title/ Author/ Introduction/ Methods/ Result/ Discussion/Conclusion(Summry)/Reference
+    - Title/ Author/ Introduction/ Methods/ Result/ Discussion/Conclusion(Summry)/Reference
 - 추가하면 좋은 것
-  - Further study(Future work)
-  - 연구실 홈페이지 혹은 논문 QR
-  - 연구자의 연락처
-    - poster에 넣어도 좋고, 학회장에 명함 혹은 전단지 부착도 가능
+    - Further study(Future work)
+    - 연구실 홈페이지 혹은 논문 QR
+    - 연구자의 연락처
+        - poster에 넣어도 좋고, 학회장에 명함 혹은 전단지 부착도 가능
 
 ---
 
@@ -44,7 +44,7 @@ permalink: /graduate-school/poster/
 ### 1) 좋은 포스터란?
 
 - 좋은 포스터는 이해가 잘 되는 것!
-  - [Link roundup for October 2023](https://betterposters.blogspot.com/2023/10/link-roundup-for-october-2023.html)
+    - [Link roundup for October 2023](https://betterposters.blogspot.com/2023/10/link-roundup-for-october-2023.html)
 
 ### 2) 좋은 포스터를 만드는 방법은?
 
@@ -52,9 +52,9 @@ permalink: /graduate-school/poster/
 
 1. 양이 아닌 질
 2. [주제를 강조하는 레이아웃](https://www.animateyour.science/post/best-examples-of-scientific-posters)
-   - 주제 강조
-   - 순서 강조
-   - [Critique: Got water?](https://betterposters.blogspot.com/2025/08/critique-got-water.html)
+    - 주제 강조
+    - 순서 강조
+    - [Critique: Got water?](https://betterposters.blogspot.com/2025/08/critique-got-water.html)
 3. 색과 색의 조합, 그리고 여백을 활용해라
 
 ### 3) 읽어보면 좋은 글

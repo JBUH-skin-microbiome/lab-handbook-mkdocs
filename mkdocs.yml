@@ -120,6 +120,7 @@ nav:
   - 약어: operations/abbreviations.md
 - 실험 및 분석 SOP:
   - tutorials/index.md
+  - 마이크로바이옴 용어집: tutorials/glossary.md
   - Wet lab:
     - tutorials/wet-lab/index.md
     - Amplicon (16S rRNA): tutorials/wet-lab/amplicon-16s.md

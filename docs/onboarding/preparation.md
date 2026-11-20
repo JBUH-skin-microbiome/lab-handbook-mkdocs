@@ -33,6 +33,7 @@ permalink: /onboarding/preparation/
 4. 생물정보학 기초 이론
     - [생물정보학 및 시퀀싱 기초](https://app.notion.com/p/wait-a-minute/2-1-Bioinformatic-and-sequencing-349437ded5584adb99e20426683921c2?source=copy_link)
 5. 마이크로바이옴이란?
+    - [마이크로바이옴 용어집](../tutorials/glossary.md)
     - [Human microbiome](https://app.notion.com/p/wait-a-minute/2-2-Human-microbiome-e2fad0bc9856467d99bbf18812a9674e?source=copy_link)
     - [Microbiome analysis](https://app.notion.com/p/wait-a-minute/3-Microbiome-analysis-fd72ef7759c44ba593142a7d529144ef?source=copy_link)
     - [Skin microbiome papers](https://app.notion.com/p/wait-a-minute/2-3-Skin-microbiome-1f6d5c04e24648738281a7b4b00bbefc?source=copy_link)

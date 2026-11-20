@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 연락처
-parent: 대학원
+parent: 연구실 안내
 nav_order: 5
 permalink: /graduate-school/contacts/
 ---

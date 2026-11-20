@@ -76,6 +76,7 @@ nav:
   - 회의 및 저널클럽: meetings/index.md
   - 연구실 행동규칙: onboarding/conduct.md
   - FAQ: onboarding/faq.md
+  - 연락처: graduate-school/contacts.md
   - 이전 홈페이지: onboarding/previous-website.md
   - Notion(권한요청): onboarding/notion.md
   - Google drive (권한요청): onboarding/google-drive.md
@@ -138,7 +139,6 @@ nav:
   - 학술 포스터: graduate-school/poster.md
   - 학회: graduate-school/conferences.md
   - 학사 일정: graduate-school/calendar.md
-  - 연락처: graduate-school/contacts.md
   - 학술 글쓰기:
     - writing/index.md
     - '[Tip] 논문 검색': writing/paper-search.md

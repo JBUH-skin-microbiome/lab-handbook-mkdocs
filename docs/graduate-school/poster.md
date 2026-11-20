@@ -1,7 +1,8 @@
 ---
 layout: default
 title: 학술 포스터
-parent: 대학원
+parent: 학회
+grand_parent: 대학원
 nav_order: 2
 permalink: /graduate-school/poster/
 ---

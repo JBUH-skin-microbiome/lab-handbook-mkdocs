@@ -21,6 +21,4 @@ permalink: /operations/safety/risk-assessment/
 
 ## 기존 작성 서류
 
-### 2025년
-
-- [위험성평가 자료 모음(권한 필요)](https://app.notion.com/p/wait-a-minute/3b327c4548988070a5eeda3f695fe965?source=copy_link)
+- [2025년 위험성평가절차서](https://drive.google.com/file/d/12rYdcOzEba72c54rfUbloaQLFeiNXxTe/view?usp=drive_link)

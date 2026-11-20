@@ -28,34 +28,34 @@ permalink: /onboarding/preparation/
 2. Ubuntu (WSL) 설치해 보기
 3. MobaXterm으로 서버에 접속해서 리눅스 공부하기
 4. 생물정보학 기초 이론
-    - https://app.notion.com/p/wait-a-minute/2-1-Bioinformatic-and-sequencing-349437ded5584adb99e20426683921c2?source=copy_link
+    - [생물정보학 및 시퀀싱 기초](https://app.notion.com/p/wait-a-minute/2-1-Bioinformatic-and-sequencing-349437ded5584adb99e20426683921c2?source=copy_link)
 6. 마이크로바이옴이란?
-    - [https://app.notion.com/p/wait-a-minute/2-2-Human-microbiome-e2fad0bc9856467d99bbf18812a9674e?source=copy_link](https://app.notion.com/p/wait-a-minute/2-2-Human-microbiome-e2fad0bc9856467d99bbf18812a9674e?source=copy_link)
-    - https://app.notion.com/p/wait-a-minute/3-Microbiome-analysis-fd72ef7759c44ba593142a7d529144ef?source=copy_link
-    - (Skin microbiome papers)[https://app.notion.com/p/wait-a-minute/2-3-Skin-microbiome-1f6d5c04e24648738281a7b4b00bbefc?source=copy_link]
+    - [Human microbiome](https://app.notion.com/p/wait-a-minute/2-2-Human-microbiome-e2fad0bc9856467d99bbf18812a9674e?source=copy_link)
+    - [Microbiome analysis](https://app.notion.com/p/wait-a-minute/3-Microbiome-analysis-fd72ef7759c44ba593142a7d529144ef?source=copy_link)
+    - [Skin microbiome papers](https://app.notion.com/p/wait-a-minute/2-3-Skin-microbiome-1f6d5c04e24648738281a7b4b00bbefc?source=copy_link)
 
 ## 연구실 한 달 차 
 1. R을 활용한 기초 통계 배우기
-   - https://www.inflearn.com/course/r%EB%A1%9C-%EB%B0%B0%EC%9A%B0%EB%8A%94-%ED%86%B5%EA%B3%84-1?cid=325132
-   - https://www.youtube.com/watch?v=sQbRUgn-1D4&list=PLKtLBdGREmMnLbQnqGEfpCBtkGj2g_d-B
-   - https://zorba78.github.io/cnu-r-programming-lecture-note/index.html
-   - https://www.modernstatisticswithr.com/
+    - [R로 배우는 통계 강의 (Inflearn)](https://www.inflearn.com/course/r%EB%A1%9C-%EB%B0%B0%EC%9A%B0%EB%8A%94-%ED%86%B5%EA%B3%84-1?cid=325132)
+    - [R 기초 통계 영상 (YouTube)](https://www.youtube.com/watch?v=sQbRUgn-1D4&list=PLKtLBdGREmMnLbQnqGEfpCBtkGj2g_d-B)
+    - [R 프로그래밍 강의 노트](https://zorba78.github.io/cnu-r-programming-lecture-note/index.html)
+    - [Modern Statistics with R](https://www.modernstatisticswithr.com/)
 2. Rproject 사용법 익히기
 3. DADA2로 마이크로바이옴 분석하기
-    - https://app.notion.com/p/wait-a-minute/7-DADA2-58b082d1293d46a9b39043a4bf222cc0?source=copy_link
+    - [DADA2](https://app.notion.com/p/wait-a-minute/7-DADA2-58b082d1293d46a9b39043a4bf222cc0?source=copy_link)
     - 
 5. Linux 공부하기
-    - https://app.notion.com/p/wait-a-minute/4-1-Linux-basic-10e457fa64834fb6b9af8638e7d23ec0?source=copy_link
-    - https://app.notion.com/p/wait-a-minute/4-2-Linux-basic-2-3aa27c45489880bcadfbc9c193b8dd08?source=copy_link
+    - [Linux basic](https://app.notion.com/p/wait-a-minute/4-1-Linux-basic-10e457fa64834fb6b9af8638e7d23ec0?source=copy_link)
+    - [Linux basic 2](https://app.notion.com/p/wait-a-minute/4-2-Linux-basic-2-3aa27c45489880bcadfbc9c193b8dd08?source=copy_link)
 6. QIIME으로 마이크로바이옴 분석하기
-    - https://app.notion.com/p/wait-a-minute/4-3-Quality-control-QC-7bc5f6aaa41142b493a9b1db1c34e960?source=copy_link
-    - https://app.notion.com/p/wait-a-minute/4-3-Quality-control-QC-7bc5f6aaa41142b493a9b1db1c34e960?source=copy_link
-    - https://app.notion.com/p/wait-a-minute/6-BLAST-06e79c1b59fa46319f7eef5b9fb13444?source=copy_link
+    - [Quality control (QC)](https://app.notion.com/p/wait-a-minute/4-3-Quality-control-QC-7bc5f6aaa41142b493a9b1db1c34e960?source=copy_link)
+    - [Quality control (QC)](https://app.notion.com/p/wait-a-minute/4-3-Quality-control-QC-7bc5f6aaa41142b493a9b1db1c34e960?source=copy_link)
+    - [BLAST](https://app.notion.com/p/wait-a-minute/6-BLAST-06e79c1b59fa46319f7eef5b9fb13444?source=copy_link)
 8. R로 보고서 쓰기 
     - [Rmarkdown] html 문서로 보고서 만들기 
     - [Quarto] R로 프레젠테이션 만들기   
 9. 실제 데이터 분석해 보기
-    - (Bacteria 16S rRNA amplicon)[https://app.notion.com/p/wait-a-minute/8-Example-dataset-analysis-DADA2-QIIME2-e8373c8b6aee4f86b30bcf5fd9f3a198?source=copy_link]
+    - [Bacteria 16S rRNA amplicon](https://app.notion.com/p/wait-a-minute/8-Example-dataset-analysis-DADA2-QIIME2-e8373c8b6aee4f86b30bcf5fd9f3a198?source=copy_link)
     - (Fungi ITS) 🚧
 
 

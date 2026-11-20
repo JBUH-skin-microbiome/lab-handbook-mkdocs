@@ -1,12 +1,12 @@
 ---
 layout: default
-title: 신입생 안내
+title: 대학원 입학 안내
 parent: 연구실 안내
 nav_order: 1
 permalink: /onboarding/graduate/
 ---
 
-# 신입생 안내
+# 대학원 입학 안내
 
 2024년 8월 29일 업데이트 자료 입니다. 주요한 정보는 최신 공지를 다시 확인해 주세요.
 {: .note }

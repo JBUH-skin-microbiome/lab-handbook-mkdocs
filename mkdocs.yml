@@ -65,13 +65,11 @@ nav:
 - 연구실 안내:
   - onboarding/index.md
   - 연구실 지원자: onboarding/applicants.md
-  - 신입생 안내: onboarding/graduate.md
-  - 입학 후 할일:
-    - onboarding/preparation.md
-    - R 및 RStudio:
-      - onboarding/r-rstudio.md
-    - Git and GitHub:
-      - Git 과 Github: operations/github.md
+  - 대학원 입학 안내: onboarding/graduate.md
+  - 연구실 적응 및 기초교육:
+    - 시작 체크리스트: onboarding/preparation.md
+    - R 및 RStudio: onboarding/r-rstudio.md
+    - Git and GitHub: operations/github.md
     - QIIME tutorial: onboarding/qiime-tutorial.md
     - QIIME analysis tutorial (amplicon): onboarding/qiime-analysis-amplicon.md
     - Shotgun tutorial: onboarding/shotgun-tutorial.md

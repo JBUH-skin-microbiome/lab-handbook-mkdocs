@@ -1,13 +1,12 @@
 ---
 layout: default
-title: 연구실 인턴쉽
-parent: 연구실 안내
+title: 시작 체크리스트
+parent: 연구실 적응 및 기초교육
 nav_order: 2
 permalink: /onboarding/preparation/
-has_children: true
 ---
 
-# 연구실 인턴쉽
+# 시작 체크리스트
 
 ## 입학 후 할 일
 

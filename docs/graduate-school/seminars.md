@@ -7,7 +7,7 @@ permalink: /graduate-school/seminars/
 
 # 자체 세미나
 
-[자체 세미나 자료 보기](https://app.notion.com/p/wait-a-minute/Lab-weekly-serminar-2b227c45489880fea62ff9da08f51be9?source=copy_link){ .md-button .md-button--primary }
+[자체 세미나 자료 보기](https://docs.google.com/document/d/1sc2vaywFOY1PcicPc3DnzkxWc_56v15PNQT8kCq-MdY/edit?usp=sharing){ .md-button .md-button--primary }
 
 *Sharing knowledge is the first step toward innovation.*
 

@@ -6,7 +6,9 @@ nav_order: 2
 permalink: /onboarding/preparation/
 ---
 
-# 체크리스트
+# 체크리스트 
+
+!!! notice 미완성 입니다. 
 
 ## 연구실 첫 출근
 
@@ -59,8 +61,8 @@ permalink: /onboarding/preparation/
 
 ## 연구실 두 달 차 
 1. 마이크로바이옴 논문을 읽고 발표해보자! (20분 이내)
-1. 기초 통계 이론을 공부합시다
-2. 선형 대수학을 공부합시다
+2. 기초 통계 이론을 공부합시다
+3. 
 
 
 

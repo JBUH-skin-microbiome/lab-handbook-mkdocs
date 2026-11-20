@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 연구시설장비 활용상태 자체점검
+title: 연구시설장비 활용상태 자체점검 (1분기)
 parent: 장비 및 자산 관리
 grand_parent: 연구실 운영
 permalink: /operations/equipment-management/self-inspection/

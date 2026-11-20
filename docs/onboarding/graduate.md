@@ -95,6 +95,7 @@ permalink: /onboarding/graduate/
 
 #### 전북대학교 대학원 연구윤리
 
+- 연 1회, 매월 7일 까지 신청 가능 
 - [연구윤리 교육 안내](https://graduate.jbnu.ac.kr/web/page.php?pcode=EI)
 
 #### 전북대학교 인권침해예방교육
@@ -104,10 +105,17 @@ permalink: /onboarding/graduate/
 #### 전북대학교 연구실 안전교육
 
 - 매 학기 시작전 학과 공고 알람
-- 홈페이지: <https://labsafety.jbnu.ac.kr/ushm/main/home.do>
 - 교육시간: 신규자는 2시간/ 재학생은 3시간
 - 교육 운영: 온라인 혹은 오프라인(집합교육)
-    - 신규자는 온라인만 가능
+    - 신규자는 집합교육 필수 
+- [연구실 안전교육](https://labsafety.jbnu.ac.kr/ushm/main/home.do)  
+
+#### 전북대학교 폭력예방 교육 
+
+- 교내 구성원의 법정의무교육
+- 매년 12월 31일 까지, 연 1회
+- 수행하지 않으면 2학기 성적 조회 불가
+- [전북대학교LMS](http://lms.jbnu.ac.kr)
 
 #### 임상연구센터 안전교육
 

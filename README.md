@@ -11,17 +11,6 @@
 
 `main` 브랜치에 변경 사항이 반영되면 GitHub Actions가 사이트를 빌드해 GitHub Pages에 배포합니다. 배포 상태는 저장소의 `Actions` 탭에서 확인합니다.
 
-## 로컬에서 확인하기
-
-Jekyll과 Bundler가 설치된 환경에서 아래 명령을 실행합니다.
-
-```bash
-bundle install
-bundle exec jekyll serve
-```
-
-사이트는 기본적으로 `http://localhost:4000/lab-handbook/`에서 확인할 수 있으며, 빌드 결과는 `_site` 디렉터리에 생성됩니다.
-
 ## 템플릿 정보
 
 이 사이트는 [Just the Docs template](https://github.com/just-the-docs/just-the-docs-template)을 기반으로 만들었습니다.

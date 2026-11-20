@@ -91,11 +91,27 @@ permalink: /onboarding/graduate/
 
 - 출입증 발급
 
-### 필수 교육
+### 교육
 
-- [연구윤리 교육 — 전북대학교 대학원](https://graduate.jbnu.ac.kr/web/page.php?pcode=EI)
+#### 전북대학교 대학원 연구윤리
 
-- 인권침해예방교육 ( <https://alpha-campus.kr/>)
+- [연구윤리 교육 안내](https://graduate.jbnu.ac.kr/web/page.php?pcode=EI)
+
+#### 전북대학교 인권침해예방교육
+
+- [인권침해예방교육](https://alpha-campus.kr/)
+
+#### 전북대학교 연구실 안전교육
+
+- 매 학기 시작전 학과 공고 알람
+- 홈페이지: <https://labsafety.jbnu.ac.kr/ushm/main/home.do>
+- 교육시간: 신규자는 2시간/ 재학생은 3시간
+- 교육 운영: 온라인 혹은 오프라인(집합교육)
+    - 신규자는 온라인만 가능
+
+#### 임상연구센터 안전교육
+
+교육 일정과 신청 방법은 임상연구센터 담당자에게 확인해 주세요.
 
 ### 이동식 저장매체 신청(USB, HHD)
 
@@ -104,17 +120,6 @@ permalink: /onboarding/graduate/
 1. [1. 휴대용 저장매체 사용신청서.hwp](https://app.notion.com/p/wait-a-minute/Tip-for-Graduate-student-f3dc1e532bf942e2ba73eb2e6f80e899#b7cf853c2186416d95359560c1fde5a2) — 26.5KB
 2. [2. 매체ID 확인방법.hwp](https://app.notion.com/p/wait-a-minute/Tip-for-Graduate-student-f3dc1e532bf942e2ba73eb2e6f80e899#764ce1626b284e7497f7b4a0eca70526) — 311.0KB
 3. [3. 예외처리 신청서.hwp](https://app.notion.com/p/wait-a-minute/Tip-for-Graduate-student-f3dc1e532bf942e2ba73eb2e6f80e899#818ca5370ac34c70a697666687b7ffc9) — 15.5KB
-
-### 전북대학교 연구실안전교육
-
-- 매 학기 시작전 학과 공고 알람
-- 홈페이지: <https://labsafety.jbnu.ac.kr/ushm/main/home.do>
-- 교육시간: 신규자는 2시간/ 재학생은 3시간
-- 교육 운영: 온라인 혹은 오프라인(집합교육)
-    - 신규자는 온라인만 가능
-
-### 전북대학교 폭력예방교육
-
 
 ### 대학원 규정 (20230517 개정본)
 

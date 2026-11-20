@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 회의 및 저널클럽
-parent: 대학원
+parent: 연구실 안내
 nav_order: 6
 permalink: /meetings/
 ---

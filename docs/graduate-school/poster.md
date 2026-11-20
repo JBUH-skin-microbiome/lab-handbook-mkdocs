@@ -7,14 +7,6 @@ permalink: /graduate-school/poster/
 ---
 
 # 학술 포스터
-{: .no_toc }
-
-## 목차
-{: .no_toc }
-
-1. TOC
-{:toc}
-
 ## 1. 포스터 제작
 
 ### 1) 포스터 종류

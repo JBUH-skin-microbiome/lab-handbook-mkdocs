@@ -11,14 +11,14 @@ theme:
   font: false
   palette:
   - scheme: default
-    primary: teal
-    accent: teal
+    primary: indigo
+    accent: indigo
     toggle:
       icon: material/weather-night
       name: 다크 모드
   - scheme: slate
-    primary: teal
-    accent: teal
+    primary: indigo
+    accent: indigo
     toggle:
       icon: material/weather-sunny
       name: 라이트 모드
@@ -27,6 +27,7 @@ theme:
   - navigation.sections
   - navigation.indexes
   - navigation.top
+  - toc.integrate
   - search.suggest
   - search.highlight
   - content.action.edit
@@ -59,7 +60,7 @@ markdown_extensions:
     permalink: true
 extra_css:
 - assets/css/pretendard.css
-- assets/css/handbook.css
+- assets/css/handbook-theme.css
 nav:
 - 홈: index.md
 - 연구실 안내:
@@ -151,3 +152,4 @@ nav:
     - graduate-school/other/index.md
     - '[Format] USB': graduate-school/other/usb.md
     - 신입생 모집 공고: graduate-school/other/recruitment.md
+

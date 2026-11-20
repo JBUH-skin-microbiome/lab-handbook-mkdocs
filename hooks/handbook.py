@@ -69,6 +69,31 @@ def on_page_markdown(markdown, page, config, files):
     markdown = re.sub(r'(!?\[[^\]]*\]\()([^\s)]+)\)', source_link, markdown)
     return markdown
 
+def on_page_content(content, page, config, files):
+    """Number sections and their TOC entries without changing anchor IDs."""
+    numbers = {}
+    def number(items, prefix=()):
+        index = 0
+        for item in items:
+            if item.level == 1:
+                number(item.children, prefix)
+                continue
+            index += 1
+            parts = prefix + (index,)
+            label = '.'.join(map(str, parts))
+            numbers[item.id] = label
+            item.title = label + '. ' + re.sub(r'^\d+(?:\.\d+)*[.)]\s+', '', item.title)
+            number(item.children, parts)
+    number(page.toc.items)
+    def heading(match):
+        opening, anchor, body, closing = match.groups()
+        label = numbers.get(html.unescape(anchor))
+        if not label:
+            return match[0]
+        body = re.sub(r'^\d+(?:\.\d+)*[.)]\s+', '', body)
+        return opening + label + '. ' + body + closing
+    return re.sub(r'(<h[2-6]\b[^>]*\bid="([^"]+)"[^>]*>)(.*?)(</h[2-6]>)', heading, content, flags=re.S)
+
 def on_post_page(output, page, config):
     dest = page.meta.get('handbook_destination')
     if dest:

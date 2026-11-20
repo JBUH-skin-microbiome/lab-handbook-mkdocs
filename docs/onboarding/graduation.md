@@ -7,14 +7,6 @@ permalink: /onboarding/graduation/
 ---
 
 # 졸업 안내
-{: .no_toc }
-
-## 목차
-{: .no_toc }
-
-1. TOC
-{:toc}
-
 > 아래 일정은 과거 예시입니다. 실제 신청에는 해당 학기의 학과 공지를 확인하세요.
 
 ## 1. 개요

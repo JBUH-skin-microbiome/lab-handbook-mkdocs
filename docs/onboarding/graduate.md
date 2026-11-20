@@ -12,12 +12,6 @@ permalink: /onboarding/graduate/
 {: .note }
 
 
-## 목차
-{: .no_toc }
-
-1. TOC
-{:toc}
-
 ## 입학 전
 
 ### 선행 학습

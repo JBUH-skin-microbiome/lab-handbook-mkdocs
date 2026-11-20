@@ -18,7 +18,10 @@ permalink: /onboarding/preparation/
 4. 연구실 출입 카드 발급
     - 임상연구지원센터 정문 및 101호: 무료
     - 의과대학 본관 출입 카드: 10,000원 (현금)
-  
+5. 연구실 공간 둘러보기
+    - 101호, 1층 실험실, 2층 실험실, 디프리저실, 외래
+6. 멘토가 공용 카드로 커피 사주기
+
 
 ## 연구실 일주일
 공부한 내용은 개인 Github 에 날짜 별로 기록해 봅시다! 
@@ -51,7 +54,6 @@ permalink: /onboarding/preparation/
     - [Linux basic](https://app.notion.com/p/wait-a-minute/4-1-Linux-basic-10e457fa64834fb6b9af8638e7d23ec0?source=copy_link)
     - [Linux basic 2](https://app.notion.com/p/wait-a-minute/4-2-Linux-basic-2-3aa27c45489880bcadfbc9c193b8dd08?source=copy_link)
 6. QIIME으로 마이크로바이옴 분석하기
-    - [Quality control (QC)](https://app.notion.com/p/wait-a-minute/4-3-Quality-control-QC-7bc5f6aaa41142b493a9b1db1c34e960?source=copy_link)
     - [Quality control (QC)](https://app.notion.com/p/wait-a-minute/4-3-Quality-control-QC-7bc5f6aaa41142b493a9b1db1c34e960?source=copy_link)
     - [BLAST](https://app.notion.com/p/wait-a-minute/6-BLAST-06e79c1b59fa46319f7eef5b9fb13444?source=copy_link)
 8. R로 보고서 쓰기 

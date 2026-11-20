@@ -6,9 +6,7 @@ nav_order: 0
 permalink: /onboarding/applicants/
 ---
 
-# 연구실 지원자
-
-## 연구실 지원 방법
+# 연구실 지원 방법
 
 연구실 지원 시 아래 서류를 자유양식으로 준비해 주세요.
 

@@ -1,12 +1,12 @@
 ---
 layout: default
-title: 의료폐기물 처리
+title: 의료폐기물 점검
 parent: 안전관리
 grand_parent: 연구실 운영
 permalink: /operations/safety/medical-waste/
 ---
 
-# 의료폐기물 처리
+# 의료폐기물 점검
 
 ## 원칙
 

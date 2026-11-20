@@ -1,21 +1,22 @@
-# Lab Manual
+# JBSM Handbook — MkDocs preview
 
-피부마이크로바이옴연구실의 업무와 연구에 필요한 안내를 모아 둔 문서입니다. 신규 구성원 연구실 안내, 연구실 운영, 프로젝트 관리, 실험 및 분석 튜토리얼, 대학원 관련 내용을 확인할 수 있습니다.
-
-- [Lab Manual 바로가기](https://jbuh-skin-microbiome.github.io/lab-handbook/)
-- [연구실 홈페이지](https://jbuh-skin-microbiome.github.io/)
+Material for MkDocs 기반의 연구실 Handbook 시범판입니다. 기존 lab-handbook은 변경하지 않습니다.
 
 ## 문서 수정
 
-문서는 Markdown으로 작성합니다. 각 페이지 아래의 `Edit` 버튼을 누르면 GitHub에서 해당 문서를 바로 수정할 수 있고, `Error report` 버튼으로 오류를 제보할 수 있습니다.
+사이트의 연필 버튼 또는 `docs/` 아래 Markdown 파일을 편집합니다. 기존 Jekyll 메타데이터와 링크는 작성 이력을 보존하기 위해 유지하고 `hooks/handbook.py`에서 변환합니다. 새 문서는 일반 Markdown으로 작성하고 `mkdocs.yml`의 `nav`에 추가합니다.
 
-`main` 브랜치에 변경 사항이 반영되면 GitHub Actions가 사이트를 빌드해 GitHub Pages에 배포합니다. 배포 상태는 저장소의 `Actions` 탭에서 확인합니다.
+## 로컬 실행
 
-## 템플릿 정보
+```sh
+python -m pip install -r requirements.txt
+mkdocs serve
+```
 
-이 사이트는 [Just the Docs template](https://github.com/just-the-docs/just-the-docs-template)을 기반으로 만들었습니다.
+배포 전 검증: `mkdocs build --strict`. GitHub Pages의 Source를 **GitHub Actions**로 설정하면 main에 반영할 때 자동 배포됩니다.
 
-- Jekyll과 [Just the Docs](https://just-the-docs.github.io/just-the-docs/) 테마를 사용합니다.
-- 테마와 플러그인 버전은 `Gemfile`, 사이트 설정은 `_config.yml`에서 관리합니다.
-- GitHub Actions와 [GitHub Pages](https://docs.github.com/en/pages)를 이용해 자동으로 빌드하고 배포합니다.
-- 원본 템플릿과 관련 구성 요소의 라이선스 및 저작권 고지는 저장소의 라이선스 파일과 각 프로젝트의 안내를 따릅니다.
+## 이전 범위와 기여도
+
+`migration-inventory.json`은 원본 커밋과 이전한 75개 문서, 7개 정적 파일을 기록합니다. 외부 Notion/Google Drive 문서는 링크를 유지하며 그 내용을 복제하지 않습니다. 기존 Git 이력을 보존하고 문서 본문을 수정하지 않은 채 docs/로 이동했습니다.
+
+상단의 기여 비율은 Git에서 계산한 현재 소스 줄 수 기준이며 연구 성과의 비율이 아닙니다. 현재 원형 표시는 이름의 첫 글자입니다. GitHub 사진과 연구원별 글 목록은 후속 확장 대상입니다. 이메일 주소는 화면에 표시하지 않습니다.

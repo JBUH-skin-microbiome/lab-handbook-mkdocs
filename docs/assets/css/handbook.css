@@ -1,0 +1,11 @@
+:root { --md-text-font: "Pretendard Variable"; }
+[data-md-color-scheme="default"] { --md-primary-fg-color: #126b64; --md-accent-fg-color: #087f75; }
+.md-grid { max-width: 76rem; }
+.md-typeset { font-size: .85rem; line-height: 1.8; }
+.md-typeset h1 { font-weight: 750; color: var(--md-default-fg-color); }
+.handbook-contributors { border: 1px solid var(--md-default-fg-color--lightest); border-radius: .6rem; padding: .85rem 1rem; margin: 0 0 1.5rem; }
+.handbook-contributors__list { display: flex; flex-wrap: wrap; gap: .6rem 1.2rem; margin: .5rem 0; }
+.handbook-contributor { display: inline-flex; align-items: center; gap: .4rem; font-size: .75rem; }
+.handbook-avatar { display: inline-flex; align-items: center; justify-content: center; width: 1.6rem; height: 1.6rem; border-radius: 50%; background: var(--md-primary-fg-color); color: white; font-weight: 700; }
+.handbook-contributors small { display: block; font-size: .7rem; color: var(--md-default-fg-color--light); }
+.md-typeset img { height: auto; }

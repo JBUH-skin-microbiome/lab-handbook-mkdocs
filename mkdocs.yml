@@ -1,0 +1,152 @@
+site_name: JBSM Handbook
+site_description: 피부마이크로바이옴연구실 운영 및 연구 안내
+site_url: https://JBUH-skin-microbiome.github.io/lab-handbook-mkdocs/
+repo_url: https://github.com/JBUH-skin-microbiome/lab-handbook-mkdocs
+repo_name: JBUH-skin-microbiome/lab-handbook-mkdocs
+edit_uri: edit/main/docs/
+theme:
+  name: material
+  language: ko
+  custom_dir: overrides
+  font: false
+  palette:
+  - scheme: default
+    primary: teal
+    accent: teal
+    toggle:
+      icon: material/weather-night
+      name: 다크 모드
+  - scheme: slate
+    primary: teal
+    accent: teal
+    toggle:
+      icon: material/weather-sunny
+      name: 라이트 모드
+  features:
+  - navigation.tabs
+  - navigation.sections
+  - navigation.indexes
+  - navigation.top
+  - search.suggest
+  - search.highlight
+  - content.action.edit
+  - content.action.view
+  - content.code.copy
+plugins:
+- search
+- git-authors:
+    show_contribution: true
+    show_email_address: false
+    count_empty_lines: false
+- git-revision-date-localized:
+    enable_creation_date: true
+    type: date
+    locale: ko
+    fallback_to_build_date: false
+hooks:
+- hooks/handbook.py
+markdown_extensions:
+- admonition
+- attr_list
+- md_in_html
+- tables
+- pymdownx.details
+- pymdownx.superfences
+- pymdownx.tabbed:
+    alternate_style: true
+- toc:
+    permalink: true
+extra_css:
+- assets/css/pretendard.css
+- assets/css/handbook.css
+nav:
+- 홈: index.md
+- 연구실 안내:
+  - onboarding/index.md
+  - 연구실 지원자: onboarding/applicants.md
+  - 신입생 안내: onboarding/graduate.md
+  - 준비할 것들:
+    - onboarding/preparation.md
+    - R 및 RStudio:
+      - onboarding/r-rstudio.md
+      - R Project 가이드: projects/r-project.md
+    - Git and GitHub:
+      - onboarding/git-github.md
+      - Git 과 Github: operations/github.md
+    - QIIME tutorial: onboarding/qiime-tutorial.md
+    - QIIME analysis tutorial (amplicon): onboarding/qiime-analysis-amplicon.md
+    - Shotgun tutorial: onboarding/shotgun-tutorial.md
+  - 이전 홈페이지: onboarding/previous-website.md
+  - Notion(권한요청): onboarding/notion.md
+  - Google drive (권한요청): onboarding/google-drive.md
+- 연구실 운영:
+  - operations/index.md
+  - 홈페이지 관리: operations/homepage.md
+  - 서버 관리: operations/server.md
+  - 주문 관리: operations/management/orders.md
+  - 안전관리: operations/safety.md
+  - 인건비 및 연구비 관리: operations/finance.md
+  - 노션 관리:
+    - operations/notion/index.md
+    - Notion 소개: operations/notion/introduction.md
+  - 실험 및 분석 프로토콜 관리: operations/protocols.md
+- 프로젝트 관리:
+  - projects/index.md
+  - 임상 시험:
+    - projects/clinical-trials/index.md
+    - 임상 데이터: projects/clinical-data/index.md
+    - IRB: projects/clinical-trials/irb.md
+  - 연구 프로젝트:
+    - projects/research/index.md
+    - 데이터관리:
+      - projects/research/data-management.md
+      - 샘플 데이터: projects/sample-data/index.md
+      - 실험 데이터: projects/research/experimental-data.md
+      - NGS 데이터: projects/ngs-data/index.md
+    - 분석:
+      - projects/research/analysis.md
+      - 연구 재현성: projects/reproducibility.md
+  - 논문: projects/paper.md
+  - 기타:
+    - projects/other/index.md
+    - '[format] 임상시험 모집 공고문': projects/other/recruitment.md
+    - 시퀀싱 수주: projects/other/sequencing.md
+  - 약어: operations/abbreviations.md
+- 실험 및 분석 튜토리얼:
+  - tutorials/index.md
+  - Wet lab:
+    - tutorials/wet-lab/index.md
+    - Amplicon (16S rRNA): tutorials/wet-lab/amplicon-16s.md
+    - Amplicon (ITS): tutorials/wet-lab/amplicon-its.md
+    - Shotgun Metagenome: tutorials/wet-lab/shotgun-metagenome.md
+    - Proteomics: tutorials/wet-lab/proteomics.md
+    - Transcriptomics(Bulk): tutorials/wet-lab/transcriptomics-bulk.md
+    - Transcriptomics(Single cell): tutorials/wet-lab/transcriptomics-single-cell.md
+  - Dry lab:
+    - tutorials/dry-lab/index.md
+    - PCR: tutorials/dry-lab/pcr.md
+    - DNA extraction: tutorials/dry-lab/dna-extraction.md
+    - qPCR: tutorials/dry-lab/qpcr.md
+    - Culture: tutorials/dry-lab/culture.md
+    - Sequencing: tutorials/dry-lab/sequencing.md
+    - Nextflow 가이드: projects/nextflow.md
+- 대학원:
+  - graduate-school/index.md
+  - 졸업 안내: onboarding/graduation.md
+  - 학술 포스터: graduate-school/poster.md
+  - 학회: graduate-school/conferences.md
+  - 학사 일정: graduate-school/calendar.md
+  - 연락처: graduate-school/contacts.md
+  - 회의 및 저널클럽: meetings/index.md
+  - 학술 글쓰기:
+    - writing/index.md
+    - '[Tip] 논문 검색': writing/paper-search.md
+    - '[Protocol] Endnote사용 법': writing/endnote.md
+    - '[Tip] 논문 Outline 작성 참고': writing/outline.md
+    - '[Tip] 논문 Outline 작성 참고 (서식)': writing/outline-format.md
+    - 과제 제안서/보고서 ppt 템플릿: writing/presentation-template.md
+    - 논문 게재하기: writing/publishing.md
+  - 기타:
+    - graduate-school/other/index.md
+    - '[Format] USB': graduate-school/other/usb.md
+    - 신입생 모집 공고: graduate-school/other/recruitment.md

@@ -10,10 +10,10 @@ permalink: /operations/safety/medical-waste/
 
 ## 원칙
 
+- 안전 관리 담당자가 격주 마다 목요일에 폐기합니다.
 - 의료폐기물 전용용기를 사용합니다.
 - 사용 시작 시 사용개시일을 기입합니다.
 - 보관기간 안에 박스째 폐기합니다.
-- 매월 1일과 15일에 박스 상태와 폐기 여부를 확인합니다.
 - 감염성 폐기물이 일반폐기물과 섞이지 않도록 분리 보관합니다.
 
 ## 관리 점검
@@ -30,7 +30,6 @@ permalink: /operations/safety/medical-waste/
 ## 폐기물 박스 수령
 
 - 임상연구지원센터 318호
-- 담당자와 연락처는 내부 원문에서 확인합니다.
 
 ## 교육자료
 
@@ -38,14 +37,7 @@ permalink: /operations/safety/medical-waste/
 
 ## 의료폐기물 분리배출 포스터
 
-### 의료폐기물 분리배출 및 성상 분류 기준
 
 ![의료폐기물과 일반폐기물 분리배출 및 성상 분류 기준]({{ '/assets/images/safety/medical-waste-separation.png' | relative_url }})
-
-### 의료폐기물 판정 흐름도
-
 ![의료폐기물 판정 흐름도]({{ '/assets/images/safety/medical-waste-flowchart.png' | relative_url }})
-
-### 의료폐기물과 일반폐기물 분리배출 안내
-
 ![의료폐기물과 일반폐기물 분리배출 안내]({{ '/assets/images/safety/medical-waste-reminder.png' | relative_url }})

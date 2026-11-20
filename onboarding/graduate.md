@@ -70,6 +70,8 @@ permalink: /onboarding/graduate/
 - 공지사항: [전북대학교 의과대학 공지사항](https://med.jbnu.ac.kr/med/12710/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGbWVkJTJGMTkwMSUyRmFydGNsTGlzdC5kbyUzRmJic0NsU2VxJTNEMTczOCUyNmJic09wZW5XcmRTZXElM0QlMjZpc1ZpZXdNaW5lJTNEZmFsc2UlMjZzcmNoQ29sdW1uJTNEc2olMjZzcmNoV3JkJTNEJTI2)
 - 교육과정: <https://med.jbnu.ac.kr/med/12690/subview.do>
 
+---
+
 ## 입학 후
 
 ### 학점

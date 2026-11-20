@@ -22,3 +22,4 @@ permalink: /operations/safety/risk-assessment/
 ## 기존 작성 서류
 
 - [2025년 위험성평가절차서](https://drive.google.com/file/d/12rYdcOzEba72c54rfUbloaQLFeiNXxTe/view?usp=drive_link)
+- 2026년 위험성평가절차서: 추가바람

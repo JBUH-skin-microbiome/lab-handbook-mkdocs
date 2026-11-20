@@ -37,4 +37,4 @@ permalink: /operations/homepage/
 
 ## GitHub 관리
 
-저장소 관리와 문서 수정·배포 방법은 [연구실 GitHub 관리](github-management.md)를 참고하세요.
+문서 수정·배포 방법은 [Manual 페이지 관리](manual-management.md)를, 저장소와 계정 관리는 [공용 GitHub 관리](github-usage.md)를 참고하세요.

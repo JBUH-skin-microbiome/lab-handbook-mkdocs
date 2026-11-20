@@ -16,9 +16,9 @@ permalink: /operations/safety/
 
 - [안전관리 기본](safety/basic.md): 적용 대상과 연구실 위험도 구분
 - [교육 및 점검](safety/training-inspection.md): 안전교육, 기록 보관, 유해화학물질과 일상점검
-- [전북대학교 연구실 안전교육](safety/jbnu-lab-safety-training.md): 신규·정기 교육의 대상, 시기와 이수 방법
-- [의생명연구원 정기 안전보건교육](safety/biomedical-regular-safety-training.md): 분기별 교육자료 확인, 교육일지 작성과 제출
-- [의생명연구원 연구활동종사자 신규직원교육](safety/new-employee-training.md): 신규 채용 후 6개월 이내 이수하는 안전교육과 제출 서류
+- [(신규 1회·정기 연 1회/반기별) 전북대학교 연구실 안전교육](safety/jbnu-lab-safety-training.md): 신규·정기 교육의 대상, 시기와 이수 방법
+- [(분기별) 의생명연구원 정기 안전보건교육](safety/biomedical-regular-safety-training.md): 교육자료 확인, 교육일지 작성과 제출
+- [(신규 채용 시 1회) 의생명연구원 연구활동종사자 신규직원교육](safety/new-employee-training.md): 채용 후 6개월 이내 이수하는 안전교육과 제출 서류
 - [의료폐기물 처리](safety/medical-waste.md): 전용용기, 사용개시일과 월별 점검
 - [위험성 평가](safety/risk-assessment.md): 의생명연구원 위험성 평가와 관련 자료
 

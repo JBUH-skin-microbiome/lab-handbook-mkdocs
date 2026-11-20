@@ -98,8 +98,10 @@ nav:
     - 전북대학교 연구실 안전교육: operations/safety/jbnu-lab-safety-training.md
     - 의생명연구원 정기 안전보건교육: operations/safety/biomedical-regular-safety-training.md
     - 의생명연구원 연구활동종사자 신규직원교육: operations/safety/new-employee-training.md
+    - (해당 시 1회) 유해화학물질 특별안전보건교육: operations/safety/hazardous-chemical-special-training.md
     - 의료폐기물 처리: operations/safety/medical-waste.md
-    - 위험성 평가: operations/safety/risk-assessment.md
+    - (연 1회) 위험성 평가: operations/safety/risk-assessment.md
+    - (연 1회) 유해화학물질 사용 실태조사: operations/safety/hazardous-chemical-survey.md
   - 인건비 및 연구비 관리: operations/finance.md
   - 노션 관리:
     - operations/notion/index.md

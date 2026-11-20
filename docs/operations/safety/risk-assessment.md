@@ -6,7 +6,7 @@ grand_parent: 연구실 운영
 permalink: /operations/safety/risk-assessment/
 ---
 
-# 위험성 평가
+# (연 1회) 위험성 평가
 
 ## 목적
 

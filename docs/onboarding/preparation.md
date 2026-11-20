@@ -29,10 +29,13 @@ permalink: /onboarding/preparation/
 3. MobaXterm으로 서버에 접속해서 리눅스 공부하기
 4. 생물정보학 기초 이론
     - [생물정보학 및 시퀀싱 기초](https://app.notion.com/p/wait-a-minute/2-1-Bioinformatic-and-sequencing-349437ded5584adb99e20426683921c2?source=copy_link)
-6. 마이크로바이옴이란?
+5. 마이크로바이옴이란?
     - [Human microbiome](https://app.notion.com/p/wait-a-minute/2-2-Human-microbiome-e2fad0bc9856467d99bbf18812a9674e?source=copy_link)
     - [Microbiome analysis](https://app.notion.com/p/wait-a-minute/3-Microbiome-analysis-fd72ef7759c44ba593142a7d529144ef?source=copy_link)
     - [Skin microbiome papers](https://app.notion.com/p/wait-a-minute/2-3-Skin-microbiome-1f6d5c04e24648738281a7b4b00bbefc?source=copy_link)
+6. 저널클럽 발표자료 보기
+    - [저널클럽 목록](https://docs.google.com/spreadsheets/d/1ZtvPcRL7w50GyNrI5GPhvMyXGs0ARMxv7KLbv8z41Ro/edit?gid=1923158560#gid=1923158560)
+
 
 ## 연구실 한 달 차 
 1. R을 활용한 기초 통계 배우기

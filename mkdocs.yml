@@ -67,13 +67,11 @@ nav:
   - onboarding/index.md
   - 연구실 지원자: onboarding/applicants.md
   - 신입생 안내: onboarding/graduate.md
-  - 준비할 것들:
+  - 연구실 인턴쉽:
     - onboarding/preparation.md
     - R 및 RStudio:
       - onboarding/r-rstudio.md
-      - R Project 가이드: projects/r-project.md
     - Git and GitHub:
-      - onboarding/git-github.md
       - Git 과 Github: operations/github.md
     - QIIME tutorial: onboarding/qiime-tutorial.md
     - QIIME analysis tutorial (amplicon): onboarding/qiime-analysis-amplicon.md
@@ -104,7 +102,6 @@ nav:
   - 연구 프로젝트:
     - projects/research/index.md
     - 데이터관리:
-      - projects/research/data-management.md
       - 샘플 데이터: projects/sample-data/index.md
       - 실험 데이터: projects/research/experimental-data.md
       - NGS 데이터: projects/ngs-data/index.md

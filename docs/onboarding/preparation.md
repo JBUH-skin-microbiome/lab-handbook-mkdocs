@@ -1,13 +1,13 @@
 ---
 layout: default
-title: 준비할 것들
+title: 연구실 인턴쉽
 parent: 연구실 안내
 nav_order: 2
 permalink: /onboarding/preparation/
 has_children: true
 ---
 
-# 준비할 것들
+# 연구실 인턴쉽
 
 ## 입학 후 할 일
 

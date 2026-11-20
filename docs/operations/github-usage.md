@@ -18,7 +18,8 @@ permalink: /operations/github-usage/
 | 저장소 | 용도 | 수정할 브랜치 |
 | --- | --- | --- |
 | [JBUH-skin-microbiome.github.io](https://github.com/JBUH-skin-microbiome/JBUH-skin-microbiome.github.io) | 연구실 홈페이지 | `master` |
-| [lab-handbook-mkdocs](https://github.com/JBUH-skin-microbiome/lab-handbook-mkdocs) | 현재 사용하는  Handbook | `main` |
+| [lab-handbook-mkdocs](https://github.com/JBUH-skin-microbiome/lab-handbook-mkdocs) | 현재 사용하는  Handbook | `main` |  
+
 
 
 ## 홈페이지 수정

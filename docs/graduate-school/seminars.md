@@ -7,30 +7,34 @@ permalink: /graduate-school/seminars/
 
 # 자체 세미나
 
-[자체 세미나 자료 보기](https://app.notion.com/p/wait-a-minute/04-2b227c4548988071b29cd3f2335625c4?source=copy_link){ .md-button .md-button--primary }
+[자체 세미나 자료 보기](https://app.notion.com/p/wait-a-minute/Lab-weekly-serminar-2b227c45489880fea62ff9da08f51be9?source=copy_link){ .md-button .md-button--primary }
 
-## Purpose
+*Sharing knowledge is the first step toward innovation.*
 
-1. Build common and consistent workflows
-2. Enhance the lab’s technical capabilities
-3. Establish a culture of code sharing
-4. Stay updated with new analysis methods and packages
-5. Strengthen analysis reproducibility
+---
 
-## Format
+- **Purpose**
 
-- Friday, anytime, 30 minutes per session
+    1. Build common and consistent workflows
+    2. Enhance the lab’s technical capabilities
+    3. Establish a culture of code sharing
+    4. Stay updated with new analysis methods and packages
+    5. Strengthen analysis reproducibility
 
-## Scope of Topics
+- **Format**
 
-- Code sharing in R, Python, Bash
-- Introduction of 🆕 packages/libraries + AI tools (like gemini)
-- Workflow automation (Nextflow, Snakemake)
-- Git, VS Code setup, and development tools
-- QC and analysis pipeline case studies
-- Recent microbiome paper highlights (optional)
+    - Friday, anytime, 30 minutes per session
 
-## Ground Rules
+- **Scope of Topics**
 
-- All questions are welcome
-- Open and free-form discussion encouraged
+    - Code sharing in R, Python, Bash
+    - Introduction of 🆕packages/libraries + AI tools (like gemini)
+    - Workflow automation (Nextflow, Snakemake)
+    - Git, VS Code setup, and development tools
+    - QC and analysis pipeline case studies
+    - Recent microbiome paper highlights (optional)
+
+- **Ground Rules**
+
+    - All questions are welcome
+    - Open and free-form discussion encouraged

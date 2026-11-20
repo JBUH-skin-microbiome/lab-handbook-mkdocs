@@ -20,7 +20,7 @@ permalink: /operations/safety/
 - [(분기별) 의생명연구원 정기 안전보건교육](safety/biomedical-regular-safety-training.md): 교육자료 확인, 교육일지 작성과 제출
 - [(신규 채용 시 1회) 의생명연구원 연구활동종사자 신규직원교육](safety/new-employee-training.md): 채용 후 6개월 이내 이수하는 안전교육과 제출 서류
 - [의료폐기물 처리](safety/medical-waste.md): 전용용기, 사용개시일과 월별 점검
-- [위험성 평가](safety/risk-assessment.md): 의생명연구원 위험성 평가와 관련 자료
+- [(연 1회) 위험성 평가](safety/risk-assessment.md): 의생명연구원 위험성 평가와 관련 자료
 
 !!! warning "원문 확인 필요"
     Notion의 두 안전관리 문서에서 연구실 위험도를 각각 **중위험**과 **고위험(전북대학교 안전교육상 저위험 분류)**으로 다르게 적고 있습니다. 확정 전까지는 안전관리 담당자와 기관 공지를 기준으로 적용해 주세요.

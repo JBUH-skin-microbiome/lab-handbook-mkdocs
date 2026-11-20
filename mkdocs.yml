@@ -23,7 +23,9 @@ theme:
       icon: material/weather-sunny
       name: 라이트 모드
   features:
-  - navigation.sections
+  - navigation.expand
+  - navigation.path
+  - toc.follow
   - navigation.indexes
   - navigation.top
   - search.suggest

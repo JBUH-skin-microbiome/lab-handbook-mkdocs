@@ -8,7 +8,7 @@ permalink: /operations/safety/
 
 # 안전관리
 
-[전북대학교 연구실안전관리시스템](https://labsafety.jbnu.ac.kr/ushm/main/home.do){: .btn .btn-primary target="_blank" rel="noopener noreferrer" }
+[전북대학교 연구실안전관리시스템](https://labsafety.jbnu.ac.kr/ushm/main/home.do){ .md-button .md-button--primary target="_blank" rel="noopener noreferrer" }
 
 ## 확인할 사항
 

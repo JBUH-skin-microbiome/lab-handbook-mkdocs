@@ -1,5 +1,2 @@
 :root { --md-text-font: "Pretendard Variable"; }
 .md-grid { max-width: 76rem; }
-.md-typeset { font-size: .85rem; line-height: 1.8; }
-.md-typeset h1 { font-weight: 750; color: var(--md-default-fg-color); }
-.md-typeset img { height: auto; }

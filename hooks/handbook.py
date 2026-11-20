@@ -16,11 +16,30 @@ def on_config(config):
         PAGES[path.relative_to(config.docs_dir).as_posix()] = meta or {}
     return config
 
-def children(src):
-    parent = PAGES[src]
-    return sorted((p for p, m in PAGES.items() if m.get('parent') == parent.get('title')
-                  and (not m.get('grand_parent') or m['grand_parent'] == parent.get('parent'))),
-                  key=lambda p: PAGES[p].get('nav_order', 999))
+SECTION_PAGES = {}
+
+def on_nav(nav, config, files):
+    """Use MkDocs navigation as the single source for section overviews."""
+    SECTION_PAGES.clear()
+    def first_page(item):
+        if item.is_page:
+            return item
+        if item.is_section and item.children:
+            return first_page(item.children[0])
+        return None
+    def visit(items):
+        for item in items:
+            if not item.is_section:
+                continue
+            if item.children and item.children[0].is_page:
+                overview = item.children[0]
+                SECTION_PAGES[overview.file.src_uri] = [
+                    (child.title, first_page(child))
+                    for child in item.children[1:] if first_page(child)
+                ]
+            visit(item.children)
+    visit(nav.items)
+    return nav
 
 def on_page_markdown(markdown, page, config, files):
     src = page.file.src_uri
@@ -30,16 +49,12 @@ def on_page_markdown(markdown, page, config, files):
     markdown = re.sub(r'\{\{\s*[\'"]([^\'"]+)[\'"]\s*\|\s*relative_url\s*\}\}', lambda m: url(m[1]), markdown)
     markdown = re.sub(r'https://jbuh-skin-microbiome.github.io/lab-handbook/([^\s)\"<>]*)',
                       lambda m: url('/' + m[1]), markdown, flags=re.I)
-    if '{% assign tutorial_groups' in markdown:
-        markdown = markdown.split('{% assign tutorial_groups', 1)[0]
-        for group in children(src):
-            markdown += '\n## ' + PAGES[group]['title'] + '\n\n'
-            for child in children(group):
-                markdown += f'- [{PAGES[child]["title"]}]({url(PAGES[child]["permalink"])})\n'
-    elif page.meta.get('has_children') and page.meta.get('has_toc', True):
+    if SECTION_PAGES.get(src):
         markdown += '\n\n## 관련 문서\n\n'
-        for child in children(src):
-            markdown += f'- [{PAGES[child]["title"]}]({url(PAGES[child]["permalink"])})\n'
+        for title, child in SECTION_PAGES[src]:
+            target = posixpath.relpath(child.file.src_uri, posixpath.dirname(src) or '.')
+            title = title.replace('[', r'\[').replace(']', r'\]')
+            markdown += f'- [{title}]({target})\n'
     if page.meta.get('destination'):
         dest = page.meta['destination']
         parsed = urlsplit(dest)

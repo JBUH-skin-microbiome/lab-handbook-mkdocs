@@ -8,6 +8,6 @@ permalink: /onboarding/previous-website/
 
 # 이전 홈페이지
 
-[이전 홈페이지 열기](https://sites.google.com/view/skinmicrobiome-lab/home){: .btn .btn-primary target="_blank" rel="noopener noreferrer" }
+[이전 홈페이지 열기](https://sites.google.com/view/skinmicrobiome-lab/home){ .md-button .md-button--primary target="_blank" rel="noopener noreferrer" }
 
 

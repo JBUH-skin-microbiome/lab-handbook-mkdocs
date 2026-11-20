@@ -23,5 +23,6 @@ permalink: /onboarding/forms/
 | 대학원 및 학술 글쓰기 | [신입생 모집 공고 양식](../graduate-school/other/recruitment.md) | 대학원생 및 연구원 모집 공고 작성 |
 | 프로젝트 및 연구 업무 | [임상시험 모집 공고문](../projects/other/recruitment.md) | 임상시험 대상자 모집 공고 작성 |
 | 프로젝트 및 연구 업무 | [시퀀싱 수주 양식](../projects/other/sequencing.md) | 외부 시퀀싱 의뢰 및 수주 |
+| 연구원 모집공고| [연구원 모집 공고](https://docs.google.com/presentation/d/13eh4oj5agl59wyxbgQSSfoDZMNoY9zxK/edit?usp=drive_link&ouid=110884691117122301140&rtpof=true&sd=true) | 대학원생 모집 공고| 
 
 양식을 추가하거나 수정한 경우, 원래 목적별 페이지와 이 목록을 함께 확인해 주세요.

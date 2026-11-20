@@ -16,6 +16,7 @@ permalink: /operations/safety/
 
 - [안전관리 기본](safety/basic.md): 적용 대상과 연구실 위험도 구분
 - [교육 및 점검](safety/training-inspection.md): 안전교육, 기록 보관, 유해화학물질과 일상점검
+- [의생명연구원 연구활동종사자 신규직원교육](safety/new-employee-training.md): 신규 채용 후 6개월 이내 이수하는 안전교육과 제출 서류
 - [의료폐기물 처리](safety/medical-waste.md): 전용용기, 사용개시일과 월별 점검
 - [위험성 평가](safety/risk-assessment.md): 의생명연구원 위험성 평가와 관련 자료
 

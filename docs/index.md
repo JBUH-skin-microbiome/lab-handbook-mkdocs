@@ -1,21 +1,21 @@
 ---
 layout: home
-title: Lab manual
+title: 연구실 매뉴얼
 nav_order: 0
 ---
 
-# Lab manual
+# 연구실 매뉴얼
 
 연구실 생활과 연구에 필요한 자료를 모았습니다.
 왼쪽 메뉴를 펼치거나 검색창에 찾는 내용을 입력해 주세요.
 
-## Categories
+## 문서 목차
 
-- [Onboarding]({{ "/onboarding/" | relative_url }}) — 입학 준비와 연구실 합류 절차
-- [Lab Operations]({{ "/operations/" | relative_url }}) — 연락, 근무 및 연구실 운영 안내
-- [Project Management]({{ "/projects/" | relative_url }}) — 프로젝트 진행 상황과 연구 기록
-- [Experimental & Analysis Tutorials]({{ "/tutorials/" | relative_url }}) — 실험·분석 방법과 스크립트
-- [Graduate School]({{ "/graduate-school/" | relative_url }}) — 졸업 준비, 학술 포스터, 학회 참석 및 학술 글쓰기
+- [연구실 안내]({{ "/onboarding/" | relative_url }}) — 입학 준비와 연구실 합류 절차
+- [연구실 운영]({{ "/operations/" | relative_url }}) — 연락, 근무 및 연구실 운영 안내
+- [프로젝트 관리]({{ "/projects/" | relative_url }}) — 프로젝트 진행 상황과 연구 기록
+- [실험 및 분석 튜토리얼]({{ "/tutorials/" | relative_url }}) — 실험·분석 방법과 스크립트
+- [대학원]({{ "/graduate-school/" | relative_url }}) — 졸업 준비, 학술 포스터, 학회 참석 및 학술 글쓰기
 
 ## 신입생을 위한 문서
 

@@ -32,8 +32,8 @@ permalink: /operations/safety/medical-waste/
 - 임상연구지원센터 318호
 
 ## 교육자료
-
-[의료폐기물 교육자료 열기](https://docs.google.com/presentation/d/14LadrR03PGDqaucd7hRnUBu3hWIY80TC/edit?usp=drive_link&ouid=110884691117122301140&rtpof=true&sd=true){ .md-button .md-button--primary target="_blank" rel="noopener noreferrer" }
+- [의료폐기물 분리 지침](https://drive.google.com/file/d/1V-y5LZCOtXSCgKItviTJFkiUP_uRLGnu/view?usp=drive_link)
+- [의료폐기물 교육자료 열기](https://docs.google.com/presentation/d/14LadrR03PGDqaucd7hRnUBu3hWIY80TC/edit?usp=drive_link&ouid=110884691117122301140&rtpof=true&sd=true){ .md-button .md-button--primary target="_blank" rel="noopener noreferrer" }
 
 ## 의료폐기물 분리배출 포스터
 

@@ -18,8 +18,9 @@ permalink: /operations/github-usage/
 | 저장소 | 용도 | 수정할 브랜치 |
 | --- | --- | --- |
 | [JBUH-skin-microbiome.github.io](https://github.com/JBUH-skin-microbiome/JBUH-skin-microbiome.github.io) | 연구실 홈페이지 | `master` |
-| [lab-handbook-mkdocs](https://github.com/JBUH-skin-microbiome/lab-handbook-mkdocs) | 현재 사용하는 MkDocs Handbook | `main` |
-| [lab-handbook](https://github.com/JBUH-skin-microbiome/lab-handbook) | 이전 Just the Docs Handbook 보관 | 새 문서는 MkDocs 저장소에서 수정 |
+| [lab-handbook-mkdocs](https://github.com/JBUH-skin-microbiome/lab-handbook-mkdocs) | 현재 사용하는  Handbook | `main` |
+
+
 ## 홈페이지 수정
 
 - [홈페이지 저장소](https://github.com/JBUH-skin-microbiome/JBUH-skin-microbiome.github.io)의 `master` 브랜치에 변경을 반영합니다.

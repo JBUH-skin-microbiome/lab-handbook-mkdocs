@@ -19,6 +19,4 @@ permalink: /operations/equipment-management/self-inspection/
 
 ## 기존 작성 서류
 
-첨부파일은 내부 Notion에서 확인합니다.
-
-[Notion 연구시설장비 자체점검 자료 열기(권한 필요)](https://app.notion.com/p/wait-a-minute/17c27c45489880e39498defc507d7808?source=copy_link){ .md-button target="_blank" rel="noopener noreferrer" }
+- [2026년 1분기](https://docs.google.com/spreadsheets/d/1Of35Y4AgHj0E-WS-_OgK8wAUdgToxEZC/edit?usp=drive_link&ouid=110884691117122301140&rtpof=true&sd=true)

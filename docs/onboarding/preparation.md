@@ -21,7 +21,7 @@ permalink: /onboarding/preparation/
 ## 연구실 일주일
 
 1. R공부하기
-    - 책 <R을 활용한 기초 환경자료 분석 및 시각화> Ch01~Ch08 수행해 보기
+    - 책 "R을 활용한 기초 환경자료 분석 및 시각화" Ch01~Ch08 수행해 보기
 2. Ubuntu (WSL) 설치해 보기
 3. MobaXterm으로 서버에 접속해서 리눅스 공부하기
 4. R 을 활용한 

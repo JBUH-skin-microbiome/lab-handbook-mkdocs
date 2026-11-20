@@ -5,8 +5,14 @@ permalink: /onboarding/faq/
 ---
 
 # FAQ
-
 자주 묻는 질문과 답변을 정리하는 페이지입니다.
+
+
+## 공통
+1. 연구실 공용 계정  (ChatGPT, 연구실 NAS) 정보
+  - [연구실 공용계정 (권한 필요)](https://docs.google.com/document/d/1_IVXuwZ0aiLZYrKWkDX39Qmz2RaeVY-GEKyuw6OodBQ/edit?usp=drive_link)
+
+
 ## 연구간호사
 
 

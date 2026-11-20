@@ -122,7 +122,6 @@ nav:
   - 논문: projects/paper.md
   - 기타:
     - projects/other/index.md
-    - '[format] 임상시험 모집 공고문': projects/other/recruitment.md
     - 시퀀싱 수주: projects/other/sequencing.md
   - 약어: operations/abbreviations.md
 - 실험 및 분석 SOP:
@@ -174,5 +173,4 @@ nav:
   - 기타:
     - graduate-school/other/index.md
     - '[Format] USB': graduate-school/other/usb.md
-    - 신입생 모집 공고: graduate-school/other/recruitment.md
 

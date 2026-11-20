@@ -20,8 +20,6 @@ permalink: /onboarding/forms/
 | 대학원 및 학술 글쓰기 | [과제 제안서·보고서 PPT 템플릿](../writing/presentation-template.md) | 과제 제안서 및 결과보고서 작성 |
 | 대학원 및 학술 글쓰기 | [학위논문 작성 서식](../graduate-school/degree-thesis.md) | 학위논문 표지·제출지·인준지 작성 |
 | 대학원 및 학술 글쓰기 | [USB 신청 양식](../graduate-school/other/usb.md) | 이동식 저장매체 사용 신청 |
-| 대학원 및 학술 글쓰기 | [신입생 모집 공고 양식](../graduate-school/other/recruitment.md) | 대학원생 및 연구원 모집 공고 작성 |
-| 프로젝트 및 연구 업무 | [임상시험 모집 공고문](../projects/other/recruitment.md) | 임상시험 대상자 모집 공고 작성 |
 | 프로젝트 및 연구 업무 | [시퀀싱 수주 양식](../projects/other/sequencing.md) | 외부 시퀀싱 의뢰 및 수주 |
 | 연구원 모집공고| [연구원 모집 공고](https://docs.google.com/presentation/d/13eh4oj5agl59wyxbgQSSfoDZMNoY9zxK/edit?usp=drive_link&ouid=110884691117122301140&rtpof=true&sd=true) | 대학원생 모집 공고| 
 | 임상연구 모집 공고 | https://docs.google.com/presentation/d/1IABUJxGb_8dOo8naldlnAdA4tuAk_7gY/edit?usp=drive_link&ouid=110884691117122301140&rtpof=true&sd=true https://docs.google.com/presentation/d/1FcKdR4uYgC9Z_uID9sEdU6qZXfdsPEQC/edit?usp=drive_link&ouid=110884691117122301140&rtpof=true&sd=true https://docs.google.com/presentation/d/1ZL9_Y9sCQiy_HvuCl2VFjYZ-VPbwqDS4/edit?usp=drive_link&ouid=110884691117122301140&rtpof=true&sd=true  https://docs.google.com/presentation/d/1-Nc2qRp9UB2ruX9zp-x8EL9-w7kdPQlC/edit?usp=drive_link&ouid=110884691117122301140&rtpof=true&sd=true | - | 

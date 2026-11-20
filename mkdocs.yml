@@ -39,6 +39,7 @@ plugins:
     show_email_address: false
     count_empty_lines: false
 - git-revision-date-localized:
+    enable_parallel_processing: false
     enable_creation_date: true
     type: date
     locale: ko

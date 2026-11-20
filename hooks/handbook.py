@@ -49,6 +49,24 @@ def on_page_markdown(markdown, page, config, files):
         markdown += '\n\n[자료 열기](' + dest + '){ .md-button .md-button--primary }\n'
     if '{{' in markdown or '{%' in markdown:
         raise ValueError(f'Unconverted Liquid in {src}')
+    # Markdown links are resolved from source directories; raw HTML links above
+    # are resolved from the rendered URL. Convert only Markdown destinations.
+    def source_link(match):
+        target = match[2]
+        parsed = urlsplit(target)
+        if parsed.scheme or parsed.netloc or not parsed.path or target.startswith('#'):
+            return match[0]
+        absolute = posixpath.normpath(posixpath.join(base, parsed.path))
+        source = next((p for p, m in PAGES.items() if m.get('permalink', '').strip('/') == absolute.strip('/')), None)
+        if absolute.startswith('assets/'):
+            source = absolute
+        if source:
+            relative = posixpath.relpath(source, posixpath.dirname(src) or '.')
+            if parsed.fragment:
+                relative += '#' + parsed.fragment
+            return match[1] + relative + ')'
+        return match[0]
+    markdown = re.sub(r'(!?\[[^\]]*\]\()([^\s)]+)\)', source_link, markdown)
     return markdown
 
 def on_post_page(output, page, config):

@@ -5,7 +5,7 @@ nav_icon: github
 parent: Git and GitHub
 nav_order: 1
 permalink: /operations/github/
-grand_parent: 연구실 인턴쉽
+grand_parent: 연구실 적응 및 기초교육
 ---
 
 # Git 과 Github

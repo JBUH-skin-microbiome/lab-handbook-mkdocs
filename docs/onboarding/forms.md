@@ -3,6 +3,8 @@ layout: default
 title: 양식 모음집
 parent: 연구실 안내
 nav_order: 9
+has_children: true
+has_toc: false
 permalink: /onboarding/forms/
 ---
 
@@ -14,6 +16,7 @@ permalink: /onboarding/forms/
 
 | 양식 | 용도 |
 | --- | --- |
+| [회의록 양식](meeting-minutes.md) | 회의 내용 기록 및 회의록 관리 |
 | [학술 프로젝트 회의 PPT 양식](../meetings/index.md) | 학술 프로젝트 정기회의 발표자료 작성 |
 | [연구실 포스터 양식](../graduate-school/poster.md) | 학회 포스터 제작 및 인쇄 |
 

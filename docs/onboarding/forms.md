@@ -3,8 +3,6 @@ layout: default
 title: 양식 모음집
 parent: 연구실 안내
 nav_order: 9
-has_children: true
-has_toc: false
 permalink: /onboarding/forms/
 ---
 
@@ -14,7 +12,7 @@ permalink: /onboarding/forms/
 
 | 분야 | 양식 | 용도 |
 | --- | --- | --- |
-| 회의 및 발표 | [회의록 양식](meeting-minutes.md) | 회의 내용 기록 및 회의록 관리 |
+| 회의 및 발표 | 회의록 양식: [Word 형식](https://docs.google.com/document/d/16YFWsmbA0XsFW73BrKl51YbhqtBOtI2M/edit?usp=drive_link&ouid=110884691117122301140&rtpof=true&sd=true) · [Excel 형식](https://docs.google.com/spreadsheets/d/1qAj3LYmP39BMYlOWrcc9Vphf9o8XLjIN/edit?usp=drive_link&ouid=110884691117122301140&rtpof=true&sd=true) | 회의 내용 기록 및 회의록 관리 |
 | 회의 및 발표 | [학술 프로젝트 회의 PPT 양식](../meetings/index.md) | 학술 프로젝트 정기회의 발표자료 작성 |
 | 학회 및 출장 | [연구실 포스터 양식](../graduate-school/poster.md) | 학회 포스터 제작 및 인쇄 |
 | 학회 및 출장 | [출장보고서 양식](../graduate-school/business-trip-report.md) | 학회 및 출장 후 결과 보고 |

@@ -37,6 +37,8 @@ permalink: /onboarding/graduate/
 
 ### 장학제도
 
+[전북대학교 대학원 교내외 장학금 안내](https://graduate.jbnu.ac.kr/web/page.php?pcode=JA01)
+
 - 전일제 재학생 : 등록금 반 액 감면 (지도교수 추천에 의함) → 1,539,000 원
 - 연구능력향상장학 : 등록금 반 액 지원, 전일제 신입생에 한하여 첫 학기에 지도교수의 추천에 의하여 선발함
 - 성적우수장학금 : 수업교 1 해당 금액 30~50 만원 감면, 학과에서 선발
@@ -90,6 +92,8 @@ permalink: /onboarding/graduate/
 - 출입증 발급
 
 ### 필수 교육
+
+- [연구윤리 교육 — 전북대학교 대학원](https://graduate.jbnu.ac.kr/web/page.php?pcode=EI)
 
 - 인권침해예방교육 ( <https://alpha-campus.kr/>)
 

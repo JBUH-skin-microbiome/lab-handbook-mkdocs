@@ -2,7 +2,7 @@
 layout: default
 title: "Amplicon (ITS)"
 parent: Wet lab
-grand_parent: 실험 및 분석 튜토리얼
+grand_parent: 실험 및 분석 SOP
 nav_order: 2
 permalink: /tutorials/wet-lab/amplicon-its/
 ---

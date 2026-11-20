@@ -2,7 +2,7 @@
 layout: default
 title: "Transcriptomics(Single cell)"
 parent: Wet lab
-grand_parent: 실험 및 분석 튜토리얼
+grand_parent: 실험 및 분석 SOP
 nav_order: 6
 permalink: /tutorials/wet-lab/transcriptomics-single-cell/
 ---

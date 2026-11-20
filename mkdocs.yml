@@ -118,7 +118,7 @@ nav:
     - '[format] 임상시험 모집 공고문': projects/other/recruitment.md
     - 시퀀싱 수주: projects/other/sequencing.md
   - 약어: operations/abbreviations.md
-- 실험 및 분석 튜토리얼:
+- 실험 및 분석 SOP:
   - tutorials/index.md
   - Wet lab:
     - tutorials/wet-lab/index.md

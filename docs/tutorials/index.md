@@ -1,13 +1,13 @@
 ---
 layout: default
-title: 실험 및 분석 튜토리얼
+title: 실험 및 분석 SOP
 nav_order: 4
 has_children: true
 has_toc: false
 permalink: /tutorials/
 ---
 
-# 실험 및 분석 튜토리얼
+# 실험 및 분석 SOP
 
 Wet lab과 Dry lab으로 나누어 튜토리얼을 정리합니다.
 

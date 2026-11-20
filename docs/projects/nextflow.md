@@ -2,7 +2,7 @@
 layout: default
 title: Nextflow 가이드
 parent: Dry lab
-grand_parent: 실험 및 분석 튜토리얼
+grand_parent: 실험 및 분석 SOP
 nav_order: 7
 permalink: /projects/nextflow/
 ---

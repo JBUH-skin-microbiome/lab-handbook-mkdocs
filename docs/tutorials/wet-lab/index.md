@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Wet lab
-parent: 실험 및 분석 튜토리얼
+parent: 실험 및 분석 SOP
 nav_order: 1
 has_children: true
 permalink: /tutorials/wet-lab/

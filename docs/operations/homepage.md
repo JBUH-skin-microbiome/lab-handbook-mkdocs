@@ -12,7 +12,7 @@ permalink: /operations/homepage/
 
 - [연구실 홈페이지](https://jbuh-skin-microbiome.github.io/)
 - [홈페이지 소스 저장소](https://github.com/JBUH-skin-microbiome/JBUH-skin-microbiome.github.io)
-- [연구실 매뉴얼 저장소](https://github.com/JBUH-skin-microbiome/lab-handbook)
+- [연구실 매뉴얼 저장소](https://github.com/JBUH-skin-microbiome/lab-handbook-mkdocs)
 
 ---
 
@@ -35,4 +35,6 @@ permalink: /operations/homepage/
 - 한글과 바닥글은 `Gothic A1`, 영문은 `Vollkorn`을 사용합니다.
 - 기본 강조색은 `#191970`입니다.
 
-# 🚧Github 관리 (공사중)
+## GitHub 관리
+
+저장소 관리와 문서 수정·배포 방법은 [연구실 GitHub 관리](github-management.md)를 참고하세요.

@@ -62,8 +62,13 @@ permalink: /onboarding/graduate/
 
 - 석사 24 학점/ 박사 36학점/ 석박통합 36 학점 (논문 연구 제외)
 - 타전공 수강 가능(2023기준)
-  - 수강 전 담당 교수님과 연락 필요
+  - 최대학점 제한 확인 필요 (한도 이상이면 인정 안됨)
+  - 수강 전 타 학과 담당 교수님과 연락 필요
   - 그러나 졸업시험은 의과학과 과목 중 선택
+
+- 추천 강의
+  - 분자생명과학과 생의학 데이터
+  - 약학과 생물정보학/ 신약개발및마이크로바이옴 
 
 ### 의생명연구원 제출 세류 
 
@@ -115,5 +120,5 @@ permalink: /onboarding/graduate/
 
 원문 
 
-[대학원생 안내 노션 원문](https://app.notion.com/p/wait-a-minute/Tip-for-Graduate-student-f3dc1e532bf942e2ba73eb2e6f80e899) · [신규 구성원 체크리스트 노션 원문](https://app.notion.com/p/wait-a-minute/Check-lists-for-Newbie-52d575145f554f44bdc4764a51314804) · 작성자 정보는 원문에 기재되어 있지 않습니다.
-
+[대학원생 안내 노션 원문](https://app.notion.com/p/wait-a-minute/Tip-for-Graduate-student-f3dc1e532bf942e2ba73eb2e6f80e899)
+[신규 구성원 체크리스트 노션 원문](https://app.notion.com/p/wait-a-minute/Check-lists-for-Newbie-52d575145f554f44bdc4764a51314804) 

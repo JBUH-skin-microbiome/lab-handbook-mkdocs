@@ -24,14 +24,13 @@ permalink: /graduate-school/business-trip-report/
 
 ## 3. 여비 지급표
 
-- 📌 지역별 숙박비 상한 존재 (여비 규정표 참고 필수)
+- 지역별 숙박비 상한 존재 ([여비 규정표 참고](https://jbuh-skin-microbiome.github.io/lab-handbook-mkdocs/graduate-school/conference-attendance/#1_1)고 필수) ⭐
     - 상한 초과 금액은 개인 부담
-    - 예시
-        - 서울 숙박비: 100,000원 → 120,000원 결제 시 → 100,000원만 인정
+    - 예시: 서울 숙박비는 한도는 100,000임. 120,000원 결제 시 100,000원만 인정
 - 주의사항
     - 2인 이상 동일 숙소 이용 시 → 투숙자 명단 증빙 필수 제출
-      - 호텔에 요청 시 invoice에 동반 투숙객 이름 추가해주거나, 별도의 숙박 확인서 발급 해줌. 
-    - [여비 규정표 참고](https://jbuh-skin-microbiome.github.io/lab-handbook-mkdocs/graduate-school/conference-attendance/#1_1)
+    - 호텔에 투숙 전 전화로 가능한지 연락하기
+        - 대부분 체크인 이후 invoice에 동반 투숙객 이름 추가해주거나, 별도의 숙박 확인서 발급 해줌 (안되는 경우도 있다!)
 
 ## 4. 제출 서류 목록
 
@@ -39,9 +38,7 @@ permalink: /graduate-school/business-trip-report/
 
 - 제출 서류
     - 버스, 기차 이용 영수증 (왕복, 날짜 나오도록)
-    - 예시
 - 파일명 규칙
-
 ```text
 1.교통_이름_날짜.pdf
 # 예: 1.교통_김소연_260410.png/jpeg/pdf
@@ -78,7 +75,6 @@ permalink: /graduate-school/business-trip-report/
     - 학회 등록 완료 메일
         - 이메일 창에서 - [인쇄] - .pdf로 저장
 - 파일명 규칙
-
 ```text
 3.학회_이름_종류.pdf
 # 예: 3-1.학회_홈페이지.pdf
@@ -92,7 +88,6 @@ permalink: /graduate-school/business-trip-report/
     - 학회 등록 확인증
     - 명찰 또는 현장 사진
 - 파일명 규칙
-
 ```text
 3-3.학회_이름_명찰.jpg
 ```
@@ -123,7 +118,6 @@ permalink: /graduate-school/business-trip-report/
         - 일반적으로 제출 제출 불필요 (식비를 별도 정산이 아닌 여비로 지급됨)
         - 단, 증빙이 부족한 경우 현장 체류 증빙을 위해 편의점이나 식당에서의 영수증 지참 권장
 - 파일명 규칙
-
 ```text
 7.식비_이름_날짜.pdf
 ```
@@ -134,7 +128,6 @@ permalink: /graduate-school/business-trip-report/
     - 양식에 맞게 작성
     - [출장보고서_양식.hwpx](https://drive.google.com/file/d/10dNsS6f41xpYs_fkz6PZNGtxVxdoh9Pt/view?usp=sharing) — 121.4KB
 - 파일명 규칙
-
 ```text
 0.출장보고서_팀/이름_날짜.hwpx
 # 예: 0.출장보고서_피부과_260412.hwpx
@@ -149,14 +142,9 @@ permalink: /graduate-school/business-trip-report/
 ```text
 1. 출장 목적
 o
- -
-o
- -
- -
 o
 
 2. 발표내용/ 출장 내용/ 학회 내용
-o
 o
 o
 
@@ -164,8 +152,6 @@ o
 o
 o
  -
-o
-o
 
 4. 특이점
 o

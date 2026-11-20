@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 준비할 것들
-parent: 온보딩
+parent: 연구실 안내
 nav_order: 2
 permalink: /onboarding/preparation/
 has_children: true

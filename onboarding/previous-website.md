@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 이전 홈페이지
-parent: 온보딩
+parent: 연구실 안내
 nav_order: 4
 permalink: /onboarding/previous-website/
 ---

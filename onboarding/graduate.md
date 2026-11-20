@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 신입생 안내
-parent: 온보딩
+parent: 연구실 안내
 nav_order: 1
 permalink: /onboarding/graduate/
 ---

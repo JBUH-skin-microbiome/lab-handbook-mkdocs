@@ -19,7 +19,7 @@ permalink: /operations/safety/
 - [(분기별) 의생명연구원 정기 안전보건교육](safety/biomedical-regular-safety-training.md): 교육자료 확인, 교육일지 작성과 제출
 - [(신규 채용 시 1회) 의생명연구원 연구활동종사자 신규직원교육](safety/new-employee-training.md): 채용 후 6개월 이내 이수하는 안전교육과 제출 서류
 - [(해당 시 1회) 유해화학물질 특별안전보건교육](safety/hazardous-chemical-special-training.md): 유해화학물질 취급 업무 배치 시 이수하는 교육
-- [의료폐기물 점검](safety/medical-waste.md): 전용용기, 사용개시일과 월별 점검
+- [(월별) 의료폐기물 점검](safety/medical-waste.md): 전용용기, 사용개시일과 월별 점검
 - [(연 1회) 위험성 평가](safety/risk-assessment.md): 의생명연구원 위험성 평가와 관련 자료
 - [(연 1회) 유해화학물질 사용 실태조사](safety/hazardous-chemical-survey.md): 조사표, MSDS와 취급일지 관리
 

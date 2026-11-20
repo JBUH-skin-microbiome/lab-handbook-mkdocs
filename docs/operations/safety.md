@@ -17,7 +17,7 @@ permalink: /operations/safety/
 - [안전관리 기본](safety/basic.md): 적용 대상과 연구실 위험도 구분
 - [교육 및 점검](safety/training-inspection.md): 안전교육, 기록 보관, 유해화학물질과 일상점검
 - [의료폐기물 처리](safety/medical-waste.md): 전용용기, 사용개시일과 월별 점검
-- [점검 및 서식](safety/inspection-forms.md): 위험성 평가와 연구시설장비 자체점검 자료
+- [위험성 평가](safety/risk-assessment.md): 의생명연구원 위험성 평가와 관련 자료
 
 !!! warning "원문 확인 필요"
     Notion의 두 안전관리 문서에서 연구실 위험도를 각각 **중위험**과 **고위험(전북대학교 안전교육상 저위험 분류)**으로 다르게 적고 있습니다. 확정 전까지는 안전관리 담당자와 기관 공지를 기준으로 적용해 주세요.

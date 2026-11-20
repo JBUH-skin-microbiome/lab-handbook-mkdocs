@@ -32,13 +32,20 @@ permalink: /operations/safety/medical-waste/
 - 임상연구지원센터 318호
 - 담당자와 연락처는 내부 원문에서 확인합니다.
 
-## 원문 첨부자료
+## 교육자료
 
-- 환경부 공문서: `의료폐기물 분리배출 실천 및 협조 요청.hwp`
-- 교육자료: `1. 의료폐기물 교육자료.pptx`
-- 포스터: `3. 의료폐기물 분리배출 포스터(3종).pdf`
-- 웹 포스터: `medical_waste_poster_v2.html`
+[의료폐기물 교육자료 열기](https://docs.google.com/presentation/d/14LadrR03PGDqaucd7hRnUBu3hWIY80TC/edit?usp=drive_link&ouid=110884691117122301140&rtpof=true&sd=true){ .md-button .md-button--primary target="_blank" rel="noopener noreferrer" }
 
-첨부파일은 내부 Notion의 접근 권한을 그대로 유지합니다.
+## 의료폐기물 분리배출 포스터
 
-[Notion 의료폐기물 처리 방법 열기(권한 필요)](https://app.notion.com/p/wait-a-minute/34f27c454898803989aee1aac8deb81a?source=copy_link){ .md-button target="_blank" rel="noopener noreferrer" }
+### 의료폐기물 분리배출 및 성상 분류 기준
+
+![의료폐기물과 일반폐기물 분리배출 및 성상 분류 기준]({{ '/assets/images/safety/medical-waste-separation.png' | relative_url }})
+
+### 의료폐기물 판정 흐름도
+
+![의료폐기물 판정 흐름도]({{ '/assets/images/safety/medical-waste-flowchart.png' | relative_url }})
+
+### 의료폐기물과 일반폐기물 분리배출 안내
+
+![의료폐기물과 일반폐기물 분리배출 안내]({{ '/assets/images/safety/medical-waste-reminder.png' | relative_url }})

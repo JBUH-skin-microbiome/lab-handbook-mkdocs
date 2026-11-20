@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 약어
+title: 샘플 수집 부위 약어
 parent: 프로젝트 관리
 nav_order: 99
 permalink: /operations/abbreviations/

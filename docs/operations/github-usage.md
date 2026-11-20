@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 연구실 GitHub 사용하기
+title: 공용 GitHub 관리
 parent: 연구실 GitHub 관리
 grand_parent: 연구실 운영
 nav_order: 2

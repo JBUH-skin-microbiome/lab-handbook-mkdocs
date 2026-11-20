@@ -7,7 +7,7 @@ nav_order: 2
 permalink: /operations/github-usage/
 ---
 
-# 연구실 GitHub 사용하기
+# 공용 GitHub 관리
 
 연구실 GitHub 저장소의 용도와 홈페이지 수정, 계정·권한 관리 방법을 안내합니다.
 

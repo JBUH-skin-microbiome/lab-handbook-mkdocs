@@ -7,11 +7,13 @@ nav_order: 1
 permalink: /operations/manual-management/
 ---
 
-# 저장소
+# Manual 페이지 관리
+
+## 저장소
 
 - [lab-handbook-mkdocs](https://github.com/JBUH-skin-microbiome/lab-handbook-mkdocs) 
 
-# 메뉴얼 수정 
+## 메뉴얼 수정 
 
 1. 본인 GitHub 계정으로 로그인합니다.
 2. 수정할 Handbook 페이지 상단의 연필 아이콘을 누릅니다.
@@ -24,7 +26,7 @@ permalink: /operations/manual-management/
 새 문서를 추가할 때는 `docs/`의 해당 분류에 Markdown 파일을 만들고, `mkdocs.yml`의 `nav`에도 경로를 추가합니다. 본문 목차는 제목에서 자동 생성되므로 별도의 수동 목차는 넣지 않습니다.
 
 
-# 문서 기여자 표시
+## 문서 기여자 표시
 
 연구실 메뉴얼 작성에 기여해 보세요! 
 기여자와 기여 비율은 Git 을 기반으로 자동 생성됩니다. 본인

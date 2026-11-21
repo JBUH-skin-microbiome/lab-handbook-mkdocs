@@ -16,14 +16,15 @@ Git 기본 사용법은 [Git and GitHub](../../operations/github.md)를 참고�
 1. 투고 전에는 **Private**으로 두고, 논문을 공개할 때 **Public**으로 전환한다
 2. Raw는 github 에 업로드 하지 않는다 (100mb 이상 업로드 불가능)
 3. 분석 script 는 상대경로만 사용한다 
-5. 번호로 실행 순서를 나타낸다
-7. 재현성을 위해 분석 버전을 고정한다 (파이프라인은 -r, R 패키지는 renv.lock 사용)
-8. 중간 분석 결과와 논문용 최종 분석 결과를 분리한다(시행착오는 old/, 논문용은 final/)
+4. 번호로 실행 순서를 나타낸다
+5. 폴더, 파일명에는 공백/한글을 사용하지 않는다
+6. 재현성을 위해 분석 버전을 고정한다 (파이프라인은 -r, R 패키지는 renv.lock 사용)
+7. 중간 분석 결과와 논문용 최종 분석 결과를 분리한다(시행착오는 old/, 논문용은 final/)
  
 ## 권장 폴더 구조
 
 ```text
-2026_SkinCancer_Shotgun/                     # 권장 이름: 성_주제_저널_연도
+2026_SkinCancer_mbio/           # 권장 이름: 연도_주제_저널
 ├─ README.md                    # 프로젝트 개요, 데이터 출처, 실행 순서
 ├─ .gitignore
 ├─ Rproj.Rproj
@@ -83,7 +84,7 @@ Git 기본 사용법은 [Git and GitHub](../../operations/github.md)를 참고�
 - [ ] pipeline_info/가 커밋되어 있고 Methods 툴 버전과 일치한다
 - [ ] renv.lock이 최신이다 (renv::snapshot())
 - [ ] 본문 숫자(샘플 수, p값, 리드 수)가 모두 코드에서 나온다
-- [ ] 랜덤 분석(예, DMM, Permutation 사용 분석)에 set.seed()가 있다
+- [ ] 랜덤 분석(rarefaction, DMM, RF, PERMANOVA 등)에 set.seed()가 있다
 - [ ] data/process/와 커밋 이력에 민감정보/개인정보/비밀번호가 없다
 - [ ] raw 데이터가 SRA/ENA에 등록되었고 접근 번호가 README에 있다
 - [ ] README에 제목, 초록, 실행 방법, 의존성이 있다

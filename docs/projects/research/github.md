@@ -19,7 +19,51 @@ Git 기본 사용법은 [Git and GitHub](../../operations/github.md)를 참고�
 ## 권장 폴더 구조
 
 ```text
-
+2026_SkinCancer_Shotgun/                     # 권장 이름: 성_주제_저널_연도
+├─ README.md                    # 프로젝트 개요, 데이터 출처, 실행 순서
+├─ .gitignore
+├─ Rproj.Rproj
+├─ renv.lock                    # R 패키지 버전 기록
+│
+├─ pipeline/                    # raw → process (Nextflow 실행 기록)
+│  ├─ README.md                 # 파이프라인 이름·버전·실행일
+│  ├─ run.sh                    # 실제 실행한 nextflow 명령어
+│  ├─ params.yaml               # -params-file
+│  ├─ custom.config             # 서버 자원 설정 (SLURM, 메모리, CPU)
+│  ├─ samplesheet.csv
+│  └─ scripts/                  # 기타 분석 script
+│     └─ make_tables.R
+│
+├─ data/
+│  ├─ raw/                      # 원본 fastq, 메타데이터 (git X, 읽기 전용)
+│  └─ process/                  # R 분석 시작점 (git O)
+│     ├─ abundance_table.tsv
+│     ├─ taxonomy_table.tsv
+│     ├─ metadata.tsv
+│     └─ qc_summary.tsv
+│
+├─ analysis/
+│  ├─ old/                      # 탐색 분석 (날짜 접두어 허용)
+│  │  ├─ 261020_RF_comparison.Rmd
+│  │  └─ 261021_PERMANOVA_test.Rmd
+│  └─ final/                    # 논문용 최종 분석 (번호순 실행)
+│     ├─ 00_preprocessing.Rmd
+│     ├─ 01_figure2.Rmd
+│     ├─ 02_figure3.Rmd
+│     ├─ 03_figure4.Rmd
+│     └─ 04_supplementary_tables.Rmd
+│
+├─ results/
+│  ├─ old/                      # 탐색 결과 (git X)
+│  └─ final/
+│     ├─ figures/               # PDF + 고해상도 PNG
+│     ├─ figure_data/           # 그림의 기초 수치 (CSV)
+│     └─ tables/
+│
+└─ docs/
+   ├─ submission/              # git X 또는 링크만
+   ├─ revision/                # git X 또는 링크만
+   └─ references/
 ```
 
 ## 올리지 않는 것
@@ -35,8 +79,8 @@ Git 기본 사용법은 [Git and GitHub](../../operations/github.md)를 참고�
 - [ ] pipeline_info/가 커밋되어 있고 Methods 툴 버전과 일치한다
 - [ ] renv.lock이 최신이다 (renv::snapshot())
 - [ ] 본문 숫자(샘플 수, p값, 리드 수)가 모두 코드에서 나온다
-- [ ] 랜덤 분석에 set.seed()가 있다
-- [ ] data/process/와 커밋 이력에 개인정보·비밀번호가 없다
+- [ ] 랜덤 분석(예, DMM, Permutation 사용 분석)에 set.seed()가 있다
+- [ ] data/process/와 커밋 이력에 민감정보/개인정보/비밀번호가 없다
 - [ ] raw 데이터가 SRA/ENA에 등록되었고 접근 번호가 README에 있다
 - [ ] README에 제목, 초록, 실행 방법, 의존성이 있다
 

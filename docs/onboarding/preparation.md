@@ -12,15 +12,14 @@ permalink: /onboarding/preparation/
 
 ## 연구실 첫 출근
 
-[] 연구실 서버 계정 만들기
-[] GitHub 계정 만들기
-[] 연구실 공용 저장소 접근 권한 얻기 <a href="https://wait-a-minute.notion.site/JBSM-Hub-fd5e36c10fa4435a82fe8005287078dc?pvs=4" title="Notion"><img src="{{ '/assets/icons/notion.svg' | relative_url }}" alt="Notion" width="18" height="18" style="vertical-align: middle; margin-left: 6px;"></a> <a href="https://drive.google.com/drive/folders/1_YQnvTuNGu9JGuC5B9Ql7Ixg9wyqJz5W?usp=sharing" title="Google Drive"><img src="{{ '/assets/icons/google-drive.svg' | relative_url }}" alt="Google Drive" width="18" height="18" style="vertical-align: middle; margin-left: 6px;"></a>
-[] 연구실 출입 카드 발급
-    - 임상연구지원센터 정문 및 101호: 무료
-    - 의과대학 본관 출입 카드: 10,000원 (현금)
-[] 연구실 공간 둘러보기
-    - 101호, 1층 실험실, 2층 실험실, 디프리저실, 외래
-[] 멘토가 커피 사주기
+[] 연구실 서버 계정 만들기  
+[] GitHub 계정 만들기  
+[] 연구실 공용 저장소 접근 권한 얻기 <a href="https://wait-a-minute.notion.site/JBSM-Hub-fd5e36c10fa4435a82fe8005287078dc?pvs=4" title="Notion"><img src="{{ '/assets/icons/notion.svg' | relative_url }}" alt="Notion" width="18" height="18" style="vertical-align: middle; margin-left: 6px;"></a> <a href="https://drive.google.com/drive/folders/1_YQnvTuNGu9JGuC5B9Ql7Ixg9wyqJz5W?usp=sharing" title="Google Drive"><img src="{{ '/assets/icons/google-drive.svg' | relative_url }}" alt="Google Drive" width="18" height="18" style="vertical-align: middle; margin-left: 6px;"></a>  
+[] 연구실 출입 카드 발급  
+    - 임상연구지원센터 정문 및 101호: 무료  
+    - 의과대학 본관 출입 카드: 10,000원 (현금)  
+[] 연구실 공간 둘러보기  
+    - 101호, 1층 실험실, 2층 실험실, 디프리저실, 외래  
 
 
 ## 연구실 일주일
@@ -68,8 +67,14 @@ permalink: /onboarding/preparation/
 ## 연구실 두 달 차 
 1. 마이크로바이옴 논문을 읽고 발표해보자! (20분 이내)
 2. 기초 통계 이론을 공부합시다
-3. 
 
+
+## 알아두면 좋은 것들 
+1. [Markdown](https://gist.github.com/ihoneymon/652be052a0727ad59601): Gitghub 과 Rmarkdown을 사용한 보고서 작성에 유용하다.
+2. Galaxy
+3. Nextflow
+4. [QIIME2 forum](https://forum.qiime2.org/) QIIME 및 분석에 대한 조언을 얻을 수 있다
+    - [Best of forum](https://forum.qiime2.org/tag/best-of-the-forum/218): 포럼에 주요하게 논의된 글을 읽어보자
 
 
 ## 연구실 3달 차 

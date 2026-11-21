@@ -42,7 +42,7 @@ Git 기본 사용법은 [Git and GitHub](../../operations/github.md)를 참고�
 │
 ├─ data/
 │  ├─ raw/                      # 원본 fastq, 메타데이터 (git X, 읽기 전용)
-│  ├─ pipeline_result           # 대용량의 중간 산출물
+│  ├─ pipeline_res              # 대용량의 중간 산출물
 │  └─ process/                  # R 분석 시작점 (git O)
 │     ├─ abundance_table.tsv
 │     ├─ taxonomy_table.tsv
@@ -91,6 +91,36 @@ nextflow run nf-core/ampliseq -r 2.11.0 \
 
 ### .gitignore 예시 
 
+```text
+# 원본·대용량·민감 데이터 (README만 예외)
+data/raw/*
+data/pipeline_res/*
+!data/*/README.md
+
+# Nextflow 작업 파일
+work/
+.nextflow/
+.nextflow.log*
+
+# 탐색 결과
+results/old/
+
+# R / RStudio
+.Rproj.user/
+.Rhistory
+.RData
+renv/library/
+*_cache/
+*_files/
+
+# 원고·문헌
+docs/*.docx
+docs/references/*.pdf
+
+# 시스템
+.DS_Store
+```
+### 커밋
 
 ## 투고 전 체크리스트
 - [ ] 새 환경에서 clone 후 analysis/final/을 번호순 knit하면 모든 그림이 재생성된다

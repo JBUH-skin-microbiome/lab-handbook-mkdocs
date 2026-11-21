@@ -8,7 +8,9 @@ permalink: /projects/research/github/
 
 # 연구용 GitHub
 
-논문과 연구 코드를 GitHub로 관리하는 방법을 안내합니다. Git 기본 사용법은 [Git and GitHub](../../operations/github.md)를 참고하세요.
+## 개요
+연구실 내부 프로젝트에서 raw 데이터 처리부터 논문 그림까지 재현 가능하게 관리하기 위한 표준 폴더 구조입니다. 
+Git 기본 사용법은 [Git and GitHub](../../operations/github.md)를 참고하세요.
 
 ## 저장소 원칙
 

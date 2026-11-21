@@ -23,7 +23,7 @@ nav_order: 0
 ## 신입생을 위한 문서
 
 - [대학원 입학 안내]({{ '/onboarding/graduate/' | relative_url }})
-- [신입생 체크리스트]({{ 'onboarding/preparation/; | relative_url)
+- [신입생 체크리스트]({{ '/onboarding/preparation/' | relative_url }})
 
 ## 연구실 홈페이지 돌아가기
 - [Homepage](https://jbuh-skin-microbiome.github.io/)

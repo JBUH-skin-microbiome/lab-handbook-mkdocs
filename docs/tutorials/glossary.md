@@ -6,8 +6,7 @@ permalink: /tutorials/glossary/
 
 # 마이크로바이옴 용어집
 
-마이크로바이옴 공부와 실험·분석에서 자주 접하는 용어를 알파벳순으로 정리합니다.
-Notion의 **[참고] Lab Dictionary** 내용을 옮겨 왔으며, 피부 마이크로바이옴과 생물정보학 용어가 중심입니다.
+마이크로바이옴 공부와 실험·분석에서 자주 접하는 용어를 정리해 봅시다! 
 
 **카테고리:** `Bacteria` `Biology` `Bioinformatics` `Disease` `Genomics` `Immunology` `Microbiome` `Skin`
 

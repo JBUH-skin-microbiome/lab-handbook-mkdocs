@@ -25,7 +25,9 @@ nav_order: 0
 - [대학원 입학 안내]({{ '/onboarding/graduate/' | relative_url }})
 - [신입생 체크리스트]({{ 'onboarding/preparation/; | relative_url)
 
-이 사이트에는 공개 가능한 문서만 올립니다. 구성원 전용 자료는 노션과 구글 드라이브에서 확인해 주세요.
-
 ## 연구실 홈페이지 돌아가기
 - [Homepage](https://jbuh-skin-microbiome.github.io/)
+
+
+## 권한 및 접근성
+- Manual 내 일부 문서의 경우 notion 과 google drive의 권한이 필요합니다. 

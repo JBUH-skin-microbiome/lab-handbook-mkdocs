@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 연구용 GitHub
+title: 연구 프로젝트용 GitHub
 parent: 연구 프로젝트
 nav_order: 3
 permalink: /projects/research/github/
@@ -12,21 +12,12 @@ permalink: /projects/research/github/
 
 ## 저장소 원칙
 
-- 논문 한 편당 저장소 하나를 만듭니다.
-- 저장소 이름은 `연도-주제-저자` 형식으로 짓습니다. (예: `2026-skin-microbiome-kim`)
 - 투고 전에는 **Private**으로 두고, 논문을 공개할 때 **Public**으로 전환합니다.
-- 저장소 About 칸에 논문 제목과 DOI를 적습니다.
 
 ## 권장 폴더 구조
 
 ```text
-2026-topic-author/
-├── README.md            # 연구 개요와 재현 절차
-├── environment.yml      # conda 환경 (R은 renv.lock)
-├── workflow/            # Nextflow 또는 Snakemake 파이프라인
-├── scripts/             # 분석·시각화 스크립트
-├── metadata/            # 비식별화한 샘플 메타데이터
-└── figures/             # 논문 그림 생성 결과
+
 ```
 
 ## 올리지 않는 것

@@ -15,7 +15,7 @@ permalink: /operations/manual-management/
 ## 메뉴얼 수정 
 
 1. 본인 GitHub 계정으로 로그인합니다.
-2. 수정할 Handbook 페이지 상단의 연필 아이콘을 누릅니다.
+2. 수정할 Handbook 페이지 상단의 연필 아이콘(<img src="{{ '/assets/images/manual/edit-icon.png' | relative_url }}" alt="수정 아이콘" height="20" style="vertical-align: middle;">)을 누릅니다.
 3. `lab-handbook-mkdocs` 저장소의 `docs/` 아래 Markdown 파일을 수정합니다.
 4. 변경 내용을 확인하고, 무엇을 수정했는지 커밋 메시지에 적습니다.
 5. 검토가 필요한 변경은 새 브랜치에서 커밋하고 Pull Request를 만듭니다. 쓰기 권한이 없다면 저장소 관리자에게 권한을 요청합니다.
@@ -30,6 +30,10 @@ permalink: /operations/manual-management/
 연구실 메뉴얼 작성에 기여해 보세요! 
 기여자와 기여 비율은 Git 을 기반으로 자동 생성됩니다. 본인
 계정으로 수정하고, 로컬에서 작업할 때는 커밋 이름과 이메일을 본인 정보로 설정하세요.
+
+여러 사람이 수정한 문서는 하단에 아래처럼 기여자와 기여 비율이 표시됩니다. 기여자가 한 명뿐인 문서에는 이름만 표시됩니다.
+
+![문서 하단의 기여자와 기여 비율 표시 예시]({{ '/assets/images/manual/contributors-example.png' | relative_url }})
 
 - 기여 비율은 문서의 줄 단위 변경 기록에 기반한 값입니다. 
 - 커밋 전의 로컬 변경은 `Not Committed Yet`으로 표시될 수 있습니다. 변경을 커밋한 뒤 다시 빌드합니다.

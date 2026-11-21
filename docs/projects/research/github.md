@@ -14,12 +14,13 @@ Git 기본 사용법은 [Git and GitHub](../../operations/github.md)를 참고�
 
 ## 저장소 원칙
 1. 투고 전에는 **Private**으로 두고, 논문을 공개할 때 **Public**으로 전환한다
-2. Raw는 github 에 업로드 하지 않는다 (100mb 이상 업로드 불가능)
-3. 분석 script 는 상대경로만 사용한다 
-4. 번호로 실행 순서를 나타낸다
-5. 폴더, 파일명에는 공백/한글을 사용하지 않는다
-6. 재현성을 위해 분석 버전을 고정한다 (파이프라인은 -r, R 패키지는 renv.lock 사용)
-7. 중간 분석 결과와 논문용 최종 분석 결과를 분리한다(시행착오는 old/, 논문용은 final/)
+2. 대용량 데이터 (Raw 등)은 github 에 업로드 하지 않는다 (100mb 이상 업로드 불가능)
+3. 개인 정보는 올리지 않는다.
+4. 분석 script 는 상대경로만 사용한다 
+5. 번호로 실행 순서를 나타낸다
+6. 폴더, 파일명에는 공백/한글을 사용하지 않는다
+7. 재현성을 위해 분석 버전을 고정한다 (파이프라인은 -r, R 패키지는 renv.lock 사용)
+8. 중간 분석 결과와 논문용 최종 분석 결과를 분리한다(시행착오는 old/, 논문용은 final/)
  
 ## 권장 폴더 구조
 
@@ -41,6 +42,7 @@ Git 기본 사용법은 [Git and GitHub](../../operations/github.md)를 참고�
 │
 ├─ data/
 │  ├─ raw/                      # 원본 fastq, 메타데이터 (git X, 읽기 전용)
+│  ├─ pipeline_result           # 대용량의 중간 산출물
 │  └─ process/                  # R 분석 시작점 (git O)
 │     ├─ abundance_table.tsv
 │     ├─ taxonomy_table.tsv
@@ -71,12 +73,24 @@ Git 기본 사용법은 [Git and GitHub](../../operations/github.md)를 참고�
    └─ references/
 ```
 
-## 올리지 않는 것
+### run.sh 예시 
+```bash
+#!/bin/bash
+# Pipeline: nf-core/ampliseq 2.11.0
+# Run date: 2026-11-21 / Runner: 이름
+# 프로젝트 루트에서 실행: bash pipeline/run.sh
 
-- **원시 시퀀싱 데이터**: SRA/ENA에 제출하고 README에는 accession 번호만 적습니다.
-- **환자 식별 정보**: 이름, 등록번호, 생년월일 등은 비식별화 전 자료를 올리지 않습니다.
-- **비밀번호·토큰·키**: 접속 정보는 저장소 밖에서 관리합니다.
-- **대용량 중간 산출물**: Zenodo에 올리고 링크만 겁니다.
+nextflow run nf-core/ampliseq -r 2.11.0 \
+  -profile singularity \
+  -params-file pipeline/params.yaml \
+  -c pipeline/custom.config \
+  --input pipeline/samplesheet.csv \
+  --outdir data/pipeline_out \
+  -resume
+```
+
+### .gitignore 예시 
+
 
 ## 투고 전 체크리스트
 - [ ] 새 환경에서 clone 후 analysis/final/을 번호순 knit하면 모든 그림이 재생성된다

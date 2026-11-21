@@ -15,7 +15,7 @@ permalink: /operations/manual-management/
 ## 메뉴얼 수정 
 
 1. 본인 GitHub 계정으로 로그인합니다.
-2. 수정할 Handbook 페이지 상단의 연필 아이콘(<img src="{{ '/assets/images/manual/edit-icon.png' | relative_url }}" alt="수정 아이콘" height="20" style="vertical-align: middle;">)을 누릅니다.
+2. 수정할 Handbook 페이지 상단의 연필 아이콘(<img src="{{ '/assets/images/manual/edit-icon.png' | relative_url }}" alt="수정 아이콘" style="height: 1.4em; width: auto; vertical-align: middle;">)을 누릅니다.
 3. `lab-handbook-mkdocs` 저장소의 `docs/` 아래 Markdown 파일을 수정합니다.
 4. 변경 내용을 확인하고, 무엇을 수정했는지 커밋 메시지에 적습니다.
 5. 검토가 필요한 변경은 새 브랜치에서 커밋하고 Pull Request를 만듭니다. 쓰기 권한이 없다면 저장소 관리자에게 권한을 요청합니다.

@@ -8,7 +8,7 @@ permalink: /operations/manual-management/
 
 # Manual 기여
 
-## 저장소
+## Github 저장소
 
 - [lab-handbook-mkdocs](https://github.com/JBUH-skin-microbiome/lab-handbook-mkdocs) 
 

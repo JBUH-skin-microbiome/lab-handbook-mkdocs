@@ -121,6 +121,9 @@ docs/references/*.pdf
 .DS_Store
 ```
 ### 커밋
+1. commit 시 왜 했고, 어떤 것이 수정되었고, 어떤 결과가 도출되었는지 저장
+2. 중요한 버전에는 tag추가
+
 
 ## 투고 전 체크리스트
 - [ ] 새 환경에서 clone 후 analysis/final/을 번호순 knit하면 모든 그림이 재생성된다

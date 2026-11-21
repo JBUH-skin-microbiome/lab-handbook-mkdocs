@@ -1,13 +1,12 @@
 ---
 layout: default
-title: Manual 페이지 관리
-parent: 연구실 GitHub 관리
-grand_parent: 연구실 운영
-nav_order: 1
+title: Manual 기여
+parent: 연구실 운영
+nav_order: 2
 permalink: /operations/manual-management/
 ---
 
-# Manual 페이지 관리
+# Manual 기여
 
 ## 저장소
 

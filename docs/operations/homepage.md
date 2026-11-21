@@ -37,4 +37,9 @@ permalink: /operations/homepage/
 
 ## GitHub 관리
 
-문서 수정·배포 방법은 [Manual 페이지 관리](manual-management.md)를, 저장소와 계정 관리는 [공용 GitHub 관리](github-usage.md)를 참고하세요.
+- [홈페이지 저장소](https://github.com/JBUH-skin-microbiome/JBUH-skin-microbiome.github.io)의 `master` 브랜치에 변경을 반영합니다.
+- 연구실 지원자 안내는 [연구실 지원자 페이지](https://jbuh-skin-microbiome.github.io/lab-handbook-mkdocs/onboarding/applicants/)로 연결합니다.
+- 변경 후 Actions의 배포 결과와 [실제 홈페이지](https://jbuh-skin-microbiome.github.io/)를 확인합니다. 배포가 실패하면 해당 Actions 실행의 오류 로그를 확인하고, 수정 후 다시 확인합니다.
+- 공개 저장소에는 비밀번호, 토큰, 접속 키, 개인정보 및 환자 자료를 올리지 않습니다.
+
+Handbook 문서를 고치거나 새 페이지를 추가하는 방법은 [Manual 기여](manual-management.md)를 참고하세요.

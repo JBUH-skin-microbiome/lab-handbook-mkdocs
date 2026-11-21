@@ -83,9 +83,7 @@ nav:
 - 연구실 운영:
   - operations/index.md
   - 홈페이지 관리: operations/homepage.md
-  - 연구실 GitHub 관리:
-    - Manual 페이지 관리: operations/manual-management.md
-    - 공용 GitHub 관리: operations/github-usage.md
+  - Manual 기여: operations/manual-management.md
   - 서버 관리: operations/server.md
   - 주문 관리: operations/management/orders.md
   - 장비 및 자산 관리:
@@ -123,6 +121,7 @@ nav:
     - 분석:
       - projects/research/analysis.md
       - 연구 재현성: projects/reproducibility.md
+    - 연구용 GitHub: projects/research/github.md
   - 논문: projects/paper.md
   - 기타:
     - projects/other/index.md

@@ -85,12 +85,7 @@ nav:
 - 연구실 운영:
   - operations/index.md
   - 홈페이지 관리: operations/homepage.md
-  - Manual 기여:
-    - operations/manual-management.md
-    - 웹에서 수정하기: operations/manual/web-edit.md
-    - 로컬에서 빌드하기: operations/manual/local-build.md
-    - 작성 규칙: operations/manual/writing-guide.md
-    - 문제 해결: operations/manual/troubleshooting.md
+  - Manual 기여: operations/manual-management.md
   - 서버 관리: operations/server.md
   - 주문 관리: operations/management/orders.md
   - 장비 및 자산 관리:

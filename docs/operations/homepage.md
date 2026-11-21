@@ -196,14 +196,14 @@ details:
 
 ### News
 
-첫 화면 News에 나오는 한 줄 소식은 `_news/날짜-제목.md`로 만듭니다. (예: `_news/2026-11-12-jbnu-awards.md`)
+첫 화면 News에 나오는 한 줄 소식은 `_news/날짜-제목.md`로 제작한다. (예: `_news/2026-11-12-jbnu-awards.md`)
 
 ```markdown
 ---
 date: 2026-11-12
 inline: true
 ---
-김소연·성기재 대학원생, 대한피부진균 및 감염학회 우수포스터상·우수연제상 수상 [🔗](https://www.jbnu.ac.kr/...)
+[김소연·성기재 대학원생, 대한피부진균 및 감염학회 우수포스터상·우수연제상 수상](https://www.jbnu.ac.kr/...)
 ```
 
 - `inline: true`면 첫 화면에 한 줄로만 나옵니다.
@@ -212,7 +212,8 @@ inline: true
 
 ## 홈페이지 구조 수정
 
-메뉴, 첫 화면, 디자인을 바꾸는 작업입니다. 여러 페이지가 함께 바뀌니 로컬에서 미리 보고 PR로 올리세요.
+메뉴, 첫 화면, 디자인을 바꾸는 작업입니다.  
+이 경우 여러 페이지가 함께 바뀌니 로컬에서 미리 보고 PR로 안전하게 올리는 것이 좋다.
 
 ### 어디를 고치나
 
@@ -223,13 +224,6 @@ inline: true
 | 연구 내용, 연락처 등 각 페이지 | `_pages/research.md`, `_pages/contact.md` 등 |
 | 사이트 이름, 기본 설정 | `_config.yml` |
 | 색상, 글꼴, 레이아웃 | `_sass/`, `_layouts/`, `_includes/` |
-
-### 디자인 규칙
-
-- 긴 설명은 검은색, 짧은 강조 문구는 남색(`#1a0076`)을 씁니다.
-- 한글과 바닥글은 `Gothic A1`, 영문은 `Vollkorn`을 씁니다.
-- 기본 강조색은 `#191970`입니다.
-- 연구실 지원자 안내는 Handbook의 [연구실 지원자 페이지](https://jbuh-skin-microbiome.github.io/lab-handbook-mkdocs/onboarding/applicants/)로 연결합니다.
 
 ### 로컬 미리보기
 

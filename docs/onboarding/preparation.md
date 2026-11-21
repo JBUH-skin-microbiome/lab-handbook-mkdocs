@@ -71,10 +71,12 @@ permalink: /onboarding/preparation/
 
 ## 알아두면 좋은 것들 
 1. [Markdown](https://gist.github.com/ihoneymon/652be052a0727ad59601): Gitghub 과 Rmarkdown을 사용한 보고서 작성에 유용하다.
-2. Galaxy
+2. [Galaxy project](https://help.galaxyproject.org/): 온라인으로 생물정보학 분석을 수행해 보자.
 3. Nextflow
 4. [QIIME2 forum](https://forum.qiime2.org/) QIIME 및 분석에 대한 조언을 얻을 수 있다
     - [Best of forum](https://forum.qiime2.org/tag/best-of-the-forum/218): 포럼에 주요하게 논의된 글을 읽어보자
+5. [mothur website](https://mothur.org/): 마이크로바이옴 분석의 기본 개념이 잘 정리되어있다.
+6. [Riffomonas](https://riffomonas.org/) 
 
 
 ## 연구실 3달 차 

@@ -16,7 +16,7 @@ permalink: /operations/homepage/
 
 ## 홈페이지 작동 방식
 
-연구실 홈페이지는 Jekyll의 al-folio 테마로 만듭니다. 소스는 [홈페이지 저장소](https://github.com/JBUH-skin-microbiome/JBUH-skin-microbiome.github.io)의 `master` 브랜치에 있고 push하면 GitHub Actions가 사이트를 빌드해 배포합니다.
+연구실 홈페이지는 Jekyll의 al-folio 테마로 만든 사이트입니다. 소스는 [홈페이지 저장소](https://github.com/JBUH-skin-microbiome/JBUH-skin-microbiome.github.io)의 `master` 브랜치에 있고 push하면 GitHub Actions가 사이트를 빌드해 배포합니다.
 
 | 작업 | 고칠 곳 | 웹에서 수정 |
 | --- | --- | --- |
@@ -24,27 +24,27 @@ permalink: /operations/homepage/
 | 학회 발표, 수상 목록 | `_pages/publications.md` | 가능 |
 | Gallery, Facility | `_projects/`, `assets/img/jbsm/` | 가능 |
 | News | `_news/` | 가능 |
-| 메뉴, 첫 화면, 디자인 | `_pages/`, `_config.yml`, `_sass/` | 가능하지만 로컬 미리보기 권장 |
+| 메뉴, 첫 화면, 디자인 | `_pages/`, `_config.yml`, `_sass/` | 가능 (로컬 미리보기 권장) |
 
 
 웹에서 수정하는 방법은 Handbook과 같습니다. [Manual 기여](manual-management.md)를 참고하세요.
 
-일반적으로 수정하는 경우는 다음과 같습니다. 
+자주 하는 수정은 두 가지입니다.
 
-- 연구실 출판물 업데이트 - 웹에서 수정 불가능
-- 연구실 이벤트(수상, 학회 참여, 워크숍) 업데이트 - 웹에서 추가 가능 
+- 연구실 출판물 업데이트 (웹에서는 안 되고 로컬 작업 필요)
+- 연구실 이벤트(수상, 학회 참여, 워크숍) 업데이트 (웹에서 추가 가능)
 
 ## 논문 추가 및 연구원 연결
 
 
-Publications 페이지와 연구원별 논문 목록은 `_bibliography/papers.bib` 하나에서 만들어집니다. bib을 고친 뒤 생성 스크립트를 돌려야 목록 HTML이 바뀝니다.
+생성 스크립트가 `_bibliography/papers.bib` 하나를 읽어 Publications 페이지와 연구원별 논문 목록을 만듭니다. bib을 고친 뒤 스크립트를 돌려야 목록이 바뀝니다.
 
 !!! warning "배포 서버는 생성 스크립트를 실행하지 않습니다"
     `papers.bib`만 고쳐서 push하면 사이트에 아무것도 바뀌지 않습니다. 스크립트가 만든 `_includes/publications/`와 `_includes/member-publications/`의 HTML까지 함께 커밋해야 합니다. 그래서 논문 추가는 로컬에서 작업합니다.
 
 ### 1. papers.bib에 논문 추가
 
-`_bibliography/papers.bib`에 항목을 하나 추가합니다. 순서는 상관없고 같은 연도 안에서는 파일에 적힌 순서대로 나옵니다.
+`_bibliography/papers.bib`에 항목을 하나 추가합니다. 같은 연도 논문은 파일에 적힌 순서대로 나오니 보여 줄 순서에 맞춰 넣습니다.
 
 ```bibtex
 @article{kim2026distinct,
@@ -73,7 +73,7 @@ publication_names: ["Kim, SY"]
 ```
 
 - bib의 `author`에 적은 표기와 글자 하나까지 같아야 연결됩니다. `Kim, SY`와 `Kim, S-Y`는 다른 이름으로 봅니다.
-- 한 사람이 논문마다 다르게 표기되었다면 모두 적습니다. (예: `["Kim, SY", "Kim, S"]`)
+- 논문마다 이름 표기가 다르면 모두 적습니다. (예: `["Kim, SY", "Kim, S"]`)
 - 같은 표기를 두 구성원에게 넣으면 스크립트가 오류를 냅니다.
 
 새 구성원은 `_members/`에 파일을 만듭니다. 기존 파일을 복사해 고치는 편이 빠릅니다.
@@ -162,7 +162,7 @@ images:
 ```
 
 - `img`는 카드 썸네일, `images`는 카드를 눌렀을 때 보이는 사진입니다.
-- `year`로 연도 묶음이 정해지고 같은 연도 안에서는 `order` 순서대로 나옵니다.
+- 카드는 `year` 값에 따라 연도별로 묶이고 같은 연도 안에서는 `order` 순서대로 나옵니다.
 - 새해 첫 사진을 넣을 때는 `_pages/gallery.md`의 `gallery_years` 목록 맨 앞에 새 연도를 추가합니다. 빠뜨리면 그해 카드가 보이지 않습니다.
 
 ### Facility
@@ -205,7 +205,7 @@ inline: true
 
 ## 홈페이지 구조 수정
 
-메뉴, 첫 화면, 디자인을 바꾸는 작업입니다. 여러 페이지에 영향을 주니 로컬에서 미리 보고 PR로 올리는 것을 권장합니다.
+메뉴, 첫 화면, 디자인을 바꾸는 작업입니다. 여러 페이지가 함께 바뀌니 로컬에서 미리 보고 PR로 올리세요.
 
 ### 어디를 고치나
 

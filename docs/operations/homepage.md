@@ -74,9 +74,9 @@ publication_names: ["Kim, SY"]
 
 - bib의 `author`에 적은 표기와 글자 하나까지 같아야 연결됩니다. `Kim, SY`와 `Kim, S-Y`는 다른 이름으로 봅니다.
 - 논문마다 이름 표기가 다르면 모두 적습니다. (예: `["Kim, SY", "Kim, S"]`)
-- 같은 표기를 두 구성원에게 넣으면 스크립트가 오류를 냅니다.
+- 같은 표기를 두 구성원에게 넣으면 스크립트가 오류가 난다.
 
-새 구성원은 `_members/`에 파일을 만듭니다. 기존 파일을 복사해 고치는 편이 빠릅니다.
+새 구성원은 `_members/`에 파일을 만듭니다. 기존 파일을 복사해 고치는 편이 빠르다.
 
 ```yaml
 ---
@@ -115,32 +115,34 @@ git push
 
 ### 4. 학회 발표, 수상, 특허
 
-Publications 페이지 아래쪽의 Conference 등은 자동 생성이 아닙니다. `_pages/publications.md`의 해당 연도 목록에 직접 한 줄을 추가합니다. 웹에서 고쳐도 됩니다.
+Publications 페이지 아래쪽의 Conference 등은 자동 생성이 아니고 홈페이지 관리자가 직접 추가해야 한다.  
+`_pages/publications.md`의 해당 연도 목록에 직접 한 줄을 추가하거나 웹에서 수정이 가능하다. 
 
 ```markdown
 - [P] Kim SY et al. 발표 제목. 9th KSCMI, 2026.11.07.
 ```
 
-`[P]`는 포스터, `[O]`는 구연, `[IL]`은 초청·교육 강연입니다.
+`[P]`는 포스터(poster), `[O]`는 구연(oral presentation), `[IL]`은 초청·교육 강연(invite lecture).
 
-### 5. 새해가 되면
+### 5. 해가 지나가면 수정할 것들
 
-연도가 코드에 직접 적혀 있어서 새해 첫 논문을 넣을 때 아래 두 곳을 먼저 고칩니다. 빠뜨리면 새 연도 논문이 목록에 나오지 않습니다.
+연도가 넘어가면 일단 1) Publication 및 2) Gallary 페이지에 새로운 연도를 추가한다. 
 
 - `scripts/generate_publication_includes.py`의 `YEARS`에 새 연도 추가
 - `_pages/publications.md`의 Articles에 새 연도 제목과 include 줄 추가 (기존 연도 블록을 복사해 숫자만 바꿉니다)
 
 ## Gallery·Facility 추가
 
-Gallery와 Facility는 같은 구조입니다. `_projects/`의 Markdown 파일 하나가 카드 하나가 되고 `kind` 값으로 어느 페이지에 나올지 정합니다. 웹에서 사진을 올리고 파일을 만들어도 됩니다.
+Gallery와 Facility는 al-foilo의 Project theme를 사용한다. 
 
-### 사진 준비
+### 1) 관련 이미지 업로드 
 
-- `assets/img/jbsm/`에 올립니다. 웹에서는 폴더를 연 뒤 Add file → Upload files를 씁니다.
-- 파일 이름은 기존 번호를 이어 갑니다. Gallery는 `gallery-asset-23.jpg`, Facility는 `facility-16.jpg` 식입니다.
-- 휴대폰 원본은 용량이 커서 페이지가 느려집니다. 긴 변 1600px, 장당 500KB 안팎으로 줄여 올립니다.
-- 얼굴이 나온 사진은 당사자에게 공개해도 되는지 먼저 확인합니다.
+1. **파일 이름 형식**: Gallery는 `gallery-asset-23.jpg`, Facility는 `facility-16.jpg` 
+2. **이미지 업로드**
+    - local 수정 시 `assets/img/jbsm/`에 업로드 한다.
+    - 웹에서는 폴더를 연 뒤 Add file → Upload files를 씁니다.
 
+  
 ### Gallery
 
 `_projects/연도-행사.md` 파일을 만듭니다. (예: `_projects/2026-kscmi.md`)
@@ -161,9 +163,11 @@ images:
 ---
 ```
 
-- `img`는 카드 썸네일, `images`는 카드를 눌렀을 때 보이는 사진입니다.
-- 카드는 `year` 값에 따라 연도별로 묶이고 같은 연도 안에서는 `order` 순서대로 나옵니다.
+- `img`는 카드 썸네일, `images`는 카드를 눌렀을 때 보이는 사진이다.
+- 카드는 `year` 값에 따라 연도별로 묶이고 같은 연도 안에서는 `order` 순서대로 나온다.
 - 새해 첫 사진을 넣을 때는 `_pages/gallery.md`의 `gallery_years` 목록 맨 앞에 새 연도를 추가합니다. 빠뜨리면 그해 카드가 보이지 않습니다.
+
+
 
 ### Facility
 

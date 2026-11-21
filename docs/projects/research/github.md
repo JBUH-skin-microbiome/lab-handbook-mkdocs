@@ -28,15 +28,9 @@ permalink: /projects/research/github/
 - **대용량 중간 산출물**: Zenodo에 올리고 링크만 겁니다.
 
 ## 투고·출판할 때 할 일
-
-1. README에 환경 구성부터 그림 생성까지의 재현 절차를 정리합니다.
+1. REAMD 에 프로젝트 목적 및 결과 (논문 초록으로 대체 가능), 프로젝트 script 구조 및 재현을 위한 실행 단계를 설명합니다.  
 2. 저장소를 Public으로 전환합니다.
 3. GitHub–Zenodo 연동을 켜고 Release를 만들어 DOI를 발급받습니다.
 4. 논문의 Code/Data Availability 항목에 저장소 주소, Zenodo DOI, 시퀀싱 데이터 accession을 적습니다.
 
 논문 준비 전반은 [논문](../paper.md)을, 분석 재현성은 [연구 재현성](../reproducibility.md)을 참고하세요.
-
-## 계정과 권한
-
-- 프로젝트 참여자에게만 저장소 권한을 부여하고, 참여가 끝나면 권한을 정리합니다.
-- 파일 삭제나 구조 변경 같은 큰 변경은 Pull Request로 검토한 뒤 반영합니다.

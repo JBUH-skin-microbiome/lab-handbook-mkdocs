@@ -13,9 +13,13 @@ permalink: /projects/research/github/
 Git 기본 사용법은 [Git and GitHub](../../operations/github.md)를 참고하세요.
 
 ## 저장소 원칙
-
-- 투고 전에는 **Private**으로 두고, 논문을 공개할 때 **Public**으로 전환합니다.
-
+1. 투고 전에는 **Private**으로 두고, 논문을 공개할 때 **Public**으로 전환한다
+2. Raw는 github 에 업로드 하지 않는다 (100mb 이상 업로드 불가능)
+3. 분석 script 는 상대경로만 사용한다 
+5. 번호로 실행 순서를 나타낸다
+7. 재현성을 위해 분석 버전을 고정한다 (파이프라인은 -r, R 패키지는 renv.lock 사용)
+8. 중간 분석 결과와 논문용 최종 분석 결과를 분리한다(시행착오는 old/, 논문용은 final/)
+ 
 ## 권장 폴더 구조
 
 ```text

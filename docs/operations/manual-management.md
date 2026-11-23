@@ -272,3 +272,5 @@ git push -u origin 브랜치-이름
 ```
 
 push하면 GitHub 저장소 페이지에 Compare & pull request 버튼이 나타납니다. 이 버튼으로 PR을 만듭니다.
+
+[개인별 기여 보기 →](../other/contributions.md)

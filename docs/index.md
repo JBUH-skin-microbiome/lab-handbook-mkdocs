@@ -33,3 +33,5 @@ nav_order: 0
 <!-- recent-documents:start -->
 {{ latest_changes }}
 <!-- recent-documents:end -->
+
+[기여자별 수정 문서 보기 →](other/contributions.md)

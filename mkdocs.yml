@@ -56,6 +56,7 @@ plugins:
     fallback_to_build_date: false
 hooks:
 - hooks/handbook.py
+- hooks/contributions.py
 markdown_extensions:
 - admonition
 - attr_list
@@ -188,4 +189,6 @@ nav:
   - 기타:
     - graduate-school/other/index.md
     - '[Format] USB': graduate-school/other/usb.md
+- 기타:
+  - 기여 현황: other/contributions.md
 

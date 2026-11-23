@@ -43,6 +43,7 @@ plugins:
     - page_path_link
     - timestamp
     - author
+    - message
 - git-authors:
     show_contribution: true
     show_email_address: false

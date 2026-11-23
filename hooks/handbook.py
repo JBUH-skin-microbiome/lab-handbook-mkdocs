@@ -48,25 +48,22 @@ def on_page_markdown(markdown, page, config, files):
         def recent_documents(match):
             # The plugin includes images and other assets. Select documents
             # before applying the limit, so the homepage shows 10 actual pages.
+            table = [line for line in match[1].splitlines() if line.startswith('|')]
             rows = []
-            for line in match[1].splitlines():
-                cells = [cell.strip() for cell in line.strip().strip('|').split('|')]
-                if len(cells) != 3:
-                    continue
-                link = re.fullmatch(r'\[([^\]]+)\]\(([^)]+)\)', cells[0])
+            for line in table[2:]:
+                # Preserve the plugin's headers, cells and formatting verbatim.
+                link = re.match(r'\|\s*\[([^\]]+)\]\(([^)]+)\)', line)
                 if not link:
                     continue
                 target = posixpath.normpath(link[2])
                 if target not in PAGES or target == src:
                     continue
-                title = PAGES[target].get('title') or link[1]
-                title = html.escape(str(title)).replace('[', r'\[').replace(']', r'\]')
-                rows.append(f'- [{title}]({target}) — {html.escape(cells[1])} · {html.escape(cells[2])}')
+                rows.append(line)
                 if len(rows) == 10:
                     break
             if not rows:
                 raise ValueError('Recent documents list is empty; check plugin output')
-            return '\n' + '\n'.join(rows) + '\n'
+            return '\n\n' + '\n'.join(table[:2] + rows) + '\n\n'
         markdown = re.sub(r'<!-- recent-documents:start -->(.*?)<!-- recent-documents:end -->',
                           recent_documents, markdown, flags=re.S)
     base = page.url if page.url.endswith('/') else posixpath.dirname(page.url)

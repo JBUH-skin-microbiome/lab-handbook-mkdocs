@@ -24,7 +24,7 @@ nav_order: 0
 ## 연구실 홈페이지 돌아가기
 - [Homepage](https://jbuh-skin-microbiome.github.io/)
 
-A
+
 ## 권한 및 접근성
 - Manual 내 일부 문서의 경우 notion 과 google drive의 권한이 필요합니다. 
 

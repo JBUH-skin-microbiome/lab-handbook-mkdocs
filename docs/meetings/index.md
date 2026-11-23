@@ -75,21 +75,60 @@ permalink: /meetings/
 
 ##### 2. 배경
 
-- 연구 질환 설명
-- 질환의 기전
-- 마이크로바이옴 결과 
+- 연구 질환 설명  
+- 질환의 기전 및 미생물과 연관성 문헌조사 결과
+
 ##### 3. 연구목표
 
+- 연구 목표
+
 ##### 4. 연구 결과
+
+###### 1) 연구 결과 보고 규칙 
+
 - 날짜별로 업데이트
-- Raw 데이터 
-- QC결과
-- 전처리 결과
-- 기초 분석
-- 고급분석
+- 장기적인 프로젝트의 경우 update 결과를 맨 상단에 배치
+
+###### 2) 결과 보고 
+
+- 임상 수집 샘플  
+    - 대상자의 인구학적 정보 정리  
+    - 수집 및 최종 대상자 정리  
+    - 수집된 샘플 개수 정리  
+    - 수집된 샘플 중 시퀀싱 (NGS) 이 최종적으로 완료된 샘플 정리  
+    
+- 전처리 결과 보고  
+    - 실험 중 Control 디자인  
+    - Read count 보고   
+
+- 기초 분석  
+    - alpha diveristy  
+    - beta diversity  
+    - Taxonomy composition  
+    - 임상 데이터에 따른 alpha, beta의 결과  
+    - differenctial  abundance analysis 사용  
+        - wilcoxon rank sum test (민감도분석)  
+        - ANCOM-BC2  
+        - MaAsLin2  
+
+- Amplicon 추가 분석    
+    - 기능 예측: PICRUSt2  
+
+- Shotgun 추가 분석  
+    - 기능 예측: Humman, egg-NOG  
+    - 독성 분석  
+    - 항생제 내성 유전체 분석  
+    - Strain level 분석  
+
+- 공통 분석  
+    - Network 분석  
+
 
 ##### 5. 추가 실험 및 논의
+
 - 결과 논의
+    - 연구 시 어려운점을 교수님과 연구원들에게 논의
+
 - 향후 추가 실험 계획 및 예상 결과
 
 

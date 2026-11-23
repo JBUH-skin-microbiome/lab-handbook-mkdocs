@@ -44,6 +44,31 @@ def on_nav(nav, config, files):
 
 def on_page_markdown(markdown, page, config, files):
     src = page.file.src_uri
+    if src == 'index.md':
+        def recent_documents(match):
+            # The plugin includes images and other assets. Select documents
+            # before applying the limit, so the homepage shows 10 actual pages.
+            rows = []
+            for line in match[1].splitlines():
+                cells = [cell.strip() for cell in line.strip().strip('|').split('|')]
+                if len(cells) != 3:
+                    continue
+                link = re.fullmatch(r'\[([^\]]+)\]\(([^)]+)\)', cells[0])
+                if not link:
+                    continue
+                target = posixpath.normpath(link[2])
+                if target not in PAGES or target == src:
+                    continue
+                title = PAGES[target].get('title') or link[1]
+                title = html.escape(str(title)).replace('[', r'\[').replace(']', r'\]')
+                rows.append(f'- [{title}]({target}) — {html.escape(cells[1])} · {html.escape(cells[2])}')
+                if len(rows) == 10:
+                    break
+            if not rows:
+                raise ValueError('Recent documents list is empty; check plugin output')
+            return '\n' + '\n'.join(rows) + '\n'
+        markdown = re.sub(r'<!-- recent-documents:start -->(.*?)<!-- recent-documents:end -->',
+                          recent_documents, markdown, flags=re.S)
     base = page.url if page.url.endswith('/') else posixpath.dirname(page.url)
     def url(path):
         return posixpath.relpath(path.lstrip('/') or '.', base or '.') + ('/' if path.endswith('/') else '')

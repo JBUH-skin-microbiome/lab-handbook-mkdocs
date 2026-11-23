@@ -27,3 +27,9 @@ nav_order: 0
 
 ## 권한 및 접근성
 - Manual 내 일부 문서의 경우 notion 과 google drive의 권한이 필요합니다. 
+
+## 최근 수정된 글
+
+<!-- recent-documents:start -->
+{{ latest_changes }}
+<!-- recent-documents:end -->

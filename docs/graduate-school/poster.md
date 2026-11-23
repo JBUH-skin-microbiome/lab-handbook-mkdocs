@@ -46,6 +46,7 @@ permalink: /graduate-school/poster/
 
 - 좋은 포스터는 이해가 잘 되는 것!
     - [Link roundup for October 2023](https://betterposters.blogspot.com/2023/10/link-roundup-for-october-2023.html)
+- 좋은 포스터 발표를 위한 10가지 규칙 [Erren TC & Bourne PE, 2007, PLoS computational biology](https://doi.org/10.1371/journal.pcbi.0030102)
 
 ### 2) 좋은 포스터를 만드는 방법은?
 

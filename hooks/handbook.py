@@ -56,7 +56,7 @@ def on_page_markdown(markdown, page, config, files):
                 if not link:
                     continue
                 target = posixpath.normpath(link[2])
-                if target not in PAGES or target == src:
+                if target not in PAGES:
                     continue
                 cells = line.split('|')
                 aliases = config.get('extra', {}).get('author_aliases', {})

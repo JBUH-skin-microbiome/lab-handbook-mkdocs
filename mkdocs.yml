@@ -57,6 +57,9 @@ plugins:
 hooks:
 - hooks/handbook.py
 - hooks/contributions.py
+extra:
+  author_aliases:
+    SoYeon Kim: KitHubb
 markdown_extensions:
 - admonition
 - attr_list

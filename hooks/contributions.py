@@ -8,10 +8,17 @@ import yaml
 
 MARKER = '<!-- contributor-documents -->'
 KST = timezone(timedelta(hours=9))
+AUTHOR_ALIASES = {}
+
+
+def on_config(config):
+    AUTHOR_ALIASES.clear()
+    AUTHOR_ALIASES.update(config.get('extra', {}).get('author_aliases', {}))
+    return config
 
 
 def document_authors(repo, path):
-    """Keep each exact author name and their latest change, following renames."""
+    """Merge confirmed name aliases and keep their latest change per document."""
     result = subprocess.run(
         ['git', '-C', str(repo), 'log', '--follow', '--no-merges',
          '--format=%an%x00%ct', '--', str(path)],
@@ -20,6 +27,7 @@ def document_authors(repo, path):
     authors = {}
     for line in result.stdout.splitlines():
         name, timestamp = line.rsplit('\0', 1)
+        name = AUTHOR_ALIASES.get(name, name)
         authors[name] = max(authors.get(name, 0), int(timestamp))
     return authors
 
@@ -57,3 +65,33 @@ def on_page_markdown(markdown, page, config, files):
             sections.append(f'    | [{cell(title)}]({target}) | {date} |')
         sections.append('')
     return markdown.replace(MARKER, '\n'.join(sections) or '아직 수정 기록이 없습니다.')
+
+
+def on_page_context(context, page, config, nav):
+    """Unify the git-authors footer without modifying its template or Git history."""
+    info = context.get('git_info')
+    if not info:
+        return context
+    for key in ('page_authors', 'site_authors'):
+        merged = {}
+        for author in info.get(key, []):
+            name = AUTHOR_ALIASES.get(author['name'], author['name'])
+            if name not in merged:
+                merged[name] = dict(author, name=name)
+            else:
+                target = merged[name]
+                for field in ('lines', 'lines_all_pages'):
+                    target[field] += author[field]
+                for field in ('contribution', 'contribution_all_pages'):
+                    total = float(target[field].rstrip('%')) + float(author[field].rstrip('%'))
+                    target[field] = f'{total:.2f}%'
+        info[key] = list(merged.values())
+    authors = info['page_authors']
+    show_contribution = config.plugins['git-authors'].config.show_contribution
+    labels = [html.escape(author['name']) +
+              (f" ({author['contribution']})" if show_contribution and len(authors) > 1 else '')
+              for author in authors]
+    context['git_page_authors'] = "<span class='git-page-authors git-authors'>" + ', '.join(labels) + '</span>'
+    context['git_site_authors'] = "<span class='git-authors'><ul>" + ''.join(
+        '<li>' + html.escape(author['name']) + '</li>' for author in info['site_authors']) + '</ul></span>'
+    return context

@@ -58,7 +58,12 @@ def on_page_markdown(markdown, page, config, files):
                 target = posixpath.normpath(link[2])
                 if target not in PAGES or target == src:
                     continue
-                rows.append(line)
+                cells = line.split('|')
+                aliases = config.get('extra', {}).get('author_aliases', {})
+                author = html.unescape(cells[3].strip())
+                if author in aliases:
+                    cells[3] = ' ' + html.escape(aliases[author]) + ' '
+                rows.append('|'.join(cells))
                 if len(rows) == 10:
                     break
             if not rows:

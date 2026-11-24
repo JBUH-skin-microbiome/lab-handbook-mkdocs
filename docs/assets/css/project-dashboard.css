@@ -1,0 +1,182 @@
+.project-dashboard {
+  --pd-green: #16803a;
+  --pd-yellow: #a16207;
+  --pd-blue: #1769aa;
+  --pd-orange: #c2410c;
+  --pd-gray: #667085;
+  margin: 1.25rem 0 2rem;
+}
+
+.project-dashboard__loading,
+.project-dashboard__error {
+  padding: 1rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: .55rem;
+}
+
+.project-dashboard__error { color: #b42318; }
+
+.pd-meta {
+  display: flex;
+  justify-content: space-between;
+  gap: .75rem;
+  align-items: center;
+  margin-bottom: .75rem;
+  color: var(--md-default-fg-color--light);
+  font-size: .72rem;
+}
+
+.pd-stats {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: .65rem;
+  margin-bottom: 1rem;
+}
+
+.pd-stat {
+  padding: .85rem 1rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: .55rem;
+  background: var(--md-default-bg-color);
+}
+
+.pd-stat__value {
+  display: block;
+  font-size: 1.45rem;
+  font-weight: 750;
+  line-height: 1.1;
+  color: var(--md-default-fg-color);
+}
+
+.pd-stat__label {
+  display: block;
+  margin-top: .25rem;
+  font-size: .72rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.pd-controls {
+  display: grid;
+  grid-template-columns: minmax(14rem, 2fr) repeat(2, minmax(8rem, 1fr));
+  gap: .55rem;
+  margin: 1rem 0;
+}
+
+.pd-controls input,
+.pd-controls select {
+  width: 100%;
+  min-height: 2.35rem;
+  padding: .45rem .65rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: .4rem;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  font: inherit;
+}
+
+.pd-section-title {
+  margin: 1.5rem 0 .55rem;
+  font-size: 1rem;
+}
+
+.pd-status-summary {
+  display: flex;
+  gap: .45rem;
+  flex-wrap: wrap;
+  margin-bottom: .85rem;
+}
+
+.pd-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: .25rem;
+  padding: .18rem .48rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 999px;
+  background: var(--md-default-bg-color);
+  font-size: .68rem;
+  white-space: nowrap;
+}
+
+.pd-table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: .55rem;
+}
+
+.pd-table {
+  width: 100%;
+  min-width: 760px;
+  margin: 0 !important;
+  border-collapse: collapse;
+  font-size: .72rem;
+}
+
+.pd-table th,
+.pd-table td {
+  padding: .58rem .65rem;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  vertical-align: top;
+}
+
+.pd-table th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: #191970;
+  color: #fff;
+  font-weight: 700;
+  text-align: left;
+}
+
+.pd-table tr:last-child td { border-bottom: 0; }
+.pd-table tbody tr:hover { background: color-mix(in srgb, var(--md-primary-fg-color) 7%, transparent); }
+.pd-id { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: .66rem; white-space: nowrap; }
+.pd-muted { color: var(--md-default-fg-color--light); }
+.pd-empty { padding: 1.1rem; text-align: center; color: var(--md-default-fg-color--light); }
+
+.pd-project-name {
+  font-weight: 650;
+  color: var(--md-default-fg-color);
+}
+
+.pd-task-count {
+  display: inline-block;
+  min-width: 1.6rem;
+  padding: .08rem .35rem;
+  border-radius: 999px;
+  background: var(--md-default-fg-color--lightest);
+  text-align: center;
+  font-size: .66rem;
+}
+
+.pd-task-list {
+  display: grid;
+  gap: .5rem;
+}
+
+.pd-task {
+  display: grid;
+  grid-template-columns: minmax(12rem, 1fr) auto auto;
+  gap: .65rem;
+  align-items: center;
+  padding: .65rem .75rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: .45rem;
+  background: var(--md-default-bg-color);
+  font-size: .72rem;
+}
+
+.pd-task__title { font-weight: 600; }
+.pd-task__meta { margin-top: .15rem; color: var(--md-default-fg-color--light); font-size: .66rem; }
+
+@media (max-width: 52rem) {
+  .pd-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .pd-controls { grid-template-columns: 1fr; }
+  .pd-task { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 30rem) {
+  .pd-stats { grid-template-columns: 1fr 1fr; }
+  .pd-meta { align-items: flex-start; flex-direction: column; }
+}

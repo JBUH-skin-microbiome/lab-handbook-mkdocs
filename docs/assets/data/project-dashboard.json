@@ -1,0 +1,670 @@
+{
+  "updatedAt": "2026-11-24",
+  "projects": [
+    {
+      "id": "PRJ-0001",
+      "name": "임신성당뇨산모신생아의 분변 및 피부 마이크로/마이코바이옴",
+      "cohort": "신생아 분변",
+      "lead": "박진",
+      "member": "김소연",
+      "status": "🟢 DURING",
+      "priority": ""
+    },
+    {
+      "id": "PRJ-0002",
+      "name": "간담도질환자 분변/담즙 마이크로/마이코바이옴",
+      "cohort": "간담도질환자 분변/담즙",
+      "lead": "박진",
+      "member": "김소연",
+      "status": "🟢 DURING",
+      "priority": ""
+    },
+    {
+      "id": "PRJ-0003",
+      "name": "마이코바이옴을 위한 DNA Kit비교",
+      "cohort": "DNA Kit비교",
+      "lead": "정원희",
+      "member": "김소연",
+      "status": "🟢 WRITING",
+      "priority": ""
+    },
+    {
+      "id": "PRJ-0004",
+      "name": "마이코바이옴 분석 가이드라인 작성",
+      "cohort": "마이코바이옴",
+      "lead": "박진",
+      "member": "김소연",
+      "status": "🔵 DONE",
+      "priority": ""
+    },
+    {
+      "id": "PRJ-0005",
+      "name": "표준 피부마이크로바이옴",
+      "cohort": "피부마이크로바이옴",
+      "lead": "박진",
+      "member": "오유림",
+      "status": "🟢 DURING",
+      "priority": ""
+    },
+    {
+      "id": "PRJ-0006",
+      "name": "바이오메듀스",
+      "cohort": "옴 연구",
+      "lead": "박진",
+      "member": "김광일",
+      "status": "🟢 DURING",
+      "priority": ""
+    },
+    {
+      "id": "PRJ-0007",
+      "name": "AA (Alopecia areata)",
+      "cohort": "원형탈모",
+      "lead": "박진",
+      "member": "김광일",
+      "status": "🟢 DURING",
+      "priority": ""
+    },
+    {
+      "id": "PRJ-0008",
+      "name": "AGA (Androgenic alopecia)",
+      "cohort": "남성형/여성형 탈모",
+      "lead": "박진",
+      "member": "김광일",
+      "status": "🟢 DURING",
+      "priority": ""
+    },
+    {
+      "id": "PRJ-0009",
+      "name": "CA (Cicatricial alopecia)",
+      "cohort": "흉터탈모",
+      "lead": "박진",
+      "member": "김소연",
+      "status": "🟡 WAITING",
+      "priority": ""
+    },
+    {
+      "id": "PRJ-0010",
+      "name": "FO (Folliculitis)",
+      "cohort": "모낭염",
+      "lead": "박진",
+      "member": "김소연",
+      "status": "🔵 DONE",
+      "priority": ""
+    },
+    {
+      "id": "PRJ-0011",
+      "name": "SD (Seborrheic dermatitis)",
+      "cohort": "지루성 두피염",
+      "lead": "박진",
+      "member": "Trang tran",
+      "status": "⚪ TODO",
+      "priority": ""
+    },
+    {
+      "id": "PRJ-0012",
+      "name": "RS (Rosacea)",
+      "cohort": "주사피부염",
+      "lead": "박진",
+      "member": "박윤환",
+      "status": "⚪ TODO",
+      "priority": ""
+    },
+    {
+      "id": "PRJ-0013",
+      "name": "TI (Tinea capitis)",
+      "cohort": "두부백선",
+      "lead": "박진",
+      "member": "",
+      "status": "⚪ TODO",
+      "priority": ""
+    },
+    {
+      "id": "PRJ-0014",
+      "name": "AT (Atopic dermatitis)",
+      "cohort": "아토피",
+      "lead": "박진",
+      "member": "박윤환",
+      "status": "⚪ TODO",
+      "priority": ""
+    },
+    {
+      "id": "PRJ-0015",
+      "name": "AT-serial",
+      "cohort": "아토피",
+      "lead": "박진",
+      "member": "박윤환",
+      "status": "⚪ TODO",
+      "priority": "1"
+    },
+    {
+      "id": "PRJ-0016",
+      "name": "HS (Hidradenitis suppurativa)",
+      "cohort": "화농성 한선염",
+      "lead": "박진",
+      "member": "",
+      "status": "⚪ TODO",
+      "priority": ""
+    },
+    {
+      "id": "PRJ-0017",
+      "name": "Acne",
+      "cohort": "여드름",
+      "lead": "박진",
+      "member": "박윤환",
+      "status": "⚪ TODO",
+      "priority": ""
+    },
+    {
+      "id": "PRJ-0018",
+      "name": "HFS (Hand-foot syndrome)",
+      "cohort": "수족증후군",
+      "lead": "남경화",
+      "member": "Trang tran",
+      "status": "⚪ TODO",
+      "priority": "1"
+    },
+    {
+      "id": "PRJ-0019",
+      "name": "PS (Psoriasis)",
+      "cohort": "건선",
+      "lead": "남경화",
+      "member": "김광일",
+      "status": "⚪ TODO",
+      "priority": ""
+    },
+    {
+      "id": "PRJ-0020",
+      "name": "PPP (Palmoplantar pustulosis)",
+      "cohort": "건선",
+      "lead": "남경화",
+      "member": "김광일",
+      "status": "⚪ TODO",
+      "priority": "1"
+    },
+    {
+      "id": "PRJ-0021",
+      "name": "파킨슨 장내마이크로바이옴",
+      "cohort": "피부, 혈액, 분변",
+      "lead": "황윤수/김전경",
+      "member": "김병지",
+      "status": "⚪ TODO",
+      "priority": ""
+    },
+    {
+      "id": "PRJ-0022",
+      "name": "소화기내과 분변 연구",
+      "cohort": "분변",
+      "lead": "",
+      "member": "김병지",
+      "status": "⚪ TODO",
+      "priority": ""
+    },
+    {
+      "id": "PRJ-0023",
+      "name": "다기관 두경부 아토피",
+      "cohort": "아토피",
+      "lead": "박진",
+      "member": "박윤환",
+      "status": "🟢 WRITING",
+      "priority": "2"
+    },
+    {
+      "id": "PRJ-0024",
+      "name": "신생아 재태주수에 따른 분변",
+      "cohort": "분변/ 피부",
+      "lead": "김진규",
+      "member": "김소연/김병지",
+      "status": "⚪ TODO",
+      "priority": "2"
+    },
+    {
+      "id": "PRJ-0025",
+      "name": "아토피 두필루맙 유발 두경부홍반",
+      "cohort": "아토피",
+      "lead": "",
+      "member": "박윤환",
+      "status": "⚪ TODO",
+      "priority": ""
+    },
+    {
+      "id": "PRJ-0026",
+      "name": "피부 마이크로바이옴 Swab type 비교",
+      "cohort": "정상 피부",
+      "lead": "박진",
+      "member": "김소연",
+      "status": "🟢 WRITING",
+      "priority": "1"
+    },
+    {
+      "id": "PRJ-0027",
+      "name": "Skin Lipidomics",
+      "cohort": "JAK inhibitor-acne / Acne / 정상 대조군",
+      "lead": "박진",
+      "member": "박윤환",
+      "status": "🟢 DURING",
+      "priority": "2"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "TSK-0001",
+      "projectId": "PRJ-0021",
+      "name": "Olink plasma 단백체 추가 결과 확인",
+      "assignee": "",
+      "status": "🟢 DURING",
+      "priority": "1",
+      "startDate": "",
+      "dueDate": ""
+    },
+    {
+      "id": "TSK-0002",
+      "projectId": "PRJ-0021",
+      "name": "Olink 대조군 적절성 재검토",
+      "assignee": "",
+      "status": "⚪ TODO",
+      "priority": "1",
+      "startDate": "",
+      "dueDate": ""
+    },
+    {
+      "id": "TSK-0003",
+      "projectId": "PRJ-0021",
+      "name": "면역 분석용 PBMC·plasma 분리 및 후처리 방식 정리",
+      "assignee": "",
+      "status": "⚪ TODO",
+      "priority": "1",
+      "startDate": "",
+      "dueDate": ""
+    },
+    {
+      "id": "TSK-0004",
+      "projectId": "PRJ-0021",
+      "name": "Fecal alpha-synuclein 분석 가능 잔여 분변 검체 표시",
+      "assignee": "",
+      "status": "🟢 DURING",
+      "priority": "2",
+      "startDate": "",
+      "dueDate": ""
+    },
+    {
+      "id": "TSK-0005",
+      "projectId": "PRJ-0021",
+      "name": "DHL·BB·GAM 배지에 YCFE 조건 추가",
+      "assignee": "김규남",
+      "status": "⚪ TODO",
+      "priority": "2",
+      "startDate": "",
+      "dueDate": ""
+    },
+    {
+      "id": "TSK-0006",
+      "projectId": "PRJ-0021",
+      "name": "황화수소 관련 문헌 정리",
+      "assignee": "김규남",
+      "status": "🟢 DURING",
+      "priority": "2",
+      "startDate": "",
+      "dueDate": ""
+    },
+    {
+      "id": "TSK-0007",
+      "projectId": "PRJ-0021",
+      "name": "Fecal alpha-synuclein 분석 전 solution 처리 조건 확인",
+      "assignee": "",
+      "status": "⚪ TODO",
+      "priority": "2",
+      "startDate": "",
+      "dueDate": ""
+    },
+    {
+      "id": "TSK-0008",
+      "projectId": "PRJ-0021",
+      "name": "장기 추적 대상자 모집 및 첫 방문 대변통 키트 전달 지속",
+      "assignee": "",
+      "status": "🟢 DURING",
+      "priority": "1",
+      "startDate": "2026-07-21",
+      "dueDate": ""
+    },
+    {
+      "id": "TSK-0009",
+      "projectId": "PRJ-0021",
+      "name": "기존 1차 검체를 포함한 추가 Fecal NGS 진행",
+      "assignee": "",
+      "status": "🟢 DURING",
+      "priority": "1",
+      "startDate": "2026-09-08",
+      "dueDate": ""
+    },
+    {
+      "id": "TSK-0010",
+      "projectId": "PRJ-0021",
+      "name": "임상정보에서 피부염 유무 추가 확인",
+      "assignee": "",
+      "status": "⚪ TODO",
+      "priority": "2",
+      "startDate": "",
+      "dueDate": ""
+    },
+    {
+      "id": "TSK-0011",
+      "projectId": "PRJ-0001",
+      "name": "약 230개 TRUE 샘플 메타데이터 정리 후 최종 샘플 선정",
+      "assignee": "김병지",
+      "status": "🟢 DURING",
+      "priority": "1",
+      "startDate": "",
+      "dueDate": ""
+    },
+    {
+      "id": "TSK-0012",
+      "projectId": "PRJ-0001",
+      "name": "신생아 검체 처리 flow chart 확정",
+      "assignee": "",
+      "status": "⚪ TODO",
+      "priority": "2",
+      "startDate": "",
+      "dueDate": ""
+    },
+    {
+      "id": "TSK-0013",
+      "projectId": "PRJ-0001",
+      "name": "신생아·산모 임상정보 등록 및 누락 정보 보완",
+      "assignee": "",
+      "status": "🟢 DURING",
+      "priority": "1",
+      "startDate": "",
+      "dueDate": ""
+    },
+    {
+      "id": "TSK-0014",
+      "projectId": "PRJ-0002",
+      "name": "성인 분변 FASTQ 등록",
+      "assignee": "김소연",
+      "status": "🟢 DURING",
+      "priority": "1",
+      "startDate": "",
+      "dueDate": ""
+    },
+    {
+      "id": "TSK-0015",
+      "projectId": "PRJ-0002",
+      "name": "CODA 등록 데이터 중복 확인",
+      "assignee": "",
+      "status": "⚪ TODO",
+      "priority": "1",
+      "startDate": "",
+      "dueDate": ""
+    },
+    {
+      "id": "TSK-0016",
+      "projectId": "PRJ-0002",
+      "name": "조용준 교수와 논문 작성 계획 논의",
+      "assignee": "",
+      "status": "⚪ TODO",
+      "priority": "2",
+      "startDate": "",
+      "dueDate": ""
+    },
+    {
+      "id": "TSK-0017",
+      "projectId": "PRJ-0002",
+      "name": "성인 분변·담즙 검체 처리 flow chart 정리",
+      "assignee": "",
+      "status": "⚪ TODO",
+      "priority": "2",
+      "startDate": "",
+      "dueDate": ""
+    },
+    {
+      "id": "TSK-0018",
+      "projectId": "PRJ-0004",
+      "name": "재분석 결과를 포함한 최종보고서 초안 작성",
+      "assignee": "김소연",
+      "status": "🟢 DURING",
+      "priority": "1",
+      "startDate": "",
+      "dueDate": "2026-11-27"
+    },
+    {
+      "id": "TSK-0019",
+      "projectId": "PRJ-0004",
+      "name": "KMP 등록 방법 문의",
+      "assignee": "김소연",
+      "status": "⚪ TODO",
+      "priority": "2",
+      "startDate": "",
+      "dueDate": ""
+    },
+    {
+      "id": "TSK-0020",
+      "projectId": "PRJ-0004",
+      "name": "김현호 교수 리마인드 및 결과·방법 전달 일정 조율",
+      "assignee": "김소연",
+      "status": "⚪ TODO",
+      "priority": "2",
+      "startDate": "",
+      "dueDate": ""
+    },
+    {
+      "id": "TSK-0021",
+      "projectId": "PRJ-0004",
+      "name": "인건비·간접비 외 연구비 집행 항목 마감",
+      "assignee": "",
+      "status": "🟢 DURING",
+      "priority": "1",
+      "startDate": "",
+      "dueDate": ""
+    },
+    {
+      "id": "TSK-0022",
+      "projectId": "PRJ-0003",
+      "name": "ITS2 전처리·PCR cycle·DB 조건 비교 보완",
+      "assignee": "김소연",
+      "status": "🟢 DURING",
+      "priority": "1",
+      "startDate": "",
+      "dueDate": ""
+    },
+    {
+      "id": "TSK-0023",
+      "projectId": "PRJ-0003",
+      "name": "진균 30+8 조건 추가 비교",
+      "assignee": "",
+      "status": "⚪ TODO",
+      "priority": "2",
+      "startDate": "",
+      "dueDate": ""
+    },
+    {
+      "id": "TSK-0024",
+      "projectId": "PRJ-0003",
+      "name": "오염 제거 test에서 비드·primer 영역 조건 검토",
+      "assignee": "김병지",
+      "status": "⚪ TODO",
+      "priority": "2",
+      "startDate": "",
+      "dueDate": ""
+    },
+    {
+      "id": "TSK-0025",
+      "projectId": "PRJ-0025",
+      "name": "중앙대 kit·protocol로 Shotgun 추출 시험",
+      "assignee": "박윤환",
+      "status": "🟢 DURING",
+      "priority": "1",
+      "startDate": "",
+      "dueDate": ""
+    },
+    {
+      "id": "TSK-0026",
+      "projectId": "PRJ-0025",
+      "name": "ITS PCR cycle을 늘려 재시험",
+      "assignee": "박윤환",
+      "status": "⚪ TODO",
+      "priority": "1",
+      "startDate": "",
+      "dueDate": ""
+    },
+    {
+      "id": "TSK-0027",
+      "projectId": "PRJ-0025",
+      "name": "Shotgun·ITS 결과 평가 후 필요 시 16S full-length 전환",
+      "assignee": "박윤환",
+      "status": "🟡 WAITING",
+      "priority": "2",
+      "startDate": "",
+      "dueDate": ""
+    },
+    {
+      "id": "TSK-0028",
+      "projectId": "PRJ-0023",
+      "name": "다기관 아토피 데이터에서 Rhodotorula 검출 여부 확인",
+      "assignee": "박윤환",
+      "status": "⚪ TODO",
+      "priority": "2",
+      "startDate": "",
+      "dueDate": ""
+    },
+    {
+      "id": "TSK-0029",
+      "projectId": "PRJ-0015",
+      "name": "아토피 serial 보유 샘플 목록과 분석 기준 정리",
+      "assignee": "박윤환",
+      "status": "⚪ TODO",
+      "priority": "1",
+      "startDate": "",
+      "dueDate": ""
+    },
+    {
+      "id": "TSK-0030",
+      "projectId": "PRJ-0018",
+      "name": "HFS affected·unaffected 메타데이터 재확인",
+      "assignee": "",
+      "status": "🟢 DURING",
+      "priority": "1",
+      "startDate": "",
+      "dueDate": ""
+    },
+    {
+      "id": "TSK-0031",
+      "projectId": "PRJ-0018",
+      "name": "HFS 요약 결과를 성훈제 교수에게 전달",
+      "assignee": "Trang tran",
+      "status": "⚪ TODO",
+      "priority": "2",
+      "startDate": "",
+      "dueDate": ""
+    },
+    {
+      "id": "TSK-0032",
+      "projectId": "PRJ-0005",
+      "name": "중앙대에 전달한 추가 50개 샘플 처리 여부 확인",
+      "assignee": "김소연",
+      "status": "🟡 WAITING",
+      "priority": "1",
+      "startDate": "",
+      "dueDate": ""
+    },
+    {
+      "id": "TSK-0033",
+      "projectId": "PRJ-0005",
+      "name": "오염 판정 및 control drop 기준 정의",
+      "assignee": "김소연",
+      "status": "⚪ TODO",
+      "priority": "1",
+      "startDate": "",
+      "dueDate": ""
+    },
+    {
+      "id": "TSK-0034",
+      "projectId": "PRJ-0005",
+      "name": "병원기반 부족 검체 및 잘못 등록된 대상자 확인",
+      "assignee": "오유림",
+      "status": "🟢 DURING",
+      "priority": "1",
+      "startDate": "",
+      "dueDate": ""
+    },
+    {
+      "id": "TSK-0035",
+      "projectId": "PRJ-0005",
+      "name": "Lawsonella 동정 및 치대 장비 사용 허가 후 실험 진행",
+      "assignee": "김병지",
+      "status": "🟡 WAITING",
+      "priority": "2",
+      "startDate": "",
+      "dueDate": ""
+    },
+    {
+      "id": "TSK-0036",
+      "projectId": "PRJ-0006",
+      "name": "YOLO26 결과 보고서 보완 및 head를 triangle로 변경",
+      "assignee": "Trang tran",
+      "status": "🟢 DURING",
+      "priority": "1",
+      "startDate": "",
+      "dueDate": ""
+    },
+    {
+      "id": "TSK-0037",
+      "projectId": "PRJ-0006",
+      "name": "추출 DNA 활용 프로토콜 및 디바이스 개발 IRB 저촉 여부 검토",
+      "assignee": "김병지",
+      "status": "⚪ TODO",
+      "priority": "1",
+      "startDate": "",
+      "dueDate": ""
+    },
+    {
+      "id": "TSK-0038",
+      "projectId": "PRJ-0012",
+      "name": "주사·아토피·건강군 S. epidermidis 후보 균주 선정 및 WGS 준비",
+      "assignee": "박윤환",
+      "status": "🟢 DURING",
+      "priority": "1",
+      "startDate": "",
+      "dueDate": ""
+    },
+    {
+      "id": "TSK-0039",
+      "projectId": "PRJ-0012",
+      "name": "주사 환자의 농포 유무·중증도에 따른 균주 차이 확인",
+      "assignee": "박윤환",
+      "status": "⚪ TODO",
+      "priority": "2",
+      "startDate": "",
+      "dueDate": ""
+    },
+    {
+      "id": "TSK-0040",
+      "projectId": "PRJ-0027",
+      "name": "JAK inhibitor 유발 여드름 및 일반 여드름 Tape 샘플 수집",
+      "assignee": "박윤환",
+      "status": "🟢 DURING",
+      "priority": "1",
+      "startDate": "",
+      "dueDate": ""
+    },
+    {
+      "id": "TSK-0041",
+      "projectId": "PRJ-0027",
+      "name": "동일 환자의 Swab 샘플 수집 및 microbiome-lipidomics 연계",
+      "assignee": "박윤환",
+      "status": "⚪ TODO",
+      "priority": "2",
+      "startDate": "",
+      "dueDate": ""
+    },
+    {
+      "id": "TSK-0042",
+      "projectId": "PRJ-0027",
+      "name": "JAKne/No-JAKne/약제군 그룹 정의 확정",
+      "assignee": "박윤환",
+      "status": "⚪ TODO",
+      "priority": "2",
+      "startDate": "",
+      "dueDate": ""
+    }
+  ]
+}

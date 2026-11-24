@@ -76,6 +76,9 @@ markdown_extensions:
 extra_css:
 - assets/css/pretendard.css
 - assets/css/handbook-theme.css
+- assets/css/project-dashboard.css
+extra_javascript:
+- assets/js/project-dashboard.js
 nav:
 - 홈: index.md
 - 연구실 안내:

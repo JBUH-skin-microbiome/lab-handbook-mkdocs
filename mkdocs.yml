@@ -122,6 +122,7 @@ nav:
     - Notion 소개: operations/notion/introduction.md
 - 프로젝트 관리:
   - projects/index.md
+  - 현재 프로젝트 현황: projects/current-projects.md
   - 임상 시험:
     - projects/clinical-trials/index.md
     - 임상 데이터:

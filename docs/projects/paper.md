@@ -2,7 +2,7 @@
 layout: default
 title: 논문
 parent: 프로젝트 관리
-nav_order: 3
+nav_order: 4
 permalink: /projects/paper/
 ---
 

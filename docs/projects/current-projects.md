@@ -10,13 +10,13 @@ permalink: /projects/current-projects/
 
 연구실에서 진행하는 프로젝트와 업무 상태를 확인합니다. Google 계정 권한이 있는 구성원은 아래 Looker Studio 대시보드에서 담당자와 상태를 선택해 확인할 수 있습니다.
 
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 78%; overflow: hidden; border: 1px solid var(--md-default-fg-color--lightest); border-radius: 0.5rem;">
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 79.2%; overflow: hidden; border: 1px solid var(--md-default-fg-color--lightest); border-radius: 0.5rem;">
   <iframe
-    src="https://lookerstudio.google.com/embed/reporting/d519b14e-bd0e-4bab-aa5a-0867d55e114b/page/FmHEG"
+    src="https://datastudio.google.com/embed/reporting/d519b14e-bd0e-4bab-aa5a-0867d55e114b/page/FmHEG"
     title="JBSM Project Dashboard"
     style="position: absolute; inset: 0; width: 100%; height: 100%; border: 0;"
     allowfullscreen
-    loading="lazy"
+    loading="eager"
     sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms">
   </iframe>
 </div>
